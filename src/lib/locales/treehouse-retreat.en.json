@@ -1,0 +1,106 @@
+{
+	"slug": "treehouse-retreat",
+	"hero": {
+		"image": "/2151975532.jpg",
+		"imageAlt": "Rustic wooden treehouse in a dense green forest at dusk, warm light from windows and a hanging lantern",
+		"kicker": "Volume III: The Canopy Series",
+		"titleMain": "Treehouse Retreat:",
+		"titleItalic": "Life Among the Leaves",
+		"lead": "A multi-level sanctuary suspended seventy feet above the forest floor, where the architecture breathes with the rhythm of the rainforest.",
+		"scrollHint": "Scroll to Explore"
+	},
+	"architecture": {
+		"headingLine1": "The Architecture",
+		"headingLine2": "of Air",
+		"paragraphs": [
+			"Designed as a vertical extension of the forest itself, the retreat utilizes reclaimed teak and floor-to-ceiling glass to dissolve the boundaries between shelter and nature. The structure rests on a system of non-invasive tension cables, allowing the trees to continue their upward growth undisturbed.",
+			"Each level is strategically positioned to capture the cross-breeze from the Pacific, naturally cooling the interior while providing a tactile connection to the mist and flora of the canopy layer."
+		],
+		"stats": [
+			{ "value": "70ft", "label": "Suspension Height" },
+			{ "value": "100%", "label": "Reclaimed Material" }
+		],
+		"image": {
+			"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuADrUASkvJeojmr3YXswYD2e0XH1pXcNv_aym0S38v9zojvsH_xZX_6b40kqtdMljHExwjOFgZ15NGsPeJzZurYKNdVyy-gTxA9NUQCTS-IC3Tyb8xZ_-aojCSw4-EYzQrWtYZ4fPAY2ciyDgamQiuSRprT4-IDMuxl8GF3Y-qsAqaYjdm9sz9sFQC7I6hdohVtG36DBM_yhfFP10OzUiTnkdQR91a3L48rYntMb9ipgaluqSCasaYdgcGXfqTUZum4RxYJiZWX3Q",
+			"alt": "Reclaimed teak wood joints and floor-to-ceiling glass walls in a luxury rainforest retreat"
+		}
+	},
+	"amenitiesBento": {
+		"title": "Elevated Amenities",
+		"cards": [
+			{
+				"span": 2,
+				"height": 500,
+				"title": "Starlight Lounge",
+				"description": "A retractable glass roof designed for celestial viewing. Drift into sleep while watching the ancient constellations move across the Costa Rican sky.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB3dKr3X6oOk4e2YOWml_6DVFsAGEvqP2ZtCl9dZ8stfEGGPje3FGipJctCmZm1xcqHAISM9qBlAeZq5B0_kNoXIRmmP-tkdquH14QeVwF62-9oI0PGqySPWL13D-kTSmExeJQo4zNRlbpBaL3ECHKbleTbmziDnnsjDiuA8ngOdNGoi1mlZuWMRFrxHj7Zey4yoVL07kT8JkCE66aXKu2Zszb2WbQcq7pCihds7w1S4byYxBJDSVHRJCjHkTfffJ67zdEETHJCTQ",
+				"imageAlt": "Treehouse bedroom with a glass roof opening to a starry sky above the jungle canopy"
+			},
+			{
+				"span": 1,
+				"height": 500,
+				"title": "Artisan Kitchenette",
+				"description": "Stocked daily with local organic fruits and small-batch Costa Rican coffee roasted in the valley below.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC30bofkMXK3ck1dZrsUHRzJCKu5wXKeHvyl6_F7qKKAz5WeRba6K0rdnKzqu__QyR9G4NvsOwyziTQM8Jj45uUoFfLYs0NSC4T3G9bx4QupjmQmfu416mvzwpIzkRZKb-YJAdrws_RjWzeW0umsIdDQtQ80XvZz87iT6bUXx1sQtf-YrPf3LbU6q644KtYQ3aKGfnPi5QIWz8XaMy4YLbYJ-c4vLWMb9xoP5_KThkuo0279dvVLnk3YYzDFIjqZh2OhUINtv3w4Q",
+				"imageAlt": "Minimalist kitchenette with wooden shelves, tropical fruit, and coffee equipment"
+			},
+			{
+				"span": 1,
+				"height": 400,
+				"title": "Mist-Level Terrace",
+				"description": "A private deck that sits within the clouds, offering a serene space for morning meditation.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMm4GRofCp9FYTFnmwuxW2ENtLrFpEg0UIG8SOMAzMT9AfUFVB-oOk119-Wk-1UHgkF9UuwSXzqhgTlkEDDrs6T8j7PJ27__Y97sbj5hevu7cidJTIj2RGaA10eBIWFlYI-pf26Au8wbyiOl-9azA5wRROAbKCenJae_zndhUWy0izKyuEXdw_NW76bwUO2yWlGBZwPNAKwJe0HwjTp3RL8V69webQhShXNg6h7wF4CPepG6gKSxEhf0-_Xwww8ElZz--VHFf_Aw",
+				"imageAlt": "Wooden balcony high in the forest with morning mist and lush greenery"
+			},
+			{
+				"span": 2,
+				"height": 400,
+				"title": "The Stone Rain",
+				"description": "An open-concept rainfall shower carved from local river stone, overlooking the emerald expanse.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjQjisqP1dx9D__4lopGbxT8HPwLbxu15Qi5zLhQ9E0VLuLT52XLHEEOGYCKtAsg_RcAkQOOXweNUJdZl1i3DHZD0QNv89XQpL2q34SsKX1jqQLcL05mHcXgOtn4Lf7D9WiM4HLTDwTKS9MhclAig_0ziuVUJsvcgdB-Jx-X1nNfsOw40ZRNZ22txQrk1qWcWzwiqXVxlG9qP2ewAnJCBCQLK98TeKWoEVX1Hj0Hramt5R5WRXVrRta1c7lzv55qI2S2BERQkcKw",
+				"imageAlt": "Indoor-outdoor stone rainfall shower with a view of tropical foliage"
+			}
+		]
+	},
+	"immersive": {
+		"watermark": "THE CANOPY LIFE",
+		"left": {
+			"primary": {
+				"src": "/tree-house-03.jpg",
+				"alt": "Elevated wooden cabin on stilts in dense tropical jungle, balcony and stairs framed by large green leaves"
+			},
+			"secondary": {
+				"src": "/tree-house-02.jpg",
+				"alt": "Secluded stone-lined pool and waterfall in a dense tropical rainforest, wooden railing and lush canopy"
+			}
+		},
+		"right": {
+			"heading": "A Curated Perspective",
+			"body": "Every angle of the Treehouse Retreat has been studied to maximize the visual impact of the landscape while maintaining total privacy. From the way the morning light hits the cedar floors to the evening chorus of the cicadas heard through the screened walls.",
+			"images": [
+				{
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_VC3pF_th27paHqAq876sK59PX3ixN89FsypCz6O9SBkqunfopkSUJldOk9ZQSaqvXDLJFCAliFxheIDUZ_zcNYmpP8QyvJotSfu2mxIp547Fcc1JP2FPzYUCdKn90rkyczJDlUaNtHPnnP15V0G18Ht6jeV_ZWxK4lcsxFWZ--1Pk-I_ufIVzqgV4__F1hoOTpD-FkZ6H7hfzxFkH2yr-tvcWtUZusGoPmgCymbFZ5I_JUGsL6MfUYeGI6veaXcKGjBdKp-Unw",
+					"alt": "Treehouse interior with mid-century furniture and warm light against dark wood walls",
+					"layout": "full"
+				},
+				{
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBb3LtEqyeAnKdCEDHc3kh4sH1MFgwns7togCciESY0wwlmsvx0kty42r3tZfrgSNDXVXRDIjBPa9eTAmnHIxHALZiLGwnBI1vMz0F2gY3Uud2qJk7XFywEsf94uZCWya7_AywZEn_CXnaVbb_2Y_PTUhfTMQIiD1IDckBFZ-AI2srC7Sn9oE7VnQ4M9_tM2ehvhCAB3Rt7RQ487Ei0YKrL0wa8Vs7mLlH_7uZ2MxhDL_koXos1P6cWRMF9_9S6kkBBE3Tg2RqrEQ",
+					"alt": "Handmade organic cotton linens and a tropical flower on a wooden nightstand",
+					"layout": "narrow"
+				}
+			]
+		}
+	},
+	"booking": {
+		"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+		"kicker": "Reservation",
+		"title": "Reserve the Treehouse Retreat",
+		"description": "Reconnect with the rhythm of nature. Our concierge is ready to tailor your journey from the moment of inquiry.",
+		"checkInLabel": "Check In",
+		"checkInPlaceholder": "Select Date",
+		"guestsLabel": "Guests",
+		"guestOptions": ["2 Adults", "3 Adults"],
+		"cta": "Check Availability",
+		"priceNote": "Starting from $1,250 / night"
+	}
+}

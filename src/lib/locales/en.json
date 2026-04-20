@@ -1,0 +1,86 @@
+{
+	"meta": {
+		"siteName": "The Sanctuary"
+	},
+	"suites": {
+		"canopy-suite": {
+			"slug": "canopy-suite",
+			"hero": {
+				"image": "/canopy-suite-04.jpg",
+				"imageAlt": "Modern suite with wood balconies on a misty tropical mountainside, dense green forest and soft overcast light",
+				"kicker": "The Villa Collection",
+				"titleLine1": "The Canopy",
+				"titleLine2": "Suite"
+			},
+			"narrative": {
+				"heading": "Suspended Among the Giants",
+				"paragraphs": [
+					"Perched seventy feet above the forest floor, The Canopy Suite is an architectural marvel that breathes with the rainforest. Here, the boundary between interior and exterior dissolves, replaced by panoramic views of the emerald skyline.",
+					"Designed by sustainable visionaries, the suite utilizes reclaimed teak and floor-to-ceiling glass to create a space that is both a sanctuary and a lens through which to witness the untamed beauty of Costa Rica."
+				],
+				"sideImage": {
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtcgnBjVfht0PkfwL2CmubEB28f229fAzSOxWlhO4SSN5s2YtU9EGhnQZWnSaBXYtMFbA44p4v_XviU_HqZe6OMLNwQg0VvfUS5vNpARctnmpy9xjdGq8uwJWoj3UU3UgJ7dRCR_7xF3nfx7ROjCdVfgCxBGobBJeKGat6Fx5PPJbT5HDZ0pazeg7q5V3nCrlerV3U2lWJgLq-Ott5oR1WQ8XA_-YyuROpxP1FWSBQNjmBCcqlOSirvzf7lTSGynxML2CX7p2HEQ",
+					"alt": "Interior detail of a luxury treehouse suite with warm wood, linen bedding, and forest light through large windows"
+				},
+				"quote": {
+					"text": "A living poetry of wood, wind, and wonder.",
+					"source": "Architectural Digest, 2023"
+				}
+			},
+			"amenities": {
+				"kicker": "Curation",
+				"title": "Bespoke Essentials",
+				"items": [
+					{
+						"icon": "pool",
+						"title": "Private Infinity Pool",
+						"description": "Edge-less waters that merge with the horizon, heated by solar energy for midnight reflection."
+					},
+					{
+						"icon": "bathtub",
+						"title": "Outdoor Stone Bath",
+						"description": "Carved from local volcanic rock, positioned for optimal stargazing under the canopy."
+					},
+					{
+						"icon": "room_service",
+						"title": "Personal Butler",
+						"description": "A dedicated curator for your stay, from private expeditions to terrace dining arrangements."
+					}
+				]
+			},
+			"gallery": {
+				"title": "Visual Narrative",
+				"images": [
+					{
+						"src": "/canopy-suite-01.jpg",
+						"alt": "Twin beds with white textured bedding, a woven pendant lamp, and floor-to-ceiling glass opening onto lush tropical foliage"
+					},
+					{
+						"src": "/canopy-suite-02.jpg",
+						"alt": "Generous morning breakfast on a wooden table—tea, fresh herbs and vegetables, cheeses, and warm dishes in bright natural light"
+					},
+					{
+						"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuD6CruL-P-0AOBEfmdgCfF66UILskTD3xnDPHvVQ-yAI5ZHdFAfXc6YHR3GnT47FYdAAeTxRv14mzLKLc-01e39yRuZNTTPsOgmXb67RRSo3B1_yIIqgc4wc148ukmrA8lZcQ7jUEyJT43l0fvT8KvMrko6NxXoQ7NnY00-yzsNO8e3HJ1kq08bUb-iLzHLvhkJJH5EQAv7b0h6wWryyE6PIZuhgTTXDOV2ZftFH_jUYQLLrQj7hQfNngOzJ_uHPh-QC57yaHx50Q",
+						"alt": "Stone sink and matte black fixtures overlooking a private tropical courtyard"
+					},
+					{
+						"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB089J0Q4HfTprLb6FPQQS94sdSHbceB8NBmAgfNZ0QX-U2x_q5F1OdqYB9nvE4mlss8bmj90pxP68jzhAnW5kj_7pwcgnWSil9jAsiRcKwE_8B0xqpqJNuPI6OqBkKmzC3hC-2ymgB2ysusa9rIEGrX91ekK2ATrfIVN2oFTAYsZ_Z55RlczNlB4DypMbmdmEUpLO2yaLerwVKqdGyHwSWRPyMiGZRMrsdZjLX-oZ6y9arX2eUDt2bAoYl0KmhenIaMJvZ4_v8jg",
+						"alt": "Evening balcony with dining set and warm lighting against twilight jungle"
+					}
+				]
+			},
+			"booking": {
+				"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+				"kicker": "Reservation",
+				"title": "Reserve This Sanctuary",
+				"description": "Reconnect with the rhythm of nature. Our concierge is ready to tailor your journey from the moment of inquiry.",
+				"checkInLabel": "Check In",
+				"checkInPlaceholder": "Select Date",
+				"guestsLabel": "Guests",
+				"guestOptions": ["2 Adults", "3 Adults"],
+				"cta": "Check Availability",
+				"priceNote": "Starting from $1,250 / night"
+			}
+		}
+	}
+}

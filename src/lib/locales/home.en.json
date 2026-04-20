@@ -1,0 +1,97 @@
+{
+	"hero": {
+		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
+		"kicker": "The Sanctuary · Guanacaste",
+		"title": "The Art of Stillness",
+		"lead": "Scroll with us—from our roots in the rainforest to the suite that will hold you, the experiences that will move you, and the quiet that waits at the end."
+	},
+	"story": {
+		"kicker": "Our story",
+		"title": "A family refuge, grown slowly beneath the canopy",
+		"paragraphs": [
+			"The Sanctuary began as a single lodge and a promise: to let the land lead. Over a decade, what started as a handful of timber-and-glass rooms evolved into a small constellation of pavilions—each one placed so the forest stays in view, and the outside never feels far away.",
+			"We work with local makers, seasonal ingredients, and the rhythm of the dry and green seasons. Nothing is rushed. The story we tell guests is the same one we live: respect the place, leave it quieter than you found it, and carry a little stillness home."
+		]
+	},
+	"suitesBanner": {
+		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
+		"kicker": "Sleep among the trees",
+		"title": "Suites & villas",
+		"description": "Each room is a private perch—screens instead of walls where we could manage it, and bedding you sink into after a day in the heat and humming air."
+	},
+	"suitesCards": [
+		{
+			"href": "/suites/canopy-suite",
+			"title": "Canopy Suite",
+			"description": "Perched above the forest floor—reclaimed teak and glass toward the emerald canopy.",
+			"price": "Starting from $1,250 / night",
+			"imageAlt": "Modern suite with wood balconies on a misty tropical mountainside, dense green forest and soft overcast light",
+			"image": "/canopy-suite-04.jpg"
+		},
+		{
+			"href": "/suites/garden-villa",
+			"title": "Garden Villa",
+			"description": "A private botanical path, glass walls, and rhythms grounded in earth and jungle.",
+			"price": "Starting from $1,250 / night",
+			"imageAlt": "Exterior view of a two-story tropical garden villa with lush greenery, a private balcony, and a furnished lower patio",
+			"image": "/villa-garden.jpg"
+		},
+		{
+			"href": "/suites/treehouse-retreat",
+			"title": "Treehouse Retreat",
+			"description": "A multi-level sanctuary among the leaves, suspended above the forest floor.",
+			"price": "Starting from $1,250 / night",
+			"imageAlt": "Elevated wooden treehouse on stilts with balcony and doorway, framed by large tropical leaves and dense forest",
+			"image": "/tree-house-03.jpg"
+		}
+	],
+	"bridge": {
+		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
+		"quote": "Between your room and the trailhead, the forest teaches its own pace—listen before you plan the day."
+	},
+	"yoga": {
+		"watermark": "Breath",
+		"mainImageAlt": "Yoga class in an open-air wooden pavilion with ocean cove and jungle hills in the background",
+		"mainImage": "/yoga-class-image.png",
+		"insetImageAlt": "Hands in mudra during meditation",
+		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjoBnWuTTtRwl14WqT3245I4ulq1Gg9sTlr5FnKm1nS3ZeoXxI7Ferw_XR8YHQhxWuwjqPUeCjsS3W73NBefFZhde76TC6BJRyhhABItAZzjiRmtP21smx4dGltSCgBNCmoXXceyoMpWFY3lDznfiCIZ-F1cI9rMBk1KNjjLOmJ8GBctpRxE7N0cpUKYLNvzj8kfpOQlPupfoYYx4foHyn8Jcpg8bVCbQu-xzDag5iEgVsUHplEiJ1FpWwj1KTBnTwhRn_PSyaxw",
+		"kicker": "Soul movement",
+		"title": "Rainforest Yoga",
+		"description": "Open-air shala at sunrise over the Guanacaste hills—Vinyasa and Hatha with the jungle as your soundtrack.",
+		"schedule": [
+			{ "label": "Sunrise Flow", "detail": "Daily at 6:30 AM" },
+			{ "label": "Private Sessions", "detail": "By appointment" }
+		]
+	},
+	"healing": {
+		"kicker": "The collection",
+		"title": "Healing rituals",
+		"viewDetails": "View Details",
+		"items": [
+			{
+				"title": "Volcanic Earth Cleanse",
+				"description": "Mineral-rich ash from Arenal, crafted to clarify skin and ground the body after travel.",
+				"imageAlt": "Ceramic bowl with river stones and jasmine petals",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsig1F1UaPk0rVxw3pNWKEFLHU4hIJgEyKCUW08x6vfJGg0H3H3rNxG8ejA8SR-2Fa90Yc_DlT3ORyyEf-GNWJ4ZagjOlaIKe1oYIS21TPCjbQYIeM-MU_OyFYhZ1QY0gexptVyCdnf1BYUX1bpckC9HYUJeWc87GnG-yDts6anD8xPg_Nbvx0iqoWOazWueXDr-FnROsCGXgbKx0sdBFO1Oj-N8SEhIRGwzxWMeQflyAXKOZUYmo5mOY-7FUxXncCw1WI7r1nAQ"
+			},
+			{
+				"title": "Ancient Sound Bath",
+				"description": "Crystal bowls and percussion to settle the nervous system into deep rest.",
+				"imageAlt": "Incense and bamboo with soft morning light",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkfJByEyCElpGCBf-9QWWpDxqWtbgIp-zEHyHoOI3AXLh62NA3dPhB408Ww79M8qyU6oeEj7SvFSVE2kr4czttJuQznZm0yo_9JwlEXbjWNCHt0UyoLRsIYr893wROis1rWVnImz1Uut-W0fl1YJAyprsXY2ZsWE1anF4aTJG_vQm9FgUUExOrTpoREKcm9HM5jpJJDeeudugm3mwJ-MZEoODk9F925Aou0MK6YHuEkNrQyUbwrcjII_o_XWHWRhgEGe77XnEyMg"
+			},
+			{
+				"title": "Inner Garden Tea Ceremony",
+				"description": "Slow, guided tasting of herbs grown steps from the kitchen—balance for body and breath.",
+				"imageAlt": "Herbal tea poured into a rustic cup",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBznJK74Cmgc5wLC6U8hUTkFPLMX52u__lt7svo1VWUvjka3yBDXzrPCMF_WbdZZ-jFdv12Dt6kojRxnnsmqdb7vqNrZxKU4d2DLYiXbWhFQoMN8KlyyYGIsMoJlUtlRmXz0ghq7y9HibRgvjqOg8ZGyVGzCsGVlDjZD7qRh0Uoo_O5DVH9WjZp-4klg31PDGGq9_7n3GBxT41Tw5WPH0q_RNCYTIJERNxsWmvBd76leQtmp1nsXFzvAbXOsthrG25kwJYLd7f7Uw"
+			}
+		]
+	},
+	"stillness": {
+		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
+		"title": "Begin your descent into stillness.",
+		"bookTreatment": "Book a Treatment",
+		"spaMenu": "View Spa Menu"
+	}
+}

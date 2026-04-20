@@ -1,0 +1,106 @@
+{
+	"slug": "treehouse-retreat",
+	"hero": {
+		"image": "/2151975532.jpg",
+		"imageAlt": "Cabaña de madera en un bosque denso al atardecer, luz cálida en ventanas y farol colgante",
+		"kicker": "Volumen III: la serie dosel",
+		"titleMain": "Retiro en el árbol:",
+		"titleItalic": "Vida entre las hojas",
+		"lead": "Un santuario multinivel suspendido a veinte metros sobre el suelo del bosque, donde la arquitectura respira al ritmo de la selva tropical.",
+		"scrollHint": "Desplázate para explorar"
+	},
+	"architecture": {
+		"headingLine1": "La arquitectura",
+		"headingLine2": "del aire",
+		"paragraphs": [
+			"Diseñado como una prolongación vertical del propio bosque, el retiro combina teca recuperada y cristal de suelo a techo para disolver el límite entre refugio y naturaleza. La estructura apoya en cables de tensión no invasivos, permitiendo que los árboles sigan creciendo hacia arriba sin interferencia.",
+			"Cada nivel está orientado para captar la brisa del Pacífico, enfriando el interior de forma natural y conectándote con la niebla y la flora del dosel."
+		],
+		"stats": [
+			{ "value": "21 m", "label": "Altura de suspensión" },
+			{ "value": "100%", "label": "Material recuperado" }
+		],
+		"image": {
+			"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuADrUASkvJeojmr3YXswYD2e0XH1pXcNv_aym0S38v9zojvsH_xZX_6b40kqtdMljHExwjOFgZ15NGsPeJzZurYKNdVyy-gTxA9NUQCTS-IC3Tyb8xZ_-aojCSw4-EYzQrWtYZ4fPAY2ciyDgamQiuSRprT4-IDMuxl8GF3Y-qsAqaYjdm9sz9sFQC7I6hdohVtG36DBM_yhfFP10OzUiTnkdQR91a3L48rYntMb9ipgaluqSCasaYdgcGXfqTUZum4RxYJiZWX3Q",
+			"alt": "Uniones de teca recuperada y muros de cristal de suelo a techo en un retiro de selva de lujo"
+		}
+	},
+	"amenitiesBento": {
+		"title": "Servicios elevados",
+		"cards": [
+			{
+				"span": 2,
+				"height": 500,
+				"title": "Salón bajo las estrellas",
+				"description": "Techo de cristal retráctil pensado para contemplar el cielo. Concilia el sueño mientras las constelaciones cruzan el cielo de Costa Rica.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB3dKr3X6oOk4e2YOWml_6DVFsAGEvqP2ZtCl9dZ8stfEGGPje3FGipJctCmZm1xcqHAISM9qBlAeZq5B0_kNoXIRmmP-tkdquH14QeVwF62-9oI0PGqySPWL13D-kTSmExeJQo4zNRlbpBaL3ECHKbleTbmziDnnsjDiuA8ngOdNGoi1mlZuWMRFrxHj7Zey4yoVL07kT8JkCE66aXKu2Zszb2WbQcq7pCihds7w1S4byYxBJDSVHRJCjHkTfffJ67zdEETHJCTQ",
+				"imageAlt": "Dormitorio en casa del árbol con techo de cristal y cielo estrellado sobre la selva"
+			},
+			{
+				"span": 1,
+				"height": 500,
+				"title": "Cocina artesanal",
+				"description": "Abastecida a diario con fruta orgánica local y café de pequeños productores tostado en el valle.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuC30bofkMXK3ck1dZrsUHRzJCKu5wXKeHvyl6_F7qKKAz5WeRba6K0rdnKzqu__QyR9G4NvsOwyziTQM8Jj45uUoFfLYs0NSC4T3G9bx4QupjmQmfu416mvzwpIzkRZKb-YJAdrws_RjWzeW0umsIdDQtQ80XvZz87iT6bUXx1sQtf-YrPf3LbU6q644KtYQ3aKGfnPi5QIWz8XaMy4YLbYJ-c4vLWMb9xoP5_KThkuo0279dvVLnk3YYzDFIjqZh2OhUINtv3w4Q",
+				"imageAlt": "Cocina minimalista con estantes de madera, fruta tropical y equipo para café"
+			},
+			{
+				"span": 1,
+				"height": 400,
+				"title": "Terraza entre la niebla",
+				"description": "Una cubierta privada entre las nubes, ideal para la meditación matinal.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDMm4GRofCp9FYTFnmwuxW2ENtLrFpEg0UIG8SOMAzMT9AfUFVB-oOk119-Wk-1UHgkF9UuwSXzqhgTlkEDDrs6T8j7PJ27__Y97sbj5hevu7cidJTIj2RGaA10eBIWFlYI-pf26Au8wbyiOl-9azA5wRROAbKCenJae_zndhUWy0izKyuEXdw_NW76bwUO2yWlGBZwPNAKwJe0HwjTp3RL8V69webQhShXNg6h7wF4CPepG6gKSxEhf0-_Xwww8ElZz--VHFf_Aw",
+				"imageAlt": "Balcón de madera alto en el bosque con niebla matinal y vegetación"
+			},
+			{
+				"span": 2,
+				"height": 400,
+				"title": "La lluvia de piedra",
+				"description": "Ducha tipo lluvia de concepto abierto, tallada en piedra de río local, con vistas al verdor infinito.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDjQjisqP1dx9D__4lopGbxT8HPwLbxu15Qi5zLhQ9E0VLuLT52XLHEEOGYCKtAsg_RcAkQOOXweNUJdZl1i3DHZD0QNv89XQpL2q34SsKX1jqQLcL05mHcXgOtn4Lf7D9WiM4HLTDwTKS9MhclAig_0ziuVUJsvcgdB-Jx-X1nNfsOw40ZRNZ22txQrk1qWcWzwiqXVxlG9qP2ewAnJCBCQLK98TeKWoEVX1Hj0Hramt5R5WRXVrRta1c7lzv55qI2S2BERQkcKw",
+				"imageAlt": "Ducha de piedra interior-exterior con vistas al follaje tropical"
+			}
+		]
+	},
+	"immersive": {
+		"watermark": "VIDA EN EL DOSSEL",
+		"left": {
+			"primary": {
+				"src": "/tree-house-03.jpg",
+				"alt": "Cabaña de madera elevada sobre pilotes en selva tropical densa, balcón y escalera entre follaje verde"
+			},
+			"secondary": {
+				"src": "/tree-house-02.jpg",
+				"alt": "Piscina de piedra y cascada en selva tropical densa, barandilla de madera y dosel frondoso"
+			}
+		},
+		"right": {
+			"heading": "Una perspectiva curada",
+			"body": "Cada ángulo del retiro Treehouse se ha estudiado para maximizar el impacto visual del paisaje sin renunciar a la privacidad. Desde cómo la luz del alba acaricia el suelo de cedro hasta el coro nocturno de las cigarras tras los muros de celosía.",
+			"images": [
+				{
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB_VC3pF_th27paHqAq876sK59PX3ixN89FsypCz6O9SBkqunfopkSUJldOk9ZQSaqvXDLJFCAliFxheIDUZ_zcNYmpP8QyvJotSfu2mxIp547Fcc1JP2FPzYUCdKn90rkyczJDlUaNtHPnnP15V0G18Ht6jeV_ZWxK4lcsxFWZ--1Pk-I_ufIVzqgV4__F1hoOTpD-FkZ6H7hfzxFkH2yr-tvcWtUZusGoPmgCymbFZ5I_JUGsL6MfUYeGI6veaXcKGjBdKp-Unw",
+					"alt": "Interior de casa en el árbol con mobiliario mid-century y luz cálida sobre madera oscura",
+					"layout": "full"
+				},
+				{
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBb3LtEqyeAnKdCEDHc3kh4sH1MFgwns7togCciESY0wwlmsvx0kty42r3tZfrgSNDXVXRDIjBPa9eTAmnHIxHALZiLGwnBI1vMz0F2gY3Uud2qJk7XFywEsf94uZCWya7_AywZEn_CXnaVbb_2Y_PTUhfTMQIiD1IDckBFZ-AI2srC7Sn9oE7VnQ4M9_tM2ehvhCAB3Rt7RQ487Ei0YKrL0wa8Vs7mLlH_7uZ2MxhDL_koXos1P6cWRMF9_9S6kkBBE3Tg2RqrEQ",
+					"alt": "Ropa de cama de algodón orgánico y una flor tropical sobre mesita de noche de madera",
+					"layout": "narrow"
+				}
+			]
+		}
+	},
+	"booking": {
+		"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+		"kicker": "Reserva",
+		"title": "Reserva el retiro en el árbol",
+		"description": "Reconecta con el ritmo de la naturaleza. Nuestro conserje prepara tu experiencia desde el primer contacto.",
+		"checkInLabel": "Entrada",
+		"checkInPlaceholder": "Elegir fecha",
+		"guestsLabel": "Huéspedes",
+		"guestOptions": ["2 adultos", "3 adultos"],
+		"cta": "Ver disponibilidad",
+		"priceNote": "Desde $1,250 / noche"
+	}
+}

@@ -1,0 +1,86 @@
+{
+	"meta": {
+		"siteName": "The Sanctuary"
+	},
+	"suites": {
+		"canopy-suite": {
+			"slug": "canopy-suite",
+			"hero": {
+				"image": "/canopy-suite-04.jpg",
+				"imageAlt": "Suite moderna con balcones de madera en ladera tropical brumosa, bosque denso y luz suave de cielo nublado",
+				"kicker": "La colección de villas",
+				"titleLine1": "The Canopy",
+				"titleLine2": "Suite"
+			},
+			"narrative": {
+				"heading": "Suspendidos entre los gigantes",
+				"paragraphs": [
+					"A setenta pies sobre el suelo del bosque, la suite Canopy es una maravilla arquitectónica que respira con la selva. Aquí el límite entre interior y exterior se disuelve, sustituido por vistas panorámicas del horizonte esmeralda.",
+					"Diseñada por visionarios de la sostenibilidad, la suite combina teca recuperada y cristal de suelo a techo para crear un espacio que es a la vez santuario y lente para contemplar la belleza salvaje de Costa Rica."
+				],
+				"sideImage": {
+					"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtcgnBjVfht0PkfwL2CmubEB28f229fAzSOxWlhO4SSN5s2YtU9EGhnQZWnSaBXYtMFbA44p4v_XviU_HqZe6OMLNwQg0VvfUS5vNpARctnmpy9xjdGq8uwJWoj3UU3UgJ7dRCR_7xF3nfx7ROjCdVfgCxBGobBJeKGat6Fx5PPJbT5HDZ0pazeg7q5V3nCrlerV3U2lWJgLq-Ott5oR1WQ8XA_-YyuROpxP1FWSBQNjmBCcqlOSirvzf7lTSGynxML2CX7p2HEQ",
+					"alt": "Detalle interior de una suite tipo casa en el árbol con madera cálida, ropa de cama de lino y luz de selva a través de amplios ventanales"
+				},
+				"quote": {
+					"text": "Una poesía viva de madera, viento y asombro.",
+					"source": "Architectural Digest, 2023"
+				}
+			},
+			"amenities": {
+				"kicker": "Curaduría",
+				"title": "Esenciales a medida",
+				"items": [
+					{
+						"icon": "pool",
+						"title": "Piscina infinita privada",
+						"description": "Aguas sin borde que se funden con el horizonte, climatizadas con energía solar para reflexionar a medianoche."
+					},
+					{
+						"icon": "bathtub",
+						"title": "Baño de piedra al aire libre",
+						"description": "Tallado en roca volcánica local, orientado para contemplar las estrellas bajo el dosel."
+					},
+					{
+						"icon": "room_service",
+						"title": "Mayordomo personal",
+						"description": "Un curador dedicado a tu estancia: desde expediciones privadas hasta cenas en la terraza."
+					}
+				]
+			},
+			"gallery": {
+				"title": "Relato visual",
+				"images": [
+					{
+						"src": "/canopy-suite-01.jpg",
+						"alt": "Dos camas con ropa de cama blanca texturizada, lámpara colgante de fibras y cristal de suelo a techo hacia la vegetación tropical"
+					},
+					{
+						"src": "/canopy-suite-02.jpg",
+						"alt": "Desayuno abundante sobre mesa de madera: té, hierbas y verduras frescas, quesos y platos calientes a la luz natural de la mañana"
+					},
+					{
+						"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuD6CruL-P-0AOBEfmdgCfF66UILskTD3xnDPHvVQ-yAI5ZHdFAfXc6YHR3GnT47FYdAAeTxRv14mzLKLc-01e39yRuZNTTPsOgmXb67RRSo3B1_yIIqgc4wc148ukmrA8lZcQ7jUEyJT43l0fvT8KvMrko6NxXoQ7NnY00-yzsNO8e3HJ1kq08bUb-iLzHLvhkJJH5EQAv7b0h6wWryyE6PIZuhgTTXDOV2ZftFH_jUYQLLrQj7hQfNngOzJ_uHPh-QC57yaHx50Q",
+						"alt": "Lavabo de piedra y grifería negra mate con patio tropical privado"
+					},
+					{
+						"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuB089J0Q4HfTprLb6FPQQS94sdSHbceB8NBmAgfNZ0QX-U2x_q5F1OdqYB9nvE4mlss8bmj90pxP68jzhAnW5kj_7pwcgnWSil9jAsiRcKwE_8B0xqpqJNuPI6OqBkKmzC3hC-2ymgB2ysusa9rIEGrX91ekK2ATrfIVN2oFTAYsZ_Z55RlczNlB4DypMbmdmEUpLO2yaLerwVKqdGyHwSWRPyMiGZRMrsdZjLX-oZ6y9arX2eUDt2bAoYl0KmhenIaMJvZ4_v8jg",
+						"alt": "Balcón iluminado al atardecer con comedor y luz cálida sobre la selva"
+					}
+				]
+			},
+			"booking": {
+				"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+				"kicker": "Reserva",
+				"title": "Reserva este santuario",
+				"description": "Reconecta con el ritmo de la naturaleza. Nuestro conserje prepara tu experiencia desde el primer contacto.",
+				"checkInLabel": "Entrada",
+				"checkInPlaceholder": "Elegir fecha",
+				"guestsLabel": "Huéspedes",
+				"guestOptions": ["2 adultos", "3 adultos"],
+				"cta": "Ver disponibilidad",
+				"priceNote": "Desde $1,250 / noche"
+			}
+		}
+	}
+}

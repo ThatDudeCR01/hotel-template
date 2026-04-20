@@ -1,0 +1,36 @@
+{
+	"header": {
+		"brand": "The Sanctuary",
+		"nav": {
+			"story": "Our Story",
+			"suites": "Suites",
+			"experiences": "Experiences",
+			"sanctuary": "Sanctuary"
+		},
+		"languageAria": "Language",
+		"reserveCta": "Reserve Now"
+	},
+	"footer": {
+		"brand": "THE SANCTUARY",
+		"tagline": "A collection of private retreats nestled in the heart of the Costa Rican rainforest, where luxury meets wild nature in perfect equilibrium.",
+		"contactTitle": "Contact",
+		"address": "Santa Rosa, Guanacaste, Costa Rica",
+		"phone": "+506 2655 0000",
+		"email": "hello@thesanctuary.cr",
+		"discoverTitle": "Discover",
+		"links": {
+			"sustainability": "Sustainability",
+			"privacy": "Privacy Policy",
+			"press": "Press Kit",
+			"contact": "Contact"
+		},
+		"socialTitle": "Social",
+		"social": {
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"whatsapp": "WhatsApp",
+			"tiktok": "TikTok"
+		},
+		"copyright": "© THE SANCTUARY EDITORIAL. CURATED IN COSTA RICA."
+	}
+}

@@ -1,0 +1,99 @@
+{
+	"slug": "garden-villa",
+	"hero": {
+		"image": "/villa-garden-1080.jpg",
+		"imageAlt": "Vista exterior de la Garden Villa de dos plantas al atardecer, con porche inferior con asientos, balcón superior con madera oscura y jardines tropicales con flores rojas",
+		"kicker": "Villa n.º 04",
+		"title": "Garden Villa"
+	},
+	"intro": {
+		"kicker": "Filosofía",
+		"heading": "Arraigada al suelo, abierta a la brisa.",
+		"paragraphs": [
+			"La Garden Villa es un diálogo sensorial entre la arquitectura y la tierra. Se accede por un sendero botánico privado bordeado de helechos autóctonos y orquídeas silvestres; el espacio diluye el límite entre refugio y santuario.",
+			"Cada detalle —desde el suelo de teca recuperada hasta las texturas de piedra volcánica— invita a bajar el pulso al ritmo de la jungla. No es solo una estancia; es una renovación profunda."
+		],
+		"sideImage": {
+			"src": "/garden-villa-01.jpg",
+			"alt": "Piscina rectangular enmarcada por palmeras en un jardín tropical exuberante, con tumbona en la terraza"
+		},
+		"quoteCard": {
+			"label": "La llegada",
+			"quote": "El aroma a tierra húmeda y jazmín te recibe antes de girar la llave."
+		}
+	},
+	"amenities": {
+		"kicker": "Vida elemental",
+		"title": "Servicios inmersivos",
+		"items": [
+			{
+				"title": "Baño de piedra privado",
+				"description": "Tallado en un solo bloque de basalto volcánico, pensado para baños bajo las estrellas.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB9LCP7OYlYsZhyhoDIIxVJwha8N60OHLZTvcurP-2t09AiV8892XbKYWnjJXU254i9BxTW3JRh8t1nxXifff9vP5xhThYflC6ZMSdwfWNowJjDliCtuGAibXjmzfXd38a7uKS5-dddMdIy3OHMa7IMvY9knfSUJnd7-do0Olon-xNS8-3EJ5Oc7PO0g2BPgn59uYt39vqKDEmYTSnnDZ0cWEVKQw3bIrBqSwcz-od5GNbMKXMcyKBHmHzhipdrRSNFKA4h_cFmoA",
+				"imageAlt": "Baño de lujo minimalista con bañera de piedra tallada y vegetación tropical",
+				"stagger": false
+			},
+			{
+				"title": "Ducha de lluvia al aire libre",
+				"description": "Vive el caudal monzónico bajo un dosel de bambú y jengibre silvestre.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBLTCR_EpFU-zaRHmokIReUQU4DOPM2IykmqC4njuSmYpO0zhU1UgzJq00rGVJMAY_3w2w2MQD9kcVnrRJ1bT238rkN-C1pTUKqYvcJi1Afqp0G3gyotr2FY1u1KYcTmb3C-luy90j2qyTm18K_VAAsTahKNo9sTOdtoVbTouUHaUgIhyuY_VsHNyZa_X8YPTKeGs0pQmyBjeP9AoEyl-Se50zdxmiK3bq51_iqM2jIzhLakPue3UygydyY117fmqpQcpyG_HGXsA",
+				"imageAlt": "Ducha exterior con grifería de cobre entre bambú y plantas tropicales",
+				"stagger": true
+			},
+			{
+				"title": "Terraza selva",
+				"description": "Una cubierta de teca en voladizo con primera fila para el coro del alba en la jungla.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuCJEpcZdabHwWlnsUoamLYDKkv3JTj_QGkQFetuwT0vKE5KfI0qvdm--nrpzh5QKmcZfB612JubcrsoSwR6npi734KfJjzkuIicbQgA4MkEcGv1dObZ7EVQD8qg2jknVT3wP5cGrm0UmiUc9hUgiEMK54bKy9NzkyvZeRfoIcn4rxWaFxja30cUOpLtTN70DiwhYagoa2x5WjVyw1rJB1XlVsElLuC0gagCaG1HrPKUwG9V3A28qFpDIYkA6HNfmw6IwXx_x28xrg",
+				"imageAlt": "Terraza de madera con diván frente a un valle de selva",
+				"stagger": false
+			}
+		]
+	},
+	"visualGallery": {
+		"watermark": "Textura",
+		"wide": {
+			"src": "/garden-villa-02.jpg",
+			"alt": "Dormitorio con paredes texturizadas en tonos arena, lámparas colgantes de fibras naturales, cojines de lino a rayas y vegetación tropical en la ventana"
+		},
+		"tall": {
+			"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuBwwR6U8hgChq5zCqy1PGV_ja1v1hxm6BZ4Lw63D3ZhddzKHoO4QMxUWACGv1kXv9ktgtbuvlIoquhfcJL4SiAXIrqq2bHDCPQKAy_7ko0svNTqt431Z9TWDpzz5BdWAqxVDYEUuQ0rFuWzJ-PYSsZYKeQwoQxrkZaEKqHPz4PvyTh65yubJfYmby5KnaDHdGlyzV1BWAGcivqalx3FB8murSAO7t18-bby5wS9zlpRWDlsvV9qNnRrmqFblByNdZhCXEhDYb34DA",
+			"alt": "Hoja de palmera tropical con rocío en macro"
+		},
+		"accent": {
+			"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDIq5UhH86AO-7Y0CpmaKbKgivhYn12J6M_GKFVOEXU8wtawwQGxmwVAzcamy96OwYKu_gsFlpxcjkrCh4k4j4KSUp8M83Cp8Els2J_ynqBs4TXYk370pORsSPZAWaYULf9Ezft6Q_Hb05CdserXhdherFYxRnv2Yy3dxYwMasWoMumj6NO-LCNGOHfdgVTsekTmGHdfs5fCq26lJip2LVI5Y_rTcBZcJtPCHz5BmJDayVKOGd8yR6RQSb89D_HRbrJrMBXxi3mIA",
+			"alt": "Piedras de río apiladas sobre madera con sombras suaves"
+		},
+		"materialsHeading": "Materiales que respiran.",
+		"materialsBody": "The Sanctuary se cura con materiales honestos. Usamos maderas y piedras locales que envejecen con dignidad, desarrollando una pátina que cuenta la historia de las estaciones."
+	},
+	"botanical": {
+		"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuB4Wf4YUngTiEJSclH0RnZ0DLagsZ5QOS9vWRz_cvYnvDLKIUkmzV3riH4jiMLhOLcFEh_-NAwhkzp8PeBbEpTfOLwCEXcw5P6P9Nnmx8BAOOcba6_4zqhLXJvV3q_uNATXdFAlxhTCEoCF7acFeVtNSdpy86_PUXsBHS4zNT-HR0-mWyK1b0mz_MFlZtB_7CfwHiDvt2HkUBw_U5yJQGDXxRtBkZzasPg_tSA8RDeskjURobqFJLcu9jiixs5ADHsSniyb3DVPSg",
+		"imageAlt": "Jardinero cuidando plantas tropicales raras en invernadero",
+		"kicker": "El lienzo vivo",
+		"title": "Conserje de naturaleza",
+		"items": [
+			{
+				"icon": "eco",
+				"title": "Flora autóctona",
+				"descriptionHtml": "Descubre la <em>Heliconia Rostrata</em> y la <em>Cattleya Dowiana</em> justo fuera de tu ventana. Ofrecemos caminatas botánicas privadas con guía."
+			},
+			{
+				"icon": "spa",
+				"title": "Acceso al huerto de hierbas",
+				"descriptionHtml": "Recoge menta, jengibre y hierba limón para tu té de la tarde en el huerto privado de la villa."
+			}
+		]
+	},
+	"booking": {
+		"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+		"kicker": "Reserva",
+		"title": "Reserva la Garden Villa",
+		"description": "Reconecta con el ritmo de la naturaleza. Nuestro conserje prepara tu experiencia desde el primer contacto.",
+		"checkInLabel": "Entrada",
+		"checkInPlaceholder": "Elegir fecha",
+		"guestsLabel": "Huéspedes",
+		"guestOptions": ["2 adultos", "3 adultos"],
+		"cta": "Ver disponibilidad",
+		"priceNote": "Desde $1,250 / noche"
+	}
+}

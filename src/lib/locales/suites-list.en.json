@@ -1,0 +1,69 @@
+{
+	"hero": {
+		"kicker": "Collection — 01",
+		"titleLine1": "Botanical",
+		"titleLine2": "Suites",
+		"lead": "A curated selection of living spaces carved from the Costa Rican canopy. Each suite is an invitation to witness the pulse of the jungle from a vantage of absolute serenity.",
+		"imageAlt": "Luxurious jungle villa pool overlooking dense tropical rainforest canopy at sunset"
+	},
+	"canopy": {
+		"image": "/canopy-suite-04.jpg",
+		"imageAlt": "Modern suite with wood balconies on a misty tropical mountainside, dense green forest and soft overcast light",
+		"title": "Canopy Master Suite",
+		"price": "$1,450 / night",
+		"specLeft": "2,400 SQ FT",
+		"specRight": "Private Infinity Pool",
+		"description": "Suspended thirty feet above the forest floor, the Canopy Master Suite offers a panoramic perspective of the Golfo Dulce. Features reclaimed teak flooring and a private terrace that blends seamlessly with the surrounding flora.",
+		"features": [
+			{ "icon": "spa", "text": "Outdoor Rain Shower" },
+			{ "icon": "restaurant", "text": "Private In-Suite Chef Service" },
+			{ "icon": "satellite_alt", "text": "Wildlife Observation Deck" }
+		],
+		"cta": "Inquire Now"
+	},
+	"garden": {
+		"imageAlt": "Modern luxury bathroom with stone soaking tub and tropical garden view",
+		"badgeTitle": "The Sanctuary Choice",
+		"badgeSubtitle": "Top Rated Guest Experience 2024",
+		"title": "Garden Villa",
+		"specLeft": "1,800 SQ FT",
+		"specRight": "Zen Garden Entry",
+		"description": "Grounded in the lush soil of our private botanical reserve, the Garden Villa is designed for deep rejuvenation. The open-air layout allows the evening breeze and the scent of wild jasmine to permeate your living space.",
+		"stats": [
+			{ "value": "120+", "label": "Plant Species" },
+			{ "value": "24h", "label": "Nature Concierge" }
+		],
+		"priceLine": "From $950 per night",
+		"cta": "View Details"
+	},
+	"treehouse": {
+		"kicker": "Exclusive Escape",
+		"titleLine1": "Treehouse",
+		"titleLine2": "Retreat",
+		"description": "The ultimate immersive experience. Built around a centuries-old Ceiba tree, this multi-level dwelling offers total seclusion and an unmatched connection to the rainforest ecosystem.",
+		"highlights": [
+			{
+				"icon": "nightlight",
+				"title": "Starlight Lounge",
+				"description": "Retractable glass roof for celestial viewing from your bed."
+			},
+			{
+				"icon": "coffee_maker",
+				"title": "Artisan Kitchenette",
+				"description": "Stocked daily with local organic fruits and premium Costa Rican coffee."
+			}
+		],
+		"price": "$2,100",
+		"perNight": "Per Night",
+		"cta": "Check Availability",
+		"image": "/tree-house-03.jpg",
+		"imageAlt": "Elevated wooden treehouse on stilts with balcony and doorway, framed by large tropical leaves and dense forest"
+	},
+	"newsletter": {
+		"title": "The Forest Letter",
+		"description": "Receive seasonal updates, botanical wisdom, and exclusive retreat offerings directly in your inbox.",
+		"placeholder": "Your Email Address",
+		"emailAria": "Email",
+		"subscribe": "Subscribe"
+	}
+}

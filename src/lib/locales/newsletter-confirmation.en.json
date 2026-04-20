@@ -1,0 +1,24 @@
+{
+	"imageAlt": "Dense emerald rainforest canopy shrouded in mist at dawn",
+	"kicker": "Confirmation Received",
+	"titleBefore": "Welcome to the",
+	"titleAccent": "Forest Letter",
+	"lead": "You are now part of The Forest Letter community.",
+	"body": "Expect seasonal updates, botanical wisdom, and exclusive retreat offerings directly in your inbox. Your journey towards stillness begins here.",
+	"ctaVillas": "Explore our Villas",
+	"ctaInstagram": "Follow our journey on Instagram",
+	"columns": [
+		{
+			"title": "Botanical Wisdom",
+			"body": "Each month, we share insights from our resident herbalists on the healing power of the Costa Rican jungle."
+		},
+		{
+			"title": "Seasonal Rituals",
+			"body": "Discover the practices that align our retreat with the rhythms of the earth, from equinox meditations to tropical harvests."
+		},
+		{
+			"title": "Exclusive Access",
+			"body": "Forest Letter members receive priority booking for our private seasonal sanctuaries and intimate wellness workshops."
+		}
+	]
+}

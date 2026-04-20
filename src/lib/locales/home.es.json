@@ -1,0 +1,97 @@
+{
+	"hero": {
+		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
+		"kicker": "The Sanctuary · Guanacaste",
+		"title": "El arte del reposo",
+		"lead": "Acompáñanos desde nuestras raíces en la selva hasta la suite que te cobija, las experiencias que te mueven y el silencio que aguarda al final."
+	},
+	"story": {
+		"kicker": "Nuestra historia",
+		"title": "Un refugio familiar que creció despacio bajo el dosel",
+		"paragraphs": [
+			"The Sanctuary nació como una sola casa de huéspedes y una promesa: dejar que el terreno marque el camino. En más de una década, lo que empezó como unas pocas habitaciones de madera y vidrio se convirtió en una pequeña constelación de paviliones—cada uno ubicado para que el bosque siga a la vista y el exterior nunca quede lejos.",
+			"Trabajamos con artesanos locales, ingredientes de temporada y el ritmo de las estaciones seca y lluviosa. Nada se fuerza. La historia que contamos a quienes nos visitan es la misma que vivimos: respeta el lugar, déjalo más silencioso de como lo encontraste y llévate un poco de calma a casa."
+		]
+	},
+	"suitesBanner": {
+		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
+		"kicker": "Duerme entre los árboles",
+		"title": "Suites y villas",
+		"description": "Cada habitación es un mirador privado—mallas en lugar de muros donde fue posible, y ropa de cama en la que hundirte tras un día de calor y aire vibrante."
+	},
+	"suitesCards": [
+		{
+			"href": "/suites/canopy-suite",
+			"title": "Suite Canopy",
+			"description": "Suspendida sobre el dosel—teca recuperada y cristal hacia el horizonte esmeralda.",
+			"price": "Desde $1,250 / noche",
+			"imageAlt": "Suite moderna con balcones de madera en ladera tropical brumosa, bosque denso y luz suave de cielo nublado",
+			"image": "/canopy-suite-04.jpg"
+		},
+		{
+			"href": "/suites/garden-villa",
+			"title": "Garden Villa",
+			"description": "Sendero botánico privado, cristal y un diálogo entre arquitectura y tierra.",
+			"price": "Desde $1,250 / noche",
+			"imageAlt": "Vista exterior de una villa tropical de dos plantas con vegetación exuberante, balcón privado y porche inferior amueblado",
+			"image": "/villa-garden.jpg"
+		},
+		{
+			"href": "/suites/treehouse-retreat",
+			"title": "Retiro en el árbol",
+			"description": "Santuario multinivel entre las hojas, suspendido sobre el suelo del bosque.",
+			"price": "Desde $1,250 / noche",
+			"imageAlt": "Casa en el árbol de madera elevada con balcón y entrada, entre hojas tropicales grandes y bosque denso",
+			"image": "/tree-house-03.jpg"
+		}
+	],
+	"bridge": {
+		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
+		"quote": "Entre tu habitación y el sendero, el bosque enseña su propio ritmo—escucha antes de planificar el día."
+	},
+	"yoga": {
+		"watermark": "Aliento",
+		"mainImageAlt": "Clase de yoga en pabellón de madera al aire libre con cala oceánica y colinas selváticas al fondo",
+		"mainImage": "/yoga-class-image.png",
+		"insetImageAlt": "Manos en mudra durante la meditación",
+		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjoBnWuTTtRwl14WqT3245I4ulq1Gg9sTlr5FnKm1nS3ZeoXxI7Ferw_XR8YHQhxWuwjqPUeCjsS3W73NBefFZhde76TC6BJRyhhABItAZzjiRmtP21smx4dGltSCgBNCmoXXceyoMpWFY3lDznfiCIZ-F1cI9rMBk1KNjjLOmJ8GBctpRxE7N0cpUKYLNvzj8kfpOQlPupfoYYx4foHyn8Jcpg8bVCbQu-xzDag5iEgVsUHplEiJ1FpWwj1KTBnTwhRn_PSyaxw",
+		"kicker": "Movimiento del alma",
+		"title": "Yoga en la selva",
+		"description": "Shala al aire libre al amanecer sobre las colinas de Guanacaste—Vinyasa y Hatha con la selva como banda sonora.",
+		"schedule": [
+			{ "label": "Flujo al amanecer", "detail": "Todos los días a las 6:30" },
+			{ "label": "Sesiones privadas", "detail": "Con cita previa" }
+		]
+	},
+	"healing": {
+		"kicker": "La colección",
+		"title": "Rituales de sanación",
+		"viewDetails": "Ver detalles",
+		"items": [
+			{
+				"title": "Limpieza de tierra volcánica",
+				"description": "Ceniza rica en minerales del Arenal, elaborada para aclarar la piel y arraigar el cuerpo tras el viaje.",
+				"imageAlt": "Cuenco de cerámica con piedras de río y pétalos de jazmín",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsig1F1UaPk0rVxw3pNWKEFLHU4hIJgEyKCUW08x6vfJGg0H3H3rNxG8ejA8SR-2Fa90Yc_DlT3ORyyEf-GNWJ4ZagjOlaIKe1oYIS21TPCjbQYIeM-MU_OyFYhZ1QY0gexptVyCdnf1BYUX1bpckC9HYUJeWc87GnG-yDts6anD8xPg_Nbvx0iqoWOazWueXDr-FnROsCGXgbKx0sdBFO1Oj-N8SEhIRGwzxWMeQflyAXKOZUYmo5mOY-7FUxXncCw1WI7r1nAQ"
+			},
+			{
+				"title": "Baño de sonidos ancestral",
+				"description": "Cuencos de cristal y percusión para calmar el sistema nervioso y entrar en descanso profundo.",
+				"imageAlt": "Incienso y bambú con luz suave de mañana",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkfJByEyCElpGCBf-9QWWpDxqWtbgIp-zEHyHoOI3AXLh62NA3dPhB408Ww79M8qyU6oeEj7SvFSVE2kr4czttJuQznZm0yo_9JwlEXbjWNCHt0UyoLRsIYr893wROis1rWVnImz1Uut-W0fl1YJAyprsXY2ZsWE1anF4aTJG_vQm9FgUUExOrTpoREKcm9HM5jpJJDeeudugm3mwJ-MZEoODk9F925Aou0MK6YHuEkNrQyUbwrcjII_o_XWHWRhgEGe77XnEyMg"
+			},
+			{
+				"title": "Ceremonia del té del jardín interior",
+				"description": "Cata lenta y guiada de hierbas cultivadas a pasos de la cocina—equilibrio para cuerpo y aliento.",
+				"imageAlt": "Té de hierbas vertido en una taza rústica",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBznJK74Cmgc5wLC6U8hUTkFPLMX52u__lt7svo1VWUvjka3yBDXzrPCMF_WbdZZ-jFdv12Dt6kojRxnnsmqdb7vqNrZxKU4d2DLYiXbWhFQoMN8KlyyYGIsMoJlUtlRmXz0ghq7y9HibRgvjqOg8ZGyVGzCsGVlDjZD7qRh0Uoo_O5DVH9WjZp-4klg31PDGGq9_7n3GBxT41Tw5WPH0q_RNCYTIJERNxsWmvBd76leQtmp1nsXFzvAbXOsthrG25kwJYLd7f7Uw"
+			}
+		]
+	},
+	"stillness": {
+		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
+		"title": "Comienza tu descenso hacia el reposo.",
+		"bookTreatment": "Reservar un tratamiento",
+		"spaMenu": "Ver carta de spa"
+	}
+}

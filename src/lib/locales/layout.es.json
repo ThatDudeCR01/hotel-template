@@ -1,0 +1,36 @@
+{
+	"header": {
+		"brand": "The Sanctuary",
+		"nav": {
+			"story": "Nuestra historia",
+			"suites": "Suites",
+			"experiences": "Experiencias",
+			"sanctuary": "Santuario"
+		},
+		"languageAria": "Idioma",
+		"reserveCta": "Reservar ahora"
+	},
+	"footer": {
+		"brand": "THE SANCTUARY",
+		"tagline": "Una colección de retiros privados en el corazón de la selva lluviosa de Costa Rica, donde el lujo y la naturaleza salvaje se equilibran a la perfección.",
+		"contactTitle": "Contacto",
+		"address": "Santa Rosa, Guanacaste, Costa Rica",
+		"phone": "+506 2655 0000",
+		"email": "hello@thesanctuary.cr",
+		"discoverTitle": "Descubrir",
+		"links": {
+			"sustainability": "Sostenibilidad",
+			"privacy": "Política de privacidad",
+			"press": "Dossier de prensa",
+			"contact": "Contacto"
+		},
+		"socialTitle": "Redes",
+		"social": {
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"whatsapp": "WhatsApp",
+			"tiktok": "TikTok"
+		},
+		"copyright": "© THE SANCTUARY EDITORIAL. CURADO EN COSTA RICA."
+	}
+}

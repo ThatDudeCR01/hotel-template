@@ -1,0 +1,24 @@
+{
+	"imageAlt": "Dosel de selva esmeralda envuelto en bruma al amanecer",
+	"kicker": "Confirmación recibida",
+	"titleBefore": "Bienvenido a",
+	"titleAccent": "La carta del bosque",
+	"lead": "Ya formas parte de la comunidad de La carta del bosque.",
+	"body": "Recibirás novedades de temporada, sabiduría botánica y ofertas exclusivas de retiro en tu bandeja de entrada. Tu camino hacia el reposo comienza aquí.",
+	"ctaVillas": "Explorar nuestras villas",
+	"ctaInstagram": "Síguenos en Instagram",
+	"columns": [
+		{
+			"title": "Sabiduría botánica",
+			"body": "Cada mes compartimos ideas de nuestros herbolarios residentes sobre el poder sanador de la selva costarricense."
+		},
+		{
+			"title": "Rituales de temporada",
+			"body": "Descubre las prácticas que alinean nuestro retiro con los ritmos de la tierra, desde meditaciones en equinoccio hasta cosechas tropicales."
+		},
+		{
+			"title": "Acceso exclusivo",
+			"body": "Los miembros de La carta del bosque tienen prioridad de reserva en nuestros santuarios privados de temporada y talleres íntimos de bienestar."
+		}
+	]
+}

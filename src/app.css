@@ -1,0 +1,171 @@
+@import "tailwindcss";
+
+/* darkMode: "class" — usa <html class="dark"> */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+  Paleta alineada con tu tailwind-config (theme.extend.colors + fonts + radius).
+  Tailwind v4: tokens → clases bg-*, text-*, border-*, etc.
+*/
+@theme {
+  /* Fuentes (extend.fontFamily) */
+  --font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Noto Serif", ui-serif, Georgia, "Times New Roman", serif;
+  --font-headline: "Noto Serif", ui-serif, Georgia, "Times New Roman", serif;
+  --font-body: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --font-label: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  /* Radios (extend.borderRadius) */
+  --radius: 0.25rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 1.5rem;
+
+  --color-background: #fcf9f3;
+  --color-on-background: #1c1c18;
+  --color-surface: #fcf9f3;
+  --color-surface-bright: #fcf9f3;
+  --color-surface-dim: #dcdad4;
+  --color-inverse-surface: #31312d;
+  --color-inverse-on-surface: #f3f0ea;
+  --color-surface-variant: #e5e2dc;
+  --color-on-surface: #1c1c18;
+  --color-on-surface-variant: #434843;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #f6f3ed;
+  --color-surface-container: #f0eee8;
+  --color-surface-container-high: #ebe8e2;
+  --color-surface-container-highest: #e5e2dc;
+  --color-surface-tint: #556256;
+
+  --color-primary: #18231a;
+  --color-on-primary: #ffffff;
+  --color-primary-container: #2d392f;
+  --color-on-primary-container: #95a395;
+  --color-inverse-primary: #bccabc;
+  --color-primary-fixed: #d8e6d8;
+  --color-primary-fixed-dim: #bccabc;
+  --color-on-primary-fixed: #131e15;
+  --color-on-primary-fixed-variant: #3d4a3f;
+
+  --color-secondary: #775a19;
+  --color-on-secondary: #ffffff;
+  --color-secondary-container: #fed488;
+  --color-on-secondary-container: #785a1a;
+  --color-secondary-fixed: #ffdea5;
+  --color-secondary-fixed-dim: #e9c176;
+  --color-on-secondary-fixed: #261900;
+  --color-on-secondary-fixed-variant: #5d4201;
+
+  --color-tertiary: #212121;
+  --color-on-tertiary: #ffffff;
+  --color-tertiary-container: #363636;
+  --color-on-tertiary-container: #a09f9e;
+  --color-tertiary-fixed: #e4e2e1;
+  --color-tertiary-fixed-dim: #c8c6c5;
+  --color-on-tertiary-fixed: #1b1c1c;
+  --color-on-tertiary-fixed-variant: #474747;
+
+  --color-error: #ba1a1a;
+  --color-on-error: #ffffff;
+  --color-error-container: #ffdad6;
+  --color-on-error-container: #93000a;
+
+  --color-outline: #747873;
+  --color-outline-variant: #c4c8c1;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  main section[id] {
+    scroll-margin-top: 7rem;
+  }
+
+  body {
+    @apply bg-surface text-on-surface antialiased;
+    font-family: var(--font-sans);
+  }
+
+  .font-serif {
+    font-family: var(--font-serif);
+  }
+
+  .material-symbols-outlined {
+    font-family: "Material Symbols Outlined", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    font-variation-settings:
+      "FILL" 0,
+      "wght" 300,
+      "GRAD" 0,
+      "opsz" 24;
+  }
+}
+
+@layer utilities {
+  .parallax-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .parallax-bg {
+    position: absolute;
+    top: -32%;
+    left: -2%;
+    width: 104%;
+    height: 164%;
+    will-change: transform;
+    pointer-events: none;
+  }
+
+  /* Escala extra para que el movimiento del parallax no muestre bordes */
+  .parallax-bg img {
+    width: 100%;
+    height: 100%;
+    transform: scale(1.12);
+    transform-origin: center center;
+    object-fit: cover;
+  }
+
+  [data-parallax] {
+    will-change: transform;
+  }
+
+  .label-md {
+    @apply text-xs font-semibold tracking-[0.2em];
+  }
+
+  .font-label {
+    @apply text-xs font-bold tracking-widest uppercase;
+  }
+
+  /* Healing rituals: imágenes siempre visibles */
+  .healing-ritual__figure {
+    @apply shrink-0;
+  }
+
+  /* Texto: posición/opacidad la controla JS (scroll) en los tres bloques */
+  .healing-ritual--scroll .healing-ritual__text {
+    will-change: transform, opacity;
+  }
+
+  .editorial-inset {
+    @apply ring-1 ring-stone-200/60 shadow-[0_20px_50px_-12px_rgba(24,35,26,0.12)] dark:ring-stone-700/80;
+  }
+}
