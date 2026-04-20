@@ -238,7 +238,7 @@
               src={t.yoga.mainImage}
             />
             <div
-              class="absolute -top-12 -right-12 h-64 w-64 overflow-hidden rounded-xl border-12 border-surface shadow-xl"
+              class="absolute -top-12 -right-12 hidden h-64 w-64 overflow-hidden rounded-xl border-12 border-surface shadow-xl md:block"
             >
               <img
                 class="h-full w-full object-cover"

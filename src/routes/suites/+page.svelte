@@ -178,11 +178,13 @@
   </section>
 
   <!-- Treehouse Retreat -->
-  <section class="mb-24">
+  <section class="mb-24 px-4 sm:px-6 md:px-8">
     <div
-      class="mx-auto flex max-w-[1200px] flex-col overflow-hidden rounded-[3rem] bg-primary text-on-primary lg:flex-row"
+      class="mx-auto flex max-w-[1200px] flex-col overflow-hidden rounded-[2rem] bg-primary text-on-primary sm:rounded-[3rem] lg:flex-row"
     >
-      <div class="w-full p-16 md:p-24 lg:w-1/2">
+      <div
+        class="w-full px-6 pt-12 pb-16 sm:px-10 sm:py-16 md:p-24 lg:w-1/2"
+      >
         <span
           class="mb-8 block text-xs font-bold uppercase tracking-[0.4em] text-secondary"
           >{t.treehouse.kicker}</span
