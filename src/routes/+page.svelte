@@ -6,8 +6,7 @@
   import homeEs from "$lib/locales/home.es.json";
 
   /** Local asset — served from /static */
-  const villaParallax =
-    "/view-luxurious-villa-with-modern-architectural-design.jpg";
+  const villaParallax = "/view-luxurious-villa-parallax.jpg";
 
   const t = $derived(locale.current === "es" ? homeEs : homeEn);
 
