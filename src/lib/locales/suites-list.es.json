@@ -1,69 +1,51 @@
 {
 	"hero": {
-		"kicker": "Colección — 01",
-		"titleLine1": "Botánicas",
-		"titleLine2": "Suites",
-		"lead": "Una selección curada de espacios labrados en el dosel costarricense. Cada suite es una invitación a sentir el pulso de la selva desde un lugar de serenidad absoluta.",
-		"imageAlt": "Piscina de villa en la jungla al atardecer sobre el dosel tropical"
+		"kicker": "Mango Valley · Grecia",
+		"titleLine1": "Suites",
+		"titleLine2": "y cabañas",
+		"lead": "Cuatro cabañas privadas en las colinas sobre Grecia—cada una un lugar tranquilo para descansar, respirar y reconectar con la naturaleza.",
+		"imageAlt": "Piscina y jardines de Mango Valley con vista al valle cerca de Grecia, Costa Rica"
 	},
-	"canopy": {
-		"image": "/canopy-suite-04.jpg",
-		"imageAlt": "Suite moderna con balcones de madera en ladera tropical brumosa, bosque denso y luz suave de cielo nublado",
-		"title": "Suite maestra Canopy",
-		"price": "$1,450 / noche",
-		"specLeft": "2,400 PIES²",
-		"specRight": "Piscina infinita privada",
-		"description": "Suspendida a treinta pies sobre el suelo del bosque, la suite maestra Canopy ofrece una perspectiva panorámica del golfo Dulce. Incluye suelo de teca recuperada y terraza privada que se funde con la flora circundante.",
-		"features": [
-			{ "icon": "spa", "text": "Ducha de lluvia exterior" },
-			{ "icon": "restaurant", "text": "Chef privado en suite" },
-			{ "icon": "satellite_alt", "text": "Mirador para observación de fauna" }
-		],
-		"cta": "Consultar ahora"
-	},
-	"garden": {
-		"imageAlt": "Baño de lujo moderno con bañera de piedra y vista al jardín tropical",
-		"badgeTitle": "La elección The Sanctuary",
-		"badgeSubtitle": "Experiencia de huésped mejor valorada 2024",
-		"title": "Garden Villa",
-		"specLeft": "1,800 PIES²",
-		"specRight": "Entrada jardín zen",
-		"description": "Arraigada en la tierra fértil de nuestra reserva botánica privada, la Garden Villa está pensada para una renovación profunda. El diseño al aire libre deja pasar la brisa nocturna y el aroma del jazmín silvestre.",
-		"stats": [
-			{ "value": "120+", "label": "Especies vegetales" },
-			{ "value": "24h", "label": "Conserje de naturaleza" }
-		],
-		"priceLine": "Desde $950 por noche",
-		"cta": "Ver detalles"
-	},
-	"treehouse": {
-		"kicker": "Escape exclusivo",
-		"titleLine1": "Treehouse",
-		"titleLine2": "Retreat",
-		"description": "La experiencia inmersiva por excelencia. Construida en torno a una ceiba centenaria, esta vivienda en varios niveles ofrece aislamiento total y una conexión incomparable con el ecosistema de la selva lluviosa.",
-		"highlights": [
-			{
-				"icon": "nightlight",
-				"title": "Salón Starlight",
-				"description": "Techo de cristal retráctil para contemplar el cielo desde la cama."
-			},
-			{
-				"icon": "coffee_maker",
-				"title": "Kitchenette artesanal",
-				"description": "Abastecida a diario con fruta orgánica local y café premium de Costa Rica."
-			}
-		],
-		"price": "$2,100",
-		"perNight": "Por noche",
-		"cta": "Ver disponibilidad",
-		"image": "/tree-house-03.jpg",
-		"imageAlt": "Casa en el árbol de madera elevada con balcón y entrada, entre hojas tropicales grandes y bosque denso"
-	},
+	"cottages": [
+		{
+			"slug": "mariposa-cottage",
+			"title": "Cabaña Mariposa",
+			"description": "Elegante y espaciosa, con dos camas individuales y baño privado con ducha.",
+			"price": "$71 / noche",
+			"imageAlt": "Cabaña Mariposa con camas individuales en Mango Valley",
+			"image": "/rooms/colibri-camas.jpg"
+		},
+		{
+			"slug": "colibri-cottage",
+			"title": "Cabaña Colibrí",
+			"description": "Cama queen artesanal con colchón ortopédico, amplio closet y baño privado con ducha.",
+			"price": "$71 / noche",
+			"imageAlt": "Cabaña Colibrí con cama queen en Mango Valley",
+			"image": "/rooms/colibri-cama.jpg"
+		},
+		{
+			"slug": "poas-cottage",
+			"title": "Cabaña Poás",
+			"description": "Dos habitaciones y terraza con vegetación y colibríes, cama queen, mesa de comedor y vistas al Poás.",
+			"price": "$84 / noche",
+			"imageAlt": "Habitación de la Cabaña Poás en Mango Valley",
+			"image": "/rooms/poas-habitacion.jpg"
+		},
+		{
+			"slug": "morpho-cottage",
+			"title": "Cabaña Morpho",
+			"badge": "Con jacuzzi",
+			"description": "Nuestra cabaña más popular: cama queen, TV SKY, WiFi, jacuzzi privado y vistas al volcán y las plantaciones de café.",
+			"price": "$84 / noche",
+			"imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley",
+			"image": "/rooms/morpho_cama.jpg"
+		}
+	],
 	"newsletter": {
 		"title": "La carta del bosque",
-		"description": "Recibe novedades de temporada, sabiduría botánica y ofertas exclusivas de retiro directamente en tu bandeja de entrada.",
+		"description": "Recibe novedades de temporada, sabiduría botánica y ofertas exclusivas de retiro en tu bandeja de entrada.",
 		"placeholder": "Tu correo electrónico",
-		"emailAria": "Correo electrónico",
+		"emailAria": "Correo",
 		"subscribe": "Suscribirse"
 	}
 }

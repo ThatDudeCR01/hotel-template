@@ -1,0 +1,23 @@
+{
+	"slug": "poas-cottage",
+	"hero": {
+		"image": "/rooms/poas-habitacion.jpg",
+		"imageAlt": "Poas Cottage bedroom at Mango Valley",
+		"kicker": "Mango Valley · Cottage",
+		"title": "Poas Cottage"
+	},
+	"description": "Two rooms and a terrace overlooking hummingbird-filled greenery. Queen bed with orthopedic mattress, dining table, en-suite shower, and rocking chairs with sweeping Poás views.",
+	"features": [],
+	"booking": {
+		"bgImage": "/view-luxurious-villa-parallax.jpg",
+		"kicker": "Reservation",
+		"title": "Reserve Poas Cottage",
+		"description": "Reconnect with the rhythm of nature. Our team is ready to help you plan your stay.",
+		"checkInLabel": "Check In",
+		"checkInPlaceholder": "Select Date",
+		"guestsLabel": "Guests",
+		"guestOptions": ["1 Guest", "2 Guests", "3 Guests"],
+		"cta": "Check Availability",
+		"priceNote": "$84 / night"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"slug": "colibri-cottage",
+	"hero": {
+		"image": "/rooms/colibri-cama.jpg",
+		"imageAlt": "Cabaña Colibrí con cama queen en Mango Valley",
+		"kicker": "Mango Valley · Cabaña",
+		"title": "Cabaña Colibrí"
+	},
+	"description": "Esta cabaña tiene una cama queen artesanal con colchón ortopédico, un amplio closet y baño privado con ducha.",
+	"features": [
+		{ "icon": "bed", "text": "Cama queen artesanal con colchón ortopédico" },
+		{ "icon": "checkroom", "text": "Amplio closet" },
+		{ "icon": "shower", "text": "Baño privado con ducha" }
+	],
+	"booking": {
+		"bgImage": "/view-luxurious-villa-parallax.jpg",
+		"kicker": "Reserva",
+		"title": "Reserva la Cabaña Colibrí",
+		"description": "Reconecta con el ritmo de la naturaleza. Nuestro equipo está listo para ayudarte a planear tu estadía.",
+		"checkInLabel": "Entrada",
+		"checkInPlaceholder": "Elegir fecha",
+		"guestsLabel": "Huéspedes",
+		"guestOptions": ["1 huésped", "2 huéspedes"],
+		"cta": "Ver disponibilidad",
+		"priceNote": "$71 / noche"
+	}
+}

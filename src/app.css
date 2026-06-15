@@ -86,7 +86,7 @@
   }
 
   main section[id] {
-    scroll-margin-top: 7rem;
+    scroll-margin-top: 6rem;
   }
 
   body {
@@ -167,5 +167,103 @@
 
   .editorial-inset {
     @apply ring-1 ring-stone-200/60 shadow-[0_20px_50px_-12px_rgba(24,35,26,0.12)] dark:ring-stone-700/80;
+  }
+
+  @keyframes nav-enter {
+    from {
+      transform: translateY(-100%);
+    }
+
+    to {
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes hero-fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(1.5rem);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .site-header-enter {
+    transform: translateY(-100%);
+    animation: nav-enter 1s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
+
+  .hero-enter > * {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    animation: hero-fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  .hero-enter > *:nth-child(1) {
+    animation-delay: 0.4s;
+  }
+
+  .hero-enter > *:nth-child(2) {
+    animation-delay: 0.55s;
+  }
+
+  .hero-enter > *:nth-child(3) {
+    animation-delay: 0.7s;
+  }
+
+  .hero-enter > *:nth-child(4) {
+    animation-delay: 0.85s;
+  }
+
+  .hero-scroll-enter {
+    opacity: 0;
+    transform: translateY(1.5rem);
+    animation: hero-fade-up 0.9s cubic-bezier(0.22, 1, 0.36, 1) 1.05s both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .site-header-enter,
+    .hero-enter > *,
+    .hero-scroll-enter {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  .cottages-bento {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  @media (min-width: 768px) {
+    .cottages-bento {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-rows: repeat(2, minmax(12rem, 1fr));
+      grid-template-areas:
+        "poas poas morpho morpho"
+        "mariposa colibri morpho morpho";
+      min-height: min(40rem, 72vh);
+      gap: 1rem;
+    }
+
+    .bento-cottage--mariposa-cottage {
+      grid-area: mariposa;
+    }
+
+    .bento-cottage--colibri-cottage {
+      grid-area: colibri;
+    }
+
+    .bento-cottage--poas-cottage {
+      grid-area: poas;
+    }
+
+    .bento-cottage--morpho-cottage {
+      grid-area: morpho;
+    }
   }
 }

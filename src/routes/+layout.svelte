@@ -3,6 +3,7 @@
 	import '../app.css';
 	import SiteFooter from '$lib/components/SiteFooter.svelte';
 	import SiteHeader from '$lib/components/SiteHeader.svelte';
+	import WhatsAppFloat from '$lib/components/WhatsAppFloat.svelte';
 	import { locale } from '$lib/locale.svelte';
 
 	let { children } = $props();
@@ -28,7 +29,8 @@
 </svelte:head>
 
 <SiteHeader />
-<main class="pt-20">
+<main class="pt-16">
 	{@render children()}
 </main>
 <SiteFooter />
+<WhatsAppFloat />

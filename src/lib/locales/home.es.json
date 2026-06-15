@@ -1,48 +1,61 @@
 {
 	"hero": {
 		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
-		"kicker": "The Sanctuary · Guanacaste",
-		"title": "El arte del reposo",
-		"lead": "Acompáñanos desde nuestras raíces en la selva hasta la suite que te cobija, las experiencias que te mueven y el silencio que aguarda al final."
+		"kicker": "Mango Valley · Grecia, Costa Rica",
+		"title": "En las colinas sobre Grecia",
+		"lead": "Jardines tropicales, vistas a la montaña y aire fresco—un retiro tranquilo lejos del día a día.",
+		"scrollCta": "Acompáñanos—desde nuestra historia en las colinas hasta las suites, experiencias y el reposo que te esperan.",
+		"scrollAria": "Desplázate a nuestra historia"
 	},
 	"story": {
 		"kicker": "Nuestra historia",
-		"title": "Un refugio familiar que creció despacio bajo el dosel",
+		"title": "Un lugar para [[reconectar con lo que realmente importa]]",
 		"paragraphs": [
-			"The Sanctuary nació como una sola casa de huéspedes y una promesa: dejar que el terreno marque el camino. En más de una década, lo que empezó como unas pocas habitaciones de madera y vidrio se convirtió en una pequeña constelación de paviliones—cada uno ubicado para que el bosque siga a la vista y el exterior nunca quede lejos.",
-			"Trabajamos con artesanos locales, ingredientes de temporada y el ritmo de las estaciones seca y lluviosa. Nada se fuerza. La historia que contamos a quienes nos visitan es la misma que vivimos: respeta el lugar, déjalo más silencioso de como lo encontraste y llévate un poco de calma a casa."
+			"Mango Valley nació de una simple comprensión: muchas personas pasan la vida [[cuidando de todos los demás]] mientras [[se descuidan en silencio]].",
+			"Tras décadas trabajando en salud, servicios de emergencia, educación en bienestar y desarrollo personal, vimos de primera mano cómo [[el estrés, el agotamiento, el duelo y la responsabilidad constante]] afectan la [[calidad de vida]] de las personas.",
+			"Soñamos con un lugar donde la gente pudiera [[alejarse del ruido del día a día]] y [[reconectar con lo que realmente importa]].",
+			"Cuando descubrimos Mango Valley, vimos más que una propiedad hermosa. Vimos la oportunidad de crear un [[santuario]] donde [[la hospitalidad, la naturaleza, el bienestar y la conexión humana significativa]] pudieran reunirse.",
+			"Hoy, Mango Valley es un punto de encuentro para el [[descanso, la reflexión, la aventura, la sanación y el crecimiento personal]]."
 		]
 	},
 	"suitesBanner": {
-		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
-		"kicker": "Duerme entre los árboles",
-		"title": "Suites y villas",
-		"description": "Cada habitación es un mirador privado—mallas en lugar de muros donde fue posible, y ropa de cama en la que hundirte tras un día de calor y aire vibrante."
+		"kicker": "Quédate en las colinas",
+		"title": "Suites y cabañas",
+		"description": "Cuatro cabañas privadas rodeadas de jardines tropicales, vistas a la montaña y el ritmo tranquilo de Mango Valley."
 	},
 	"suitesCards": [
 		{
-			"href": "/suites/canopy-suite",
-			"title": "Suite Canopy",
-			"description": "Suspendida sobre el dosel—teca recuperada y cristal hacia el horizonte esmeralda.",
-			"price": "Desde $1,250 / noche",
-			"imageAlt": "Suite moderna con balcones de madera en ladera tropical brumosa, bosque denso y luz suave de cielo nublado",
-			"image": "/canopy-suite-04.jpg"
+			"href": "/suites/mariposa-cottage",
+			"title": "Cabaña Mariposa",
+			"description": "Elegante y espaciosa, con dos camas individuales y baño privado con ducha.",
+			"price": "$71 / noche",
+			"imageAlt": "Cabaña Mariposa con camas individuales en Mango Valley",
+			"image": "/rooms/colibri-camas.jpg"
 		},
 		{
-			"href": "/suites/garden-villa",
-			"title": "Garden Villa",
-			"description": "Sendero botánico privado, cristal y un diálogo entre arquitectura y tierra.",
-			"price": "Desde $1,250 / noche",
-			"imageAlt": "Vista exterior de una villa tropical de dos plantas con vegetación exuberante, balcón privado y porche inferior amueblado",
-			"image": "/villa-garden.jpg"
+			"href": "/suites/colibri-cottage",
+			"title": "Cabaña Colibrí",
+			"description": "Cama queen artesanal con colchón ortopédico, amplio closet y baño privado con ducha.",
+			"price": "$71 / noche",
+			"imageAlt": "Cabaña Colibrí con cama queen en Mango Valley",
+			"image": "/rooms/colibri-cama.jpg"
 		},
 		{
-			"href": "/suites/treehouse-retreat",
-			"title": "Retiro en el árbol",
-			"description": "Santuario multinivel entre las hojas, suspendido sobre el suelo del bosque.",
-			"price": "Desde $1,250 / noche",
-			"imageAlt": "Casa en el árbol de madera elevada con balcón y entrada, entre hojas tropicales grandes y bosque denso",
-			"image": "/tree-house-03.jpg"
+			"href": "/suites/poas-cottage",
+			"title": "Cabaña Poás",
+			"description": "Dos habitaciones y terraza con vegetación y colibríes, cama queen y amplias vistas al Poás.",
+			"price": "$84 / noche",
+			"imageAlt": "Habitación de la Cabaña Poás en Mango Valley",
+			"image": "/rooms/poas-habitacion.jpg"
+		},
+		{
+			"href": "/suites/morpho-cottage",
+			"title": "Cabaña Morpho",
+			"badge": "Con jacuzzi",
+			"description": "Nuestra cabaña más popular—con jacuzzi, TV SKY, WiFi y vistas al volcán y las plantaciones de café.",
+			"price": "$84 / noche",
+			"imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley",
+			"image": "/rooms/morpho_cama.jpg"
 		}
 	],
 	"bridge": {

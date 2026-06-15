@@ -1,11 +1,12 @@
 {
+	"whatsappFloatAria": "Chatea con nosotros por WhatsApp",
 	"header": {
-		"brand": "The Sanctuary",
+		"brand": "Mango Valley",
 		"nav": {
 			"story": "Nuestra historia",
 			"suites": "Suites",
 			"experiences": "Experiencias",
-			"sanctuary": "Santuario"
+			"sanctuary": "Reposo"
 		},
 		"languageAria": "Idioma",
 		"menuAria": "Menú",
@@ -13,12 +14,12 @@
 		"reserveCta": "Reservar ahora"
 	},
 	"footer": {
-		"brand": "THE SANCTUARY",
+		"brand": "MANGO VALLEY",
 		"tagline": "Una colección de retiros privados en el corazón de la selva lluviosa de Costa Rica, donde el lujo y la naturaleza salvaje se equilibran a la perfección.",
 		"contactTitle": "Contacto",
 		"address": "Santa Rosa, Guanacaste, Costa Rica",
-		"phone": "+506 2655 0000",
-		"email": "hello@thesanctuary.cr",
+		"phone": "+506 8656 2467",
+		"email": "hello@mangovalley.cr",
 		"discoverTitle": "Descubrir",
 		"links": {
 			"sustainability": "Sostenibilidad",
@@ -33,6 +34,6 @@
 			"whatsapp": "WhatsApp",
 			"tiktok": "TikTok"
 		},
-		"copyright": "© THE SANCTUARY EDITORIAL. CURADO EN COSTA RICA."
+		"copyright": "© MANGO VALLEY. CURADO EN COSTA RICA."
 	}
 }

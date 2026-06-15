@@ -1,0 +1,23 @@
+{
+	"slug": "poas-cottage",
+	"hero": {
+		"image": "/rooms/poas-habitacion.jpg",
+		"imageAlt": "Habitación de la Cabaña Poás en Mango Valley",
+		"kicker": "Mango Valley · Cabaña",
+		"title": "Cabaña Poás"
+	},
+	"description": "Dos habitaciones y una terraza con vista a la vegetación visitada por colibríes. Cama queen con colchón ortopédico, mesa de comedor, ducha privada y mecedoras con amplias vistas al Poás.",
+	"features": [],
+	"booking": {
+		"bgImage": "/view-luxurious-villa-parallax.jpg",
+		"kicker": "Reserva",
+		"title": "Reserva la Cabaña Poás",
+		"description": "Reconecta con el ritmo de la naturaleza. Nuestro equipo está listo para ayudarte a planear tu estadía.",
+		"checkInLabel": "Entrada",
+		"checkInPlaceholder": "Elegir fecha",
+		"guestsLabel": "Huéspedes",
+		"guestOptions": ["1 huésped", "2 huéspedes", "3 huéspedes"],
+		"cta": "Ver disponibilidad",
+		"priceNote": "$84 / noche"
+	}
+}

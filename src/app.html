@@ -4,6 +4,29 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="text-scale" content="scale" />
+		<style>
+			.site-header-enter {
+				transform: translateY(-100%);
+			}
+
+			.hero-enter > *,
+			.hero-scroll-enter {
+				opacity: 0;
+				transform: translateY(1.5rem);
+			}
+
+			@media (prefers-reduced-motion: reduce) {
+				.site-header-enter {
+					transform: none;
+				}
+
+				.hero-enter > *,
+				.hero-scroll-enter {
+					opacity: 1;
+					transform: none;
+				}
+			}
+		</style>
 		%sveltekit.head%
 	</head>
 	<body

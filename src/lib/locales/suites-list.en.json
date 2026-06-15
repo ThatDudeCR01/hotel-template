@@ -1,64 +1,46 @@
 {
 	"hero": {
-		"kicker": "Collection — 01",
-		"titleLine1": "Botanical",
-		"titleLine2": "Suites",
-		"lead": "A curated selection of living spaces carved from the Costa Rican canopy. Each suite is an invitation to witness the pulse of the jungle from a vantage of absolute serenity.",
-		"imageAlt": "Luxurious jungle villa pool overlooking dense tropical rainforest canopy at sunset"
+		"kicker": "Mango Valley · Grecia",
+		"titleLine1": "Suites",
+		"titleLine2": "& cottages",
+		"lead": "Four private cottages nestled in the hills above Grecia—each one a quiet place to rest, breathe, and reconnect with nature.",
+		"imageAlt": "Mango Valley pool and gardens overlooking the valley near Grecia, Costa Rica"
 	},
-	"canopy": {
-		"image": "/canopy-suite-04.jpg",
-		"imageAlt": "Modern suite with wood balconies on a misty tropical mountainside, dense green forest and soft overcast light",
-		"title": "Canopy Master Suite",
-		"price": "$1,450 / night",
-		"specLeft": "2,400 SQ FT",
-		"specRight": "Private Infinity Pool",
-		"description": "Suspended thirty feet above the forest floor, the Canopy Master Suite offers a panoramic perspective of the Golfo Dulce. Features reclaimed teak flooring and a private terrace that blends seamlessly with the surrounding flora.",
-		"features": [
-			{ "icon": "spa", "text": "Outdoor Rain Shower" },
-			{ "icon": "restaurant", "text": "Private In-Suite Chef Service" },
-			{ "icon": "satellite_alt", "text": "Wildlife Observation Deck" }
-		],
-		"cta": "Inquire Now"
-	},
-	"garden": {
-		"imageAlt": "Modern luxury bathroom with stone soaking tub and tropical garden view",
-		"badgeTitle": "The Sanctuary Choice",
-		"badgeSubtitle": "Top Rated Guest Experience 2024",
-		"title": "Garden Villa",
-		"specLeft": "1,800 SQ FT",
-		"specRight": "Zen Garden Entry",
-		"description": "Grounded in the lush soil of our private botanical reserve, the Garden Villa is designed for deep rejuvenation. The open-air layout allows the evening breeze and the scent of wild jasmine to permeate your living space.",
-		"stats": [
-			{ "value": "120+", "label": "Plant Species" },
-			{ "value": "24h", "label": "Nature Concierge" }
-		],
-		"priceLine": "From $950 per night",
-		"cta": "View Details"
-	},
-	"treehouse": {
-		"kicker": "Exclusive Escape",
-		"titleLine1": "Treehouse",
-		"titleLine2": "Retreat",
-		"description": "The ultimate immersive experience. Built around a centuries-old Ceiba tree, this multi-level dwelling offers total seclusion and an unmatched connection to the rainforest ecosystem.",
-		"highlights": [
-			{
-				"icon": "nightlight",
-				"title": "Starlight Lounge",
-				"description": "Retractable glass roof for celestial viewing from your bed."
-			},
-			{
-				"icon": "coffee_maker",
-				"title": "Artisan Kitchenette",
-				"description": "Stocked daily with local organic fruits and premium Costa Rican coffee."
-			}
-		],
-		"price": "$2,100",
-		"perNight": "Per Night",
-		"cta": "Check Availability",
-		"image": "/tree-house-03.jpg",
-		"imageAlt": "Elevated wooden treehouse on stilts with balcony and doorway, framed by large tropical leaves and dense forest"
-	},
+	"cottages": [
+		{
+			"slug": "mariposa-cottage",
+			"title": "Mariposa Cottage",
+			"description": "Elegant and spacious, this cottage has two twin beds and en-suite bathroom with shower.",
+			"price": "$71 / night",
+			"imageAlt": "Mariposa Cottage twin beds at Mango Valley",
+			"image": "/rooms/colibri-camas.jpg"
+		},
+		{
+			"slug": "colibri-cottage",
+			"title": "Colibri Cottage",
+			"description": "Hand-made queen bed with orthopedic mattress, roomy closet, and en-suite bathroom with shower.",
+			"price": "$71 / night",
+			"imageAlt": "Colibri Cottage queen bed at Mango Valley",
+			"image": "/rooms/colibri-cama.jpg"
+		},
+		{
+			"slug": "poas-cottage",
+			"title": "Poas Cottage",
+			"description": "Two rooms and a terrace overlooking hummingbird-filled greenery, with queen bed, dining table, and sweeping Poás views.",
+			"price": "$84 / night",
+			"imageAlt": "Poas Cottage bedroom at Mango Valley",
+			"image": "/rooms/poas-habitacion.jpg"
+		},
+		{
+			"slug": "morpho-cottage",
+			"title": "Morpho Cottage",
+			"badge": "With jacuzzi",
+			"description": "Our most popular cottage—queen bed, SKY TV, WiFi, en-suite jacuzzi, and terrace views of the volcano and coffee plantations.",
+			"price": "$84 / night",
+			"imageAlt": "Morpho Cottage bed and jacuzzi suite at Mango Valley",
+			"image": "/rooms/morpho_cama.jpg"
+		}
+	],
 	"newsletter": {
 		"title": "The Forest Letter",
 		"description": "Receive seasonal updates, botanical wisdom, and exclusive retreat offerings directly in your inbox.",

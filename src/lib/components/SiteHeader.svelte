@@ -72,7 +72,7 @@
 </script>
 
 <header
-	class="fixed top-0 z-50 w-full bg-stone-50/80 shadow-[0_32px_64px_-12px_rgba(24,35,26,0.06)] backdrop-blur-xl dark:bg-stone-900/80"
+	class="site-header-enter fixed top-0 z-50 w-full bg-stone-50 shadow-[0_32px_64px_-12px_rgba(24,35,26,0.06)] dark:bg-stone-900"
 >
 	<div
 		class="flex w-full items-center justify-between gap-4 px-6 py-6 md:px-12"
