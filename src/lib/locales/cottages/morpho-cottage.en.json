@@ -1,0 +1,30 @@
+{
+  "slug": "morpho-cottage",
+  "price": "$110",
+  "hero": {
+    "image": "/rooms/morpho_cama.jpg",
+    "imageAlt": "Morpho Cottage bed and jacuzzi suite at Mango Valley",
+    "kicker": "Mango Valley · Cottage",
+    "title": "Morpho Cottage",
+    "badge": "With jacuzzi · Most popular"
+  },
+  "description": "Our most popular cottage—queen bed with orthopedic mattress, SKY TV, in-room WiFi, en-suite jacuzzi and shower, and a terrace with volcano and coffee plantation views.",
+  "features": [
+    { "icon": "hot_tub", "text": "En-suite jacuzzi and shower" },
+    { "icon": "bed", "text": "Hand-made queen bed with orthopedic mattress" },
+    { "icon": "tv", "text": "SKY TV and in-room WiFi" },
+    { "icon": "landscape", "text": "Volcano and coffee plantation views" }
+  ],
+  "booking": {
+    "bgImage": "/view-luxurious-villa-parallax.jpg",
+    "kicker": "Reservation",
+    "title": "Reserve Morpho Cottage",
+    "description": "Reconnect with the rhythm of nature. Our team is ready to help you plan your stay.",
+    "checkInLabel": "Check In",
+    "checkInPlaceholder": "Select Date",
+    "guestsLabel": "Guests",
+    "guestOptions": ["1 Guest", "2 Guests"],
+    "cta": "Check Availability",
+    "priceNote": "$110 / night"
+  }
+}

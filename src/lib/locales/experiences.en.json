@@ -1,0 +1,110 @@
+{
+	"hero": {
+		"kicker": "The wild pulse of Costa Rica",
+		"titleLine1": "Curated",
+		"titleLine2": "Journeys",
+		"lead": "Discover the soul of the rainforest through bespoke expeditions designed for the modern explorer.",
+		"gallery": {
+			"main": {
+				"src": "/experiences/Volcan_Poas.jpg",
+				"alt": "Poas Volcano active crater with turquoise acid lake and rising steam"
+			},
+			"inset1": {
+				"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG-0lZPlNguJuGuDLn3aCicPMOf3QZJQTSAujIbI662eGTbR4ozwj0TlERZKq1XpNlf6_bpM0AJZ5V0i8WIKxVV4yn0y4swqHgFewzX-ADrBG5cWB9L5xgzILQJN3KyUHuNGm2SSV0PG5AqLBX4FMAMfxtcPOoXbLDJqsjHMy_buMoessqU2_0bh4RGHnhgLHYbiG1GfLVdc2uBOvxp9WmJ-JbozWLeEjm38E0D5nvw6tdEskKS1djYqBWcan-RrA7mx_Kh8b5Kw",
+				"alt": "Vibrant Scarlet Macaws perched in the Costa Rican canopy"
+			},
+			"inset2": {
+				"src": "/experiences/La_Paz_Waterfall_Gardens.webp",
+				"alt": "Lush tropical waterfall surrounded by cloud forest at La Paz Waterfall Gardens"
+			}
+		}
+	},
+	"volcanic": {
+		"title": "The Volcanic Heart",
+		"primary": {
+			"title": "Poas Volcano & La Paz Waterfall Gardens",
+			"description": "Wander through mystical cloud forests to reach active craters, followed by an immersive walk through spectacular cascading waterfalls.",
+			"images": [
+				{
+					"src": "/experiences/Volcan_Poas.jpg",
+					"alt": "Poas Volcano active crater with turquoise acid lake and rising steam"
+				},
+				{
+					"src": "/experiences/La_Paz_Waterfall_Gardens.webp",
+					"alt": "Cascading waterfalls surrounded by lush cloud forest at La Paz Waterfall Gardens"
+				}
+			],
+			"cta": "Explore More"
+		},
+		"secondary": {
+			"title": "Poas Volcano & Doka Estate",
+			"description": "Discover the rich volcanic soil's influence on coffee production, from bean to cup, complemented by vibrant butterfly gardens.",
+			"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXgN6ZVZAlju2ZHRSnLyDOoJ5wPaGeuO2Jm28GYwpDH29KOMlDb7n2_s5JmPzGortbkvcIlctMF95jupFYcm76iRZZ_iNSWPPqgRKdz1l38IuQo-oTgpp7ysXtj2Esm4wqRwUfO58FLUXvKHCHXJgeYWoh_RzRt-Nzs6vB48EWJc2loqZNbyXWckZVYn6a9l9M-4YbOzEWZ7keXIsUzKeyJNfBWiuLdwcCtLeBPB4SrxeiM1_PaDNgOYfxZY6GC1HDooIveL_Haw",
+			"imageAlt": "Coffee beans drying on a sun-drenched wooden platform at a Costa Rican estate",
+			"cta": "Book Experience"
+		},
+		"cards": [
+			{
+				"variant": "text",
+				"kicker": "Cultural Heritage",
+				"title": "Tour Poas, Grecia & Sarchi",
+				"description": "Visit the iconic metal church of Grecia and witness the artistry of vibrant, hand-painted oxcarts in Sarchi, the heart of Costa Rican craftsmanship.",
+				"cta": "Read Narrative"
+			},
+			{
+				"variant": "image",
+				"title": "Arenal Volcano & Hot Springs",
+				"description": "A journey to the northern lowlands for foothills hiking and thermal relaxation.",
+				"image": "/experiences/hot_springs.webp",
+				"imageAlt": "Arenal Volcano behind tropical palms with steam rising from natural hot springs",
+				"cta": "Reserve Now"
+			}
+		]
+	},
+	"wildlife": {
+		"title": "Wildlife & Water",
+		"lead": "From the vibrant plumage of the Scarlet Macaw to the ancient giants of the Tárcoles River, experience the primal beauty of Costa Rica's coast and waterways.",
+		"items": [
+			{
+				"title": "Carara National Park & Crocodile Safari",
+				"description": "A biological crossroads where primary and secondary forests meet the massive river crocodiles."
+			},
+			{
+				"title": "Tortuga Island by Calypso Cruises",
+				"description": "White sands, turquoise waters, and a catamaran feast within the Gulf of Nicoya."
+			}
+		],
+		"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG-0lZPlNguJuGuDLn3aCicPMOf3QZJQTSAujIbI662eGTbR4ozwj0TlERZKq1XpNlf6_bpM0AJZ5V0i8WIKxVV4yn0y4swqHgFewzX-ADrBG5cWB9L5xgzILQJN3KyUHuNGm2SSV0PG5AqLBX4FMAMfxtcPOoXbLDJqsjHMy_buMoessqU2_0bh4RGHnhgLHYbiG1GfLVdc2uBOvxp9WmJ-JbozWLeEjm38E0D5nvw6tdEskKS1djYqBWcan-RrA7mx_Kh8b5Kw",
+		"imageAlt": "Scarlet Macaws perched on a tropical branch in Carara National Park",
+		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtA5evmF7S6XJTZ2hPasoGiUBy1fUw9PN_uS2biC2n5c-KJmUisyxt2IgzlGmjIhBhXB0tA-g1Lj64VmXVNMef0_0m2ZGwv_TnlHhl4ScEINFacn9WaHyjkz7JUIZZgLAyMY_vmHuLsMjhJFTbkQXAOKpyihxXtpuxBwIY6ZJhSW2pHuePpFZAqymF9dy08Orxhhgb4BVyZ3sgjQRVzhVJBfnhPzCwcJvnCHTe6GE8GO50Gu_sCdCBRaeVUAUPFzMjU-ntLKGEWA",
+		"insetImageAlt": "Catamaran sailing through turquoise waters toward Tortuga Island"
+	},
+	"canopy": {
+		"title": "High Canopy & Adventure",
+		"kicker": "Seek the Skyline",
+		"items": [
+			{
+				"title": "San Luis Canopy Tour",
+				"description": "Cloud forest zip-lining and the unique 'Elevator' lift experience.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDzNB9ivx4hjPtWwMKDuzCgKHjXRGyj2K3897dpnTKCeI_o8QwnCSW9IZSmciCCI5UNLIs5YryMrnjy2jKfIdbi4DgCZnxu1WSZDhX_onShUun_Lx17_2OoEkSoDdiJz1nx7N28_KPV5gZQstl11mZAo74Z0uHQNm5HHoueY00QpbbFf0HF2vFdORzCQY3lB4_wqPw8exPz51u-4AEcpLZm5ig1r_NO4zRYHnRaqvkbqpEXFoQHTThTxGhZdr5SoTa4Vb8jMT-1Ow",
+				"imageAlt": "Zip-line view above a mist-shrouded Costa Rican cloud forest canopy",
+				"icon": "bolt"
+			},
+			{
+				"title": "Adventure Combo (3 in 1)",
+				"description": "Horseback riding, canopy zip-lines, and Sarapiquí river rafting.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBjmzdPbZOTKM87yQA4CvCjeYBZerSu-icOrpJ9_LIvzPgda235RPkmeqJ8ySg7krouUdtk_ibQTb_7eWzy_ttYAEph1JK1ETlI4um3vmULi-bZNs7UcXZTFd0wvjDNnS5oMSqw8aq1CG-FmFD-BCg6T7YZrhoXrWYzxlbqfVE37fi0xKfml3nIUvFGRuu9F_sXcji8KiS_dId6FgzIdJnD7dw0rpaLx4mvlsgjpP3gcDA6I_mXSl-KUsjyIMFMaVVo4JqH4VhWWA",
+				"imageAlt": "White-water rafting group navigating rapids on the Sarapiquí River",
+				"icon": "landscape"
+			}
+		]
+	},
+	"evening": {
+		"kicker": "Evening Ritual",
+		"title": "Chocolate Tour & Night Walk at La Tirimbina",
+		"description": "As the sun dips below the horizon, the rainforest transforms. Unveil the ancient secrets of cacao before venturing into the darkness to discover the creatures that come alive only after twilight.",
+		"cta": "Book Private Experience",
+		"image": "/experiences/caption.jpg",
+		"imageAlt": "A silver bowl filled with roasted cacao beans against a lush green tropical backdrop"
+	}
+}

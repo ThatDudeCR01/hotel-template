@@ -1,0 +1,27 @@
+{
+	"slug": "mariposa-cottage",
+	"price": "$71",
+	"hero": {
+		"image": "/rooms/colibri-camas.jpg",
+		"imageAlt": "Cabaña Mariposa con camas individuales en Mango Valley",
+		"kicker": "Mango Valley · Cabaña",
+		"title": "Cabaña Mariposa"
+	},
+	"description": "Elegante y espaciosa, esta cabaña tiene dos camas individuales y baño privado con ducha.",
+	"features": [
+		{ "icon": "bed", "text": "Dos camas individuales" },
+		{ "icon": "shower", "text": "Baño privado con ducha" }
+	],
+	"booking": {
+		"bgImage": "/view-luxurious-villa-parallax.jpg",
+		"kicker": "Reserva",
+		"title": "Reserva la Cabaña Mariposa",
+		"description": "Reconecta con el ritmo de la naturaleza. Nuestro equipo está listo para ayudarte a planear tu estadía.",
+		"checkInLabel": "Entrada",
+		"checkInPlaceholder": "Elegir fecha",
+		"guestsLabel": "Huéspedes",
+		"guestOptions": ["1 huésped", "2 huéspedes"],
+		"cta": "Ver disponibilidad",
+		"priceNote": "$71 / noche"
+	}
+}

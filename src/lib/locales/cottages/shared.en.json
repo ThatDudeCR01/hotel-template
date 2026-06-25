@@ -1,0 +1,19 @@
+{
+	"amenitiesTitle": "Included in every cottage",
+	"amenities": [
+		{ "icon": "shower", "text": "Private bathroom with shower" },
+		{ "icon": "kitchen", "text": "Kitchenette with fridge" },
+		{ "icon": "local_fire_department", "text": "One-ring gas burner" },
+		{ "icon": "coffee", "text": "Coffee maker" },
+		{ "icon": "microwave", "text": "Microwave" },
+		{ "icon": "dinner_dining", "text": "Plates and cups" },
+		{ "icon": "restaurant", "text": "Silverware and pans" },
+		{ "icon": "wifi", "text": "High-speed WiFi internet" },
+		{ "icon": "tv", "text": "TV with SKY cable (178 channels)" },
+		{ "icon": "dry", "text": "Complimentary hairdryer upon request" }
+	],
+	"roomFeaturesTitle": "This cottage",
+	"perNight": "Per night",
+	"ratesTitle": "Rates & occupancy",
+	"ratesPolicy": "Our rates are in US Dollars and are per room, per night, single or double occupancy. Each extra person is $18 per person/per night. Rates include full breakfast. The rates do not include sales tax (13%)."
+}

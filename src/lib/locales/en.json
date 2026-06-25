@@ -1,6 +1,6 @@
 {
 	"meta": {
-		"siteName": "The Sanctuary"
+		"siteName": "Mango Valley"
 	},
 	"suites": {
 		"canopy-suite": {
@@ -72,7 +72,7 @@
 			"booking": {
 				"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
 				"kicker": "Reservation",
-				"title": "Reserve This Sanctuary",
+				"title": "Reserve at Mango Valley",
 				"description": "Reconnect with the rhythm of nature. Our concierge is ready to tailor your journey from the moment of inquiry.",
 				"checkInLabel": "Check In",
 				"checkInPlaceholder": "Select Date",

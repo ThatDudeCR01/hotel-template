@@ -6,7 +6,7 @@ export default defineConfig({
 	plugins: [tailwindcss(), sveltekit()],
 	server: {
 		port: 5173,
-		strictPort: true,
+		strictPort: false,
 		// Dev + túneles (ngrok): el Host no es localhost
 		allowedHosts: true
 	}

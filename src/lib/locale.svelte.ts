@@ -1,7 +1,7 @@
 import { browser } from '$app/environment';
 import type { Locale } from '$lib/i18n';
 
-const STORAGE_KEY = 'sanctuary-locale';
+const STORAGE_KEY = 'mango-valley-locale';
 
 function readStoredLocale(): Locale {
 	if (!browser) return 'en';

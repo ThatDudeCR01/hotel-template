@@ -38,7 +38,7 @@
         <li>
           <a
             class="flex gap-2 text-xs text-stone-500 transition-colors hover:text-emerald-800 dark:text-stone-400 dark:hover:text-white"
-            href="tel:+50626550000"
+            href="tel:+50686562467"
           >
             <span
               class="material-symbols-outlined shrink-0 text-[15px] leading-none"
@@ -123,7 +123,7 @@
         </a>
         <a
           class="flex items-center gap-2.5 text-sm text-stone-500 transition-colors duration-300 hover:text-emerald-800 dark:text-stone-400 dark:hover:text-white"
-          href="https://wa.me/50626550000"
+          href="https://wa.me/50686562467"
           target="_blank"
           rel="noopener noreferrer"
         >

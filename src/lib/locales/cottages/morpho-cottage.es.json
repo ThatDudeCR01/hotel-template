@@ -1,0 +1,30 @@
+{
+  "slug": "morpho-cottage",
+  "price": "$110",
+  "hero": {
+    "image": "/rooms/morpho_cama.jpg",
+    "imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley",
+    "kicker": "Mango Valley · Cabaña",
+    "title": "Cabaña Morpho",
+    "badge": "Con jacuzzi · La más popular"
+  },
+  "description": "Nuestra cabaña más popular: cama queen con colchón ortopédico, TV SKY, WiFi en la habitación, jacuzzi y ducha privados, y terraza con vistas al volcán y las plantaciones de café.",
+  "features": [
+    { "icon": "hot_tub", "text": "Jacuzzi y ducha privados" },
+    { "icon": "bed", "text": "Cama queen artesanal con colchón ortopédico" },
+    { "icon": "tv", "text": "TV SKY y WiFi en la habitación" },
+    { "icon": "landscape", "text": "Vistas al volcán y plantaciones de café" }
+  ],
+  "booking": {
+    "bgImage": "/view-luxurious-villa-parallax.jpg",
+    "kicker": "Reserva",
+    "title": "Reserva la Cabaña Morpho",
+    "description": "Reconecta con el ritmo de la naturaleza. Nuestro equipo está listo para ayudarte a planear tu estadía.",
+    "checkInLabel": "Entrada",
+    "checkInPlaceholder": "Elegir fecha",
+    "guestsLabel": "Huéspedes",
+    "guestOptions": ["1 huésped", "2 huéspedes"],
+    "cta": "Ver disponibilidad",
+    "priceNote": "$110 / noche"
+  }
+}

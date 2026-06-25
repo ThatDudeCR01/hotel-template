@@ -1,92 +1,93 @@
 {
 	"hero": {
 		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
-		"kicker": "The Sanctuary · Guanacaste",
-		"title": "The Art of Stillness",
-		"lead": "Scroll with us—from our roots in the rainforest to the suite that will hold you, the experiences that will move you, and the quiet that waits at the end."
+		"kicker": "Mango Valley · Grecia, Costa Rica",
+		"title": "In the hills above Grecia",
+		"lead": "Tropical gardens, mountain views, and fresh air—a peaceful retreat from everyday life.",
+		"scrollCta": "Scroll with us—from our story in the hills to the suites, experiences, and stillness that await.",
+		"scrollAria": "Scroll to our story"
 	},
 	"story": {
 		"kicker": "Our story",
-		"title": "A family refuge, grown slowly beneath the canopy",
+		"title": "A place to [[reconnect with what truly matters]]",
 		"paragraphs": [
-			"The Sanctuary began as a single lodge and a promise: to let the land lead. Over a decade, what started as a handful of timber-and-glass rooms evolved into a small constellation of pavilions—each one placed so the forest stays in view, and the outside never feels far away.",
-			"We work with local makers, seasonal ingredients, and the rhythm of the dry and green seasons. Nothing is rushed. The story we tell guests is the same one we live: respect the place, leave it quieter than you found it, and carry a little stillness home."
+			"Mango Valley was born from a simple realization: many people spend their lives [[taking care of everyone else]] while quietly [[neglecting their well-being]].",
+			"After decades working in healthcare, emergency services, wellness education, and personal development, we witnessed firsthand how [[stress, burnout, grief, and constant responsibility]] erode [[clarity]], [[balance]], and [[resilience]].",
+			"We envisioned a place where people could [[step away from the noise of daily life]], [[renew]] their spirit, [[restore]] their energy, and [[reconnect with what truly matters]].",
+			"When we discovered Mango Valley, we saw more than a beautiful property. We saw the opportunity to create a [[sanctuary]] where [[hospitality, nature, wellness, and meaningful human connection]] could come together.",
+			"Today, Mango Valley serves as a gathering place to [[reflect]], [[grow]], and nurture lasting [[well-being]]—through rest, adventure, healing, and personal transformation."
 		]
 	},
 	"suitesBanner": {
-		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
-		"kicker": "Sleep among the trees",
-		"title": "Suites & villas",
-		"description": "Each room is a private perch—screens instead of walls where we could manage it, and bedding you sink into after a day in the heat and humming air."
+		"kicker": "Stay in the hills",
+		"title": "Suites & cottages",
+		"description": "Four private cottages surrounded by tropical gardens, mountain views, and the quiet rhythm of Mango Valley."
 	},
 	"suitesCards": [
 		{
-			"href": "/suites/canopy-suite",
-			"title": "Canopy Suite",
-			"description": "Perched above the forest floor—reclaimed teak and glass toward the emerald canopy.",
-			"price": "Starting from $1,250 / night",
-			"imageAlt": "Modern suite with wood balconies on a misty tropical mountainside, dense green forest and soft overcast light",
-			"image": "/canopy-suite-04.jpg"
+			"href": "/suites/mariposa-cottage",
+			"title": "Mariposa Cottage",
+			"description": "Elegant and spacious, with two twin beds and en-suite bathroom with shower.",
+			"price": "$71 / night",
+			"imageAlt": "Mariposa Cottage twin beds at Mango Valley",
+			"image": "/rooms/colibri-camas.jpg"
 		},
 		{
-			"href": "/suites/garden-villa",
-			"title": "Garden Villa",
-			"description": "A private botanical path, glass walls, and rhythms grounded in earth and jungle.",
-			"price": "Starting from $1,250 / night",
-			"imageAlt": "Exterior view of a two-story tropical garden villa with lush greenery, a private balcony, and a furnished lower patio",
-			"image": "/villa-garden.jpg"
+			"href": "/suites/colibri-cottage",
+			"title": "Colibri Cottage",
+			"description": "Hand-made queen bed with orthopedic mattress, roomy closet, and en-suite bathroom with shower.",
+			"price": "$71 / night",
+			"imageAlt": "Colibri Cottage queen bed at Mango Valley",
+			"image": "/rooms/colibri-cama.jpg"
 		},
 		{
-			"href": "/suites/treehouse-retreat",
-			"title": "Treehouse Retreat",
-			"description": "A multi-level sanctuary among the leaves, suspended above the forest floor.",
-			"price": "Starting from $1,250 / night",
-			"imageAlt": "Elevated wooden treehouse on stilts with balcony and doorway, framed by large tropical leaves and dense forest",
-			"image": "/tree-house-03.jpg"
+			"href": "/suites/poas-cottage",
+			"title": "Poas Cottage",
+			"description": "Two rooms and a terrace with hummingbird-filled greenery, queen bed, and sweeping Poás views.",
+			"price": "$84 / night",
+			"imageAlt": "Poas Cottage bedroom at Mango Valley",
+			"image": "/rooms/poas-habitacion.jpg"
+		},
+		{
+			"href": "/suites/morpho-cottage",
+			"title": "Morpho Cottage",
+			"badge": "With jacuzzi",
+			"description": "Our most popular cottage—with jacuzzi, SKY TV, WiFi, and terrace views of the volcano and coffee plantations.",
+			"price": "$110 / night",
+			"imageAlt": "Morpho Cottage bed and jacuzzi suite at Mango Valley",
+			"image": "/rooms/morpho_cama.jpg"
 		}
 	],
 	"bridge": {
 		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",
 		"quote": "Between your room and the trailhead, the forest teaches its own pace—listen before you plan the day."
 	},
-	"yoga": {
-		"watermark": "Breath",
-		"mainImageAlt": "Yoga class in an open-air wooden pavilion with ocean cove and jungle hills in the background",
-		"mainImage": "/yoga-class-image.png",
-		"insetImageAlt": "Hands in mudra during meditation",
-		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjoBnWuTTtRwl14WqT3245I4ulq1Gg9sTlr5FnKm1nS3ZeoXxI7Ferw_XR8YHQhxWuwjqPUeCjsS3W73NBefFZhde76TC6BJRyhhABItAZzjiRmtP21smx4dGltSCgBNCmoXXceyoMpWFY3lDznfiCIZ-F1cI9rMBk1KNjjLOmJ8GBctpRxE7N0cpUKYLNvzj8kfpOQlPupfoYYx4foHyn8Jcpg8bVCbQu-xzDag5iEgVsUHplEiJ1FpWwj1KTBnTwhRn_PSyaxw",
-		"kicker": "Soul movement",
-		"title": "Rainforest Yoga",
-		"description": "Open-air shala at sunrise over the Guanacaste hills—Vinyasa and Hatha with the jungle as your soundtrack.",
-		"schedule": [
-			{ "label": "Sunrise Flow", "detail": "Daily at 6:30 AM" },
-			{ "label": "Private Sessions", "detail": "By appointment" }
-		]
-	},
-	"healing": {
-		"kicker": "The collection",
-		"title": "Healing rituals",
-		"viewDetails": "View Details",
+	"idealGuest": {
+		"kicker": "Life at Mango Valley",
+		"title": "When the pace finally slows down",
+		"lead": "For those who have spent years holding everything together—for family, patients, teams, or communities—Mango Valley is a place to exhale without guilt.",
 		"items": [
 			{
-				"title": "Volcanic Earth Cleanse",
-				"description": "Mineral-rich ash from Arenal, crafted to clarify skin and ground the body after travel.",
-				"imageAlt": "Ceramic bowl with river stones and jasmine petals",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsig1F1UaPk0rVxw3pNWKEFLHU4hIJgEyKCUW08x6vfJGg0H3H3rNxG8ejA8SR-2Fa90Yc_DlT3ORyyEf-GNWJ4ZagjOlaIKe1oYIS21TPCjbQYIeM-MU_OyFYhZ1QY0gexptVyCdnf1BYUX1bpckC9HYUJeWc87GnG-yDts6anD8xPg_Nbvx0iqoWOazWueXDr-FnROsCGXgbKx0sdBFO1Oj-N8SEhIRGwzxWMeQflyAXKOZUYmo5mOY-7FUxXncCw1WI7r1nAQ"
+				"title": "Mornings with nowhere to be",
+				"description": "You wake to birdsong instead of notifications. Breakfast is unhurried. The day opens slowly, on mountain time—not yours to manage for once.",
+				"imageAlt": "Peaceful retreat in the hills above Grecia with tropical gardens",
+				"image": "/Hero-photo.jpg"
 			},
 			{
-				"title": "Ancient Sound Bath",
-				"description": "Crystal bowls and percussion to settle the nervous system into deep rest.",
-				"imageAlt": "Incense and bamboo with soft morning light",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkfJByEyCElpGCBf-9QWWpDxqWtbgIp-zEHyHoOI3AXLh62NA3dPhB408Ww79M8qyU6oeEj7SvFSVE2kr4czttJuQznZm0yo_9JwlEXbjWNCHt0UyoLRsIYr893wROis1rWVnImz1Uut-W0fl1YJAyprsXY2ZsWE1anF4aTJG_vQm9FgUUExOrTpoREKcm9HM5jpJJDeeudugm3mwJ-MZEoODk9F925Aou0MK6YHuEkNrQyUbwrcjII_o_XWHWRhgEGe77XnEyMg"
+				"title": "Room to remember who you are",
+				"description": "Between garden paths and quiet cottages, something loosens. Not a program to complete—a landscape gentle enough to let you rest, reset, and reconnect with parts of yourself you set aside.",
+				"imageAlt": "Open-air yoga pavilion surrounded by lush tropical hills",
+				"image": "/yoga-class-image.png"
 			},
 			{
-				"title": "Inner Garden Tea Ceremony",
-				"description": "Slow, guided tasting of herbs grown steps from the kitchen—balance for body and breath.",
-				"imageAlt": "Herbal tea poured into a rustic cup",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBznJK74Cmgc5wLC6U8hUTkFPLMX52u__lt7svo1VWUvjka3yBDXzrPCMF_WbdZZ-jFdv12Dt6kojRxnnsmqdb7vqNrZxKU4d2DLYiXbWhFQoMN8KlyyYGIsMoJlUtlRmXz0ghq7y9HibRgvjqOg8ZGyVGzCsGVlDjZD7qRh0Uoo_O5DVH9WjZp-4klg31PDGGq9_7n3GBxT41Tw5WPH0q_RNCYTIJERNxsWmvBd76leQtmp1nsXFzvAbXOsthrG25kwJYLd7f7Uw"
+				"title": "Depth over display",
+				"description": "What stays with you isn't marble or ceremony. It's the warmth of real conversation, the smell of rain on coffee plants, and the feeling that this trip was finally—for you.",
+				"imageAlt": "Private cottage nestled in the Costa Rican hills above Grecia",
+				"image": "/view-luxurious-villa-parallax.jpg"
 			}
-		]
+		],
+		"cta": "Tell us about your visit",
+		"ctaHref": "/#stillness"
 	},
 	"stillness": {
 		"imageAlt": "Luxurious tropical villa with pool nestled in dense jungle canopy",

@@ -24,7 +24,10 @@
 				class="font-label mb-6 text-sm uppercase tracking-[0.5em] text-secondary-container"
 				>{booking.kicker}</span
 			>
-			<h2 class="font-headline mb-10 text-5xl text-on-primary md:text-7xl">{booking.title}</h2>
+			<h2 class="font-headline mb-6 text-5xl text-on-primary md:text-7xl">{booking.title}</h2>
+			<p class="font-headline mb-10 text-2xl text-secondary-fixed italic md:text-3xl">
+				{booking.priceNote}
+			</p>
 			<p class="font-body mb-12 max-w-2xl text-xl leading-relaxed font-light text-primary-fixed">
 				{booking.description}
 			</p>
@@ -69,7 +72,6 @@
 					{booking.cta}
 				</button>
 			</form>
-			<p class="font-headline text-sm italic text-on-primary-container">{booking.priceNote}</p>
 		</div>
 	</div>
 </section>

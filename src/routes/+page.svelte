@@ -1,6 +1,9 @@
 <script lang="ts">
+  import { afterNavigate } from "$app/navigation";
   import { onMount } from "svelte";
   import { healingRitualScroll } from "$lib/healingRitualScroll";
+  import { parseHighlightedText } from "$lib/highlightText";
+  import CottageBentoGrid from "$lib/components/CottageBentoGrid.svelte";
   import { locale } from "$lib/locale.svelte";
   import homeEn from "$lib/locales/home.en.json";
   import homeEs from "$lib/locales/home.es.json";
@@ -9,6 +12,36 @@
   const villaParallax = "/view-luxurious-villa-parallax.jpg";
 
   const t = $derived(locale.current === "es" ? homeEs : homeEn);
+
+  function replayHeroAnimations() {
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      return;
+    }
+
+    for (const className of ["hero-enter", "hero-scroll-enter"] as const) {
+      document.querySelectorAll<HTMLElement>(`.${className}`).forEach((el) => {
+        el.classList.remove(className);
+        void el.offsetWidth;
+        el.classList.add(className);
+      });
+    }
+  }
+
+  afterNavigate(({ to, from }) => {
+    if (!to || to.url.pathname !== "/") return;
+    if (to.url.hash !== "" && to.url.hash !== "#top") return;
+    if (!from) return;
+
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+      if (from.url.pathname === "/") {
+        replayHeroAnimations();
+      }
+    });
+  });
 
   onMount(() => {
     const prefersReduced =
@@ -21,13 +54,22 @@
       document.querySelectorAll<HTMLElement>("[data-parallax]");
 
     let rafId = 0;
+    let parallaxReady = false;
 
     const tick = () => {
+      if (!parallaxReady) return;
+
       const vh = window.innerHeight;
+      const atTop = window.scrollY < 8;
 
       layers().forEach((el) => {
         const container = el.closest(".parallax-container");
         if (!container) return;
+
+        if (atTop && container.id === "top") {
+          el.style.transform = "";
+          return;
+        }
 
         const rect = container.getBoundingClientRect();
         const margin = 120;
@@ -53,10 +95,15 @@
     };
 
     tick();
+    const parallaxTimer = window.setTimeout(() => {
+      parallaxReady = true;
+      tick();
+    }, 1100);
     window.addEventListener("scroll", schedule, { passive: true });
     window.addEventListener("resize", schedule, { passive: true });
 
     return () => {
+      window.clearTimeout(parallaxTimer);
       window.removeEventListener("scroll", schedule);
       window.removeEventListener("resize", schedule);
       cancelAnimationFrame(rafId);
@@ -70,7 +117,7 @@
 <!-- 1 · Hero — welcome -->
 <section
   id="top"
-  class="parallax-container relative flex min-h-[85vh] w-full items-center justify-center overflow-hidden md:h-[961px]"
+  class="parallax-container relative flex min-h-[calc(100vh-4rem)] w-full items-center justify-center overflow-hidden"
 >
   <div class="parallax-bg absolute inset-0 z-0" data-parallax="0.52">
     <img
@@ -80,7 +127,7 @@
     />
     <div class="absolute inset-0 bg-primary/55"></div>
   </div>
-  <div class="relative z-10 max-w-4xl px-6 text-center" data-parallax="0.1">
+  <div class="hero-enter relative z-10 max-w-4xl px-6 text-center">
     <span
       class="label-md text-surface-container-lowest mb-6 block uppercase tracking-[0.3em]"
       >{t.hero.kicker}</span
@@ -91,11 +138,26 @@
       {t.hero.title}
     </h1>
     <p
-      class="mx-auto max-w-2xl text-light text-lg leading-relaxed text-white md:text-xl"
+      class="mx-auto max-w-2xl text-lg leading-relaxed font-light text-white md:text-xl"
     >
       {t.hero.lead}
     </p>
+    <p
+      class="mx-auto mt-8 max-w-2xl text-xs font-semibold tracking-[0.22em] text-secondary-fixed uppercase md:text-sm"
+    >
+      {t.hero.scrollCta}
+    </p>
   </div>
+  <a
+    class="hero-scroll-enter absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 flex-col items-center gap-2 text-surface-container-lowest/80 transition-colors hover:text-secondary-fixed"
+    href="#story"
+    aria-label={t.hero.scrollAria}
+  >
+    <span
+      class="material-symbols-outlined animate-bounce text-3xl"
+      aria-hidden="true">keyboard_arrow_down</span
+    >
+  </a>
 </section>
 
 <!-- 2 · Hotel story — mismo tono que el hero, sin repetir la misma foto (evita “doble imagen”) -->
@@ -106,7 +168,7 @@
   <div
     class="pointer-events-none absolute inset-0 z-0 bg-linear-to-b from-primary via-primary/15 to-[#23529]/95 opacity-95"
   ></div>
-  <div class="relative z-10 mx-auto w-full max-w-3xl px-6 md:px-8">
+  <div class="relative z-10 mx-auto w-full max-w-5xl px-6 md:max-w-6xl md:px-12">
     <span
       class="label-md mb-6 block text-surface-container-lowest uppercase tracking-[0.25em]"
       >{t.story.kicker}</span
@@ -114,84 +176,53 @@
     <h2
       class="font-serif mb-8 text-4xl leading-tight text-surface-container-lowest md:text-5xl"
     >
-      {t.story.title}
+      {#each parseHighlightedText(t.story.title) as part}
+        {#if part.highlight}
+          <span class="text-secondary-fixed">{part.text}</span>
+        {:else}
+          {part.text}
+        {/if}
+      {/each}
     </h2>
     <div
       class="space-y-6 text-lg leading-relaxed font-light text-surface-variant"
     >
       {#each t.story.paragraphs as p}
-        <p>{p}</p>
+        <p>
+          {#each parseHighlightedText(p) as part}
+            {#if part.highlight}
+              <span class="font-medium text-secondary-fixed">{part.text}</span>
+            {:else}
+              {part.text}
+            {/if}
+          {/each}
+        </p>
       {/each}
     </div>
   </div>
 </section>
 
-<!-- 3 · Suites — parallax banner + cards -->
+<!-- 3 · Suites — intro + bento grid -->
 <section id="suites" class="bg-surface-container-low py-24 md:py-32">
-  <div class="mx-auto mb-16 max-w-7xl px-6">
-    <div
-      class="parallax-container relative mb-16 h-[min(420px,70vh)] overflow-hidden rounded-2xl shadow-[0_32px_64px_-12px_rgba(24,35,26,0.08)] md:h-[660px]"
-    >
-      <div class="parallax-bg absolute inset-0 z-0" data-parallax="0.30">
-        <img
-          class="h-full w-full object-cover object-[center_45%]"
-          alt={t.suitesBanner.imageAlt}
-          src={villaParallax}
-        />
-        <div
-          class="absolute inset-0 bg-linear-to-t from-primary/90 via-primary/35 to-transparent"
-        ></div>
-      </div>
-      <div
-        class="relative z-10 flex h-full flex-col justify-end p-8 md:p-12"
-        data-parallax="0.07"
+  <div class="mx-auto max-w-7xl px-6">
+    <header class="mb-12 text-center md:mb-16">
+      <span
+        class="label-md mb-4 block uppercase tracking-[0.25em] text-secondary"
+        >{t.suitesBanner.kicker}</span
       >
-        <span
-          class="mb-3 text-[10px] font-bold tracking-[0.25em] text-secondary uppercase"
-          >{t.suitesBanner.kicker}</span
-        >
-        <h2
-          class="font-serif text-4xl text-surface-container-lowest md:text-6xl"
-        >
-          {t.suitesBanner.title}
-        </h2>
-        <p class="mt-4 max-w-xl text-surface-variant">
-          {t.suitesBanner.description}
-        </p>
-      </div>
-    </div>
+      <h2
+        class="font-serif mx-auto max-w-3xl text-4xl leading-tight text-primary md:text-5xl lg:text-6xl"
+      >
+        {t.suitesBanner.title}
+      </h2>
+      <p
+        class="mx-auto mt-5 max-w-2xl text-lg leading-relaxed font-light text-on-surface-variant"
+      >
+        {t.suitesBanner.description}
+      </p>
+    </header>
 
-    <div class="grid gap-8 md:grid-cols-3">
-      {#each t.suitesCards as card}
-        <a
-          href={card.href}
-          class="flex flex-col overflow-hidden rounded-xl bg-surface-container-lowest shadow-sm transition hover:shadow-[0_32px_64px_-12px_rgba(24,35,26,0.08)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
-        >
-          <article class="flex flex-1 flex-col">
-            <div class="aspect-4/3 overflow-hidden">
-              <img
-                class="h-full w-full object-cover"
-                alt={card.imageAlt}
-                src={card.image}
-              />
-            </div>
-            <div class="flex flex-1 flex-col p-8">
-              <h3 class="font-serif text-2xl text-primary">{card.title}</h3>
-              <p
-                class="mt-3 flex-1 text-sm leading-relaxed font-light text-on-surface-variant"
-              >
-                {card.description}
-              </p>
-              <p
-                class="mt-6 text-[10px] font-bold tracking-widest text-secondary uppercase"
-              >
-                {card.price}
-              </p>
-            </div>
-          </article>
-        </a>
-      {/each}
-    </div>
+    <CottageBentoGrid cards={t.suitesCards} />
   </div>
 </section>
 
@@ -217,82 +248,27 @@
 
 <!-- 4 · Experiences & activities -->
 <section id="experiences" class="bg-transparent">
-  <!-- Rainforest Yoga -->
-  <div class="overflow-hidden bg-surface-container-low py-24">
-    <div class="relative mx-auto max-w-7xl px-6">
-      <div
-        class="pointer-events-none absolute top-0 right-10 translate-x-1/2 -translate-y-1/4 transform opacity-10"
-      >
-        <span
-          class="font-serif text-[10rem] leading-none text-primary uppercase select-none"
-          >{t.yoga.watermark}</span
-        >
-      </div>
-      <div class="relative z-10 flex flex-col items-center gap-16 md:flex-row">
-        <div class="order-2 w-full md:order-1 md:w-1/2">
-          <div class="relative">
-            <img
-              class="aspect-3/4 w-full rounded-xl object-cover shadow-2xl"
-              alt={t.yoga.mainImageAlt}
-              src={t.yoga.mainImage}
-            />
-            <div
-              class="absolute -top-12 -right-12 hidden h-64 w-64 overflow-hidden rounded-xl border-12 border-surface shadow-xl md:block"
-            >
-              <img
-                class="h-full w-full object-cover"
-                alt={t.yoga.insetImageAlt}
-                src={t.yoga.insetImage}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="order-1 space-y-8 md:order-2 md:w-1/2">
-          <span
-            class="text-[10px] font-bold tracking-[0.2em] text-secondary uppercase"
-            >{t.yoga.kicker}</span
-          >
-          <h3
-            class="font-serif text-4xl leading-tight text-primary md:text-6xl"
-          >
-            {t.yoga.title}
-          </h3>
-          <p class="text-lg leading-relaxed font-light text-on-surface-variant">
-            {t.yoga.description}
-          </p>
-          <div
-            class="grid grid-cols-2 gap-8 border-t border-outline-variant/20 pt-8"
-          >
-            {#each t.yoga.schedule as row}
-              <div>
-                <p
-                  class="mb-2 text-sm font-bold tracking-widest text-primary uppercase"
-                >
-                  {row.label}
-                </p>
-                <p class="text-xs text-on-surface-variant">{row.detail}</p>
-              </div>
-            {/each}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Healing rituals -->
-  <div class="mx-auto max-w-4xl space-y-24 px-6 pt-24 pb-24">
+  <!-- Ideal guest -->
+  <div class="mx-auto max-w-4xl space-y-24 px-6 py-24">
     <div class="text-center">
       <span
         class="mb-4 block text-xs font-bold tracking-[0.3em] text-secondary uppercase"
-        >{t.healing.kicker}</span
+        >{t.idealGuest.kicker}</span
       >
       <h3 class="font-serif text-3xl text-primary md:text-4xl">
-        {t.healing.title}
+        {t.idealGuest.title}
       </h3>
+      {#if t.idealGuest.lead}
+        <p
+          class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed font-light text-on-surface-variant"
+        >
+          {t.idealGuest.lead}
+        </p>
+      {/if}
       <div class="mx-auto mt-8 h-px w-24 bg-secondary/30"></div>
     </div>
 
-    {#each t.healing.items as item, i}
+    {#each t.idealGuest.items as item, i}
       <article
         class="healing-ritual healing-ritual--scroll flex flex-col items-center gap-12 overflow-x-clip {i ===
         1
@@ -320,16 +296,23 @@
           <h4 class="font-serif mb-4 text-3xl text-primary">
             {item.title}
           </h4>
-          <p class="mb-6 leading-relaxed font-light text-on-surface-variant">
+          <p class="leading-relaxed font-light text-on-surface-variant">
             {item.description}
           </p>
-          <button
-            class="border-b border-transparent pb-1 text-xs font-bold tracking-widest text-secondary uppercase transition-all hover:border-secondary"
-            type="button">{t.healing.viewDetails}</button
-          >
         </div>
       </article>
     {/each}
+
+    {#if t.idealGuest.cta}
+      <div class="pt-4 text-center">
+        <a
+          class="inline-block rounded-full border border-outline-variant/40 px-10 py-4 text-xs font-bold tracking-widest text-primary uppercase transition-all duration-500 hover:border-secondary hover:bg-secondary hover:text-on-secondary"
+          href={t.idealGuest.ctaHref}
+        >
+          {t.idealGuest.cta}
+        </a>
+      </div>
+    {/if}
   </div>
 </section>
 

@@ -1,0 +1,28 @@
+{
+	"slug": "colibri-cottage",
+	"price": "$71",
+	"hero": {
+		"image": "/rooms/colibri-cama.jpg",
+		"imageAlt": "Colibri Cottage queen bed at Mango Valley",
+		"kicker": "Mango Valley · Cottage",
+		"title": "Colibri Cottage"
+	},
+	"description": "This cottage has a hand-made queen size bed with an orthopedic mattress, a roomy closet and en-suite bathroom with shower.",
+	"features": [
+		{ "icon": "bed", "text": "Hand-made queen bed with orthopedic mattress" },
+		{ "icon": "checkroom", "text": "Roomy closet" },
+		{ "icon": "shower", "text": "En-suite bathroom with shower" }
+	],
+	"booking": {
+		"bgImage": "/view-luxurious-villa-parallax.jpg",
+		"kicker": "Reservation",
+		"title": "Reserve Colibri Cottage",
+		"description": "Reconnect with the rhythm of nature. Our team is ready to help you plan your stay.",
+		"checkInLabel": "Check In",
+		"checkInPlaceholder": "Select Date",
+		"guestsLabel": "Guests",
+		"guestOptions": ["1 Guest", "2 Guests"],
+		"cta": "Check Availability",
+		"priceNote": "$71 / night"
+	}
+}

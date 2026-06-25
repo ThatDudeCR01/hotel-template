@@ -6,13 +6,16 @@
 
   const t = $derived(locale.current === "es" ? suitesListEs : suitesListEn);
 
+  function goTo(slug: string) {
+    goto(`/suites/${slug}`);
+  }
+
   function newsletterSubmit(e: SubmitEvent) {
     e.preventDefault();
     goto("/newletter-confirmation");
   }
 </script>
 
-<!-- offset: layout main ya aporta pt-20; sumamos pt-12 ≈ pt-32 visual bajo el header fijo -->
 <div class="pt-12">
   <!-- Hero -->
   <section class="mb-32 px-8 md:px-24">
@@ -33,19 +36,19 @@
         </p>
       </div>
       <div
-        class="relative h-[600px] w-full overflow-hidden rounded-xl shadow-2xl md:w-1/2"
+        class="group relative h-[600px] w-full overflow-hidden rounded-xl shadow-2xl md:w-1/2"
       >
         <img
-          class="h-full w-full object-cover"
+          class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
           alt={t.hero.imageAlt}
-          src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9ia3MsszRMS-HOlSJh5CUqJ6Uwl4SQP7BIPbkzGSCp1x_wC0GK1U3wbc5m-EZrOR2q1xEFgBqVR7sKskE2xu-IDVCw9mfVvAIdffEQV8HBj8cRF7FC_Tkuank28c6JUjvr2zL3kyxQ22lOEYofnTaDWGQB2fTN70U-5GtU7YTx-T55M9sshcadCH0mLUO9QlnCKOzn5rWGAo-wGT0b6wj3YgZLo7WuRXER-CrLid-NLXtwyPvfQYTaFvJdpq9GpxeQLyvF-5jHg"
+          src="/Hero-photo.jpg"
         />
         <div class="absolute inset-0 bg-primary/10 mix-blend-multiply"></div>
       </div>
     </div>
   </section>
 
-  <!-- Canopy Master Suite -->
+  <!-- Mariposa — split image left -->
   <section class="relative mb-48">
     <div class="flex min-h-[800px] flex-col items-stretch lg:flex-row">
       <div
@@ -53,8 +56,8 @@
       >
         <img
           class="h-full min-h-[500px] w-full object-cover lg:absolute lg:inset-0 lg:min-h-full"
-          alt={t.canopy.imageAlt}
-          src={t.canopy.image}
+          alt={t.mariposa.imageAlt}
+          src={t.mariposa.image}
         />
       </div>
       <div
@@ -63,25 +66,25 @@
         <div class="max-w-md">
           <div class="mb-4 flex items-baseline justify-between">
             <h2 class="font-serif text-4xl font-light italic">
-              {t.canopy.title}
+              {t.mariposa.title}
             </h2>
             <span
               class="font-sans text-sm font-semibold tracking-wider text-secondary"
-              >{t.canopy.price}</span
+              >{t.mariposa.price}</span
             >
           </div>
           <div
             class="font-label mb-8 flex gap-4 text-xs uppercase tracking-widest text-on-surface-variant"
           >
-            <span>{t.canopy.specLeft}</span>
+            <span>{t.mariposa.specLeft}</span>
             <span>•</span>
-            <span>{t.canopy.specRight}</span>
+            <span>{t.mariposa.specRight}</span>
           </div>
           <p class="mb-10 leading-loose font-light text-on-surface-variant">
-            {t.canopy.description}
+            {t.mariposa.description}
           </p>
           <ul class="mb-12 space-y-4">
-            {#each t.canopy.features as f}
+            {#each t.mariposa.features as f}
               <li
                 class="flex items-center gap-3 text-sm font-medium tracking-tight uppercase"
               >
@@ -95,18 +98,16 @@
           <button
             class="font-label w-full rounded-full border border-outline-variant py-4 text-sm uppercase tracking-widest text-primary transition-all duration-500 hover:bg-primary hover:text-on-primary"
             type="button"
-            onclick={() => {
-              window.location.href = "/suites/canopy-suite";
-            }}
+            onclick={() => goTo(t.mariposa.slug)}
           >
-            {t.canopy.cta}
+            {t.mariposa.cta}
           </button>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Garden Villa -->
+  <!-- Colibri — reversed with badge -->
   <section class="mb-48 px-8 md:px-24">
     <div
       class="mx-auto flex max-w-7xl flex-col items-center gap-24 md:flex-row-reverse"
@@ -117,39 +118,39 @@
         >
           <img
             class="h-full w-full object-cover"
-            alt={t.garden.imageAlt}
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5uMHacQqWQY4h85YnrvuxoeoKNx7wkKNM3WYREUGS_Nq6_eqAf2l-Bz9QremBPbwdVYWPSbeSQO28EM7UwNjuFnPRq_PGEgVEk8RgEY3B7-8kqwawUqBYiaXO-h8n-dHmTlO4zcIiSQRttakFQXuITmDboPYsLzmR8WrIw0gIP7v727_0UFqx9GgrqlNSU9SfLtpftZZYlSmuUJyvD7cywfIp5sZjn5N3OlL7d3guSO2auvFrXmUEjn6wH957ZRb55awMrOJGA"
+            alt={t.colibri.imageAlt}
+            src={t.colibri.image}
           />
         </div>
         <div
           class="absolute -bottom-12 -left-12 hidden w-64 rounded-xl bg-white p-8 shadow-xl lg:block dark:bg-stone-900"
         >
           <p class="font-serif mb-2 text-xl italic text-secondary">
-            {t.garden.badgeTitle}
+            {t.colibri.badgeTitle}
           </p>
           <p
             class="text-xs font-medium uppercase tracking-widest text-on-surface-variant"
           >
-            {t.garden.badgeSubtitle}
+            {t.colibri.badgeSubtitle}
           </p>
         </div>
       </div>
       <div class="w-full md:w-1/2">
-        <h2 class="mb-6 font-serif text-5xl font-light">{t.garden.title}</h2>
+        <h2 class="mb-6 font-serif text-5xl font-light">{t.colibri.title}</h2>
         <div
           class="font-label mb-8 flex gap-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary"
         >
-          <span>{t.garden.specLeft}</span>
+          <span>{t.colibri.specLeft}</span>
           <span>•</span>
-          <span>{t.garden.specRight}</span>
+          <span>{t.colibri.specRight}</span>
         </div>
         <p
           class="mb-10 text-lg leading-loose font-light text-on-surface-variant"
         >
-          {t.garden.description}
+          {t.colibri.description}
         </p>
         <div class="mb-12 grid grid-cols-2 gap-8">
-          {#each t.garden.stats as stat}
+          {#each t.colibri.stats as stat}
             <div class="rounded-xl bg-surface-container-lowest p-6">
               <span class="mb-2 block text-3xl font-light text-secondary"
                 >{stat.value}</span
@@ -161,91 +162,143 @@
             </div>
           {/each}
         </div>
-        <p class="font-serif mb-8 text-2xl italic text-on-surface">
-          {t.garden.priceLine}
+        <p class="mb-8 font-serif text-2xl italic text-on-surface">
+          {t.colibri.priceLine}
         </p>
         <button
           class="font-label rounded-full bg-secondary px-12 py-4 text-sm uppercase tracking-widest text-on-secondary transition hover:opacity-90"
           type="button"
-          onclick={() => {
-            window.location.href = "/suites/garden-villa";
-          }}
+          onclick={() => goTo(t.colibri.slug)}
         >
-          {t.garden.cta}
+          {t.colibri.cta}
         </button>
       </div>
     </div>
   </section>
 
-  <!-- Treehouse Retreat -->
+  <!-- Poas — split image left -->
+  <section class="relative mb-48">
+    <div class="flex min-h-[800px] flex-col items-stretch lg:flex-row">
+      <div
+        class="relative min-h-[500px] w-full overflow-hidden lg:min-h-0 lg:w-7/12"
+      >
+        <img
+          class="h-full min-h-[500px] w-full object-cover lg:absolute lg:inset-0 lg:min-h-full"
+          alt={t.poas.imageAlt}
+          src={t.poas.image}
+        />
+      </div>
+      <div
+        class="flex w-full flex-col justify-center bg-surface-container-low p-12 md:p-24 lg:w-5/12"
+      >
+        <div class="max-w-md">
+          <div class="mb-4 flex items-baseline justify-between">
+            <h2 class="font-serif text-4xl font-light italic">{t.poas.title}</h2>
+            <span
+              class="font-sans text-sm font-semibold tracking-wider text-secondary"
+              >{t.poas.price}</span
+            >
+          </div>
+          <div
+            class="font-label mb-8 flex gap-4 text-xs uppercase tracking-widest text-on-surface-variant"
+          >
+            <span>{t.poas.specLeft}</span>
+            <span>•</span>
+            <span>{t.poas.specRight}</span>
+          </div>
+          <p class="mb-10 leading-loose font-light text-on-surface-variant">
+            {t.poas.description}
+          </p>
+          <ul class="mb-12 space-y-4">
+            {#each t.poas.features as f}
+              <li
+                class="flex items-center gap-3 text-sm font-medium tracking-tight uppercase"
+              >
+                <span class="material-symbols-outlined text-secondary"
+                  >{f.icon}</span
+                >
+                {f.text}
+              </li>
+            {/each}
+          </ul>
+          <button
+            class="font-label w-full rounded-full border border-outline-variant py-4 text-sm uppercase tracking-widest text-primary transition-all duration-500 hover:bg-primary hover:text-on-primary"
+            type="button"
+            onclick={() => goTo(t.poas.slug)}
+          >
+            {t.poas.cta}
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Morpho — featured dark card -->
   <section class="mb-24 px-4 sm:px-6 md:px-8">
     <div
-      class="mx-auto flex max-w-[1200px] flex-col overflow-hidden rounded-[2rem] bg-primary text-on-primary sm:rounded-[3rem] lg:flex-row"
+      class="mx-auto flex max-w-[1400px] flex-col overflow-hidden rounded-[2rem] bg-primary text-on-primary sm:rounded-[3rem] lg:min-h-[760px] lg:flex-row"
     >
       <div
-        class="w-full px-6 pt-12 pb-16 sm:px-10 sm:py-16 md:p-24 lg:w-1/2"
+        class="flex w-full flex-col justify-center px-6 pt-12 pb-16 sm:px-10 sm:py-16 md:p-16 lg:w-[42%] lg:px-14 lg:py-20"
       >
         <span
-          class="mb-8 block text-xs font-bold uppercase tracking-[0.4em] text-secondary"
-          >{t.treehouse.kicker}</span
+          class="mb-8 block text-xs font-bold tracking-[0.4em] text-secondary-fixed uppercase"
+          >{t.morpho.kicker}</span
         >
         <h2
           class="mb-8 font-serif text-5xl leading-tight font-light md:text-6xl"
         >
-          {t.treehouse.titleLine1} <br />{t.treehouse.titleLine2}
+          {t.morpho.titleLine1} <br />{t.morpho.titleLine2}
         </h2>
         <p
           class="mb-12 max-w-lg text-lg leading-relaxed font-light text-white/80"
         >
-          {t.treehouse.description}
+          {t.morpho.description}
         </p>
         <div class="mb-16 space-y-8">
-          {#each t.treehouse.highlights as h}
+          {#each t.morpho.highlights as h}
             <div class="flex items-start gap-6 border-b border-white/10 pb-8">
               <div
-                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-white/5"
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-secondary-fixed/10"
               >
-                <span class="material-symbols-outlined text-secondary"
+                <span class="material-symbols-outlined text-secondary-fixed"
                   >{h.icon}</span
                 >
               </div>
               <div>
                 <h4 class="font-serif mb-1 text-xl">{h.title}</h4>
-                <p class="text-sm text-white/75">
-                  {h.description}
-                </p>
+                <p class="text-sm text-white/75">{h.description}</p>
               </div>
             </div>
           {/each}
         </div>
         <div class="flex flex-col items-center gap-8 sm:flex-row">
           <div class="text-center sm:text-left">
-            <span class="font-serif block text-2xl text-secondary"
-              >{t.treehouse.price}</span
+            <span class="font-serif block text-2xl text-secondary-fixed"
+              >{t.morpho.price}</span
             >
-            <span class="text-[10px] uppercase tracking-widest opacity-50"
-              >{t.treehouse.perNight}</span
+            <span
+              class="text-[10px] uppercase tracking-widest text-secondary-fixed"
+              >{t.morpho.perNight}</span
             >
           </div>
           <button
             class="font-label rounded-full bg-white px-10 py-4 text-sm uppercase tracking-widest text-primary transition-colors duration-500 hover:bg-secondary hover:text-white"
             type="button"
-            onclick={() => {
-              window.location.href = "/suites/treehouse-retreat";
-            }}
+            onclick={() => goTo(t.morpho.slug)}
           >
-            {t.treehouse.cta}
+            {t.morpho.cta}
           </button>
         </div>
       </div>
-      <div class="relative min-h-[600px] w-full lg:w-1/2">
+      <div class="relative min-h-[520px] w-full lg:min-h-[760px] lg:w-[58%]">
         <img
-          class="h-full w-full object-cover"
-          alt={t.treehouse.imageAlt}
-          src={t.treehouse.image}
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          alt={t.morpho.imageAlt}
+          src={t.morpho.image}
         />
         <div
-          class="pointer-events-none absolute inset-0 hidden bg-gradient-to-r from-primary via-transparent to-transparent lg:block"
+          class="pointer-events-none absolute inset-0 hidden bg-linear-to-r from-primary via-transparent to-transparent lg:block"
         ></div>
       </div>
     </div>

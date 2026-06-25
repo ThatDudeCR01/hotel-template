@@ -1,0 +1,110 @@
+{
+	"hero": {
+		"kicker": "El pulso salvaje de Costa Rica",
+		"titleLine1": "Experiencias",
+		"titleLine2": "curadas",
+		"lead": "Descubra el alma de la selva a través de expediciones a medida, diseñadas para el explorador moderno.",
+		"gallery": {
+			"main": {
+				"src": "/experiences/Volcan_Poas.jpg",
+				"alt": "Cráter activo del Volcán Poás con lago turquesa y vapor ascendente"
+			},
+			"inset1": {
+				"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG-0lZPlNguJuGuDLn3aCicPMOf3QZJQTSAujIbI662eGTbR4ozwj0TlERZKq1XpNlf6_bpM0AJZ5V0i8WIKxVV4yn0y4swqHgFewzX-ADrBG5cWB9L5xgzILQJN3KyUHuNGm2SSV0PG5AqLBX4FMAMfxtcPOoXbLDJqsjHMy_buMoessqU2_0bh4RGHnhgLHYbiG1GfLVdc2uBOvxp9WmJ-JbozWLeEjm38E0D5nvw6tdEskKS1djYqBWcan-RrA7mx_Kh8b5Kw",
+				"alt": "Guacamayas rojas vibrantes posadas en el dosel costarricense"
+			},
+			"inset2": {
+				"src": "/experiences/La_Paz_Waterfall_Gardens.webp",
+				"alt": "Cascada tropical rodeada de bosque nuboso en La Paz Waterfall Gardens"
+			}
+		}
+	},
+	"volcanic": {
+		"title": "El corazón volcánico",
+		"primary": {
+			"title": "Volcán Poás y La Paz Waterfall Gardens",
+			"description": "Recorra bosques nubosos místicos hasta llegar a cráteres activos, seguido de un paseo inmersivo por espectaculares cascadas.",
+			"images": [
+				{
+					"src": "/experiences/Volcan_Poas.jpg",
+					"alt": "Cráter activo del Volcán Poás con lago turquesa y vapor ascendente"
+				},
+				{
+					"src": "/experiences/La_Paz_Waterfall_Gardens.webp",
+					"alt": "Cascadas rodeadas de frondoso bosque nuboso en La Paz Waterfall Gardens"
+				}
+			],
+			"cta": "Explorar más"
+		},
+		"secondary": {
+			"title": "Volcán Poás y Hacienda Doka",
+			"description": "Descubra la influencia del suelo volcánico en la producción de café, del grano a la taza, complementado con vibrantes jardines de mariposas.",
+			"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBXgN6ZVZAlju2ZHRSnLyDOoJ5wPaGeuO2Jm28GYwpDH29KOMlDb7n2_s5JmPzGortbkvcIlctMF95jupFYcm76iRZZ_iNSWPPqgRKdz1l38IuQo-oTgpp7ysXtj2Esm4wqRwUfO58FLUXvKHCHXJgeYWoh_RzRt-Nzs6vB48EWJc2loqZNbyXWckZVYn6a9l9M-4YbOzEWZ7keXIsUzKeyJNfBWiuLdwcCtLeBPB4SrxeiM1_PaDNgOYfxZY6GC1HDooIveL_Haw",
+			"imageAlt": "Granos de café secándose al sol en una plataforma de madera en una finca costarricense",
+			"cta": "Reservar experiencia"
+		},
+		"cards": [
+			{
+				"variant": "text",
+				"kicker": "Patrimonio cultural",
+				"title": "Tour Poás, Grecia y Sarchí",
+				"description": "Visite la icónica iglesia metálica de Grecia y admire el arte de las coloridas carretas pintadas a mano en Sarchí, corazón de la artesanía costarricense.",
+				"cta": "Leer la historia"
+			},
+			{
+				"variant": "image",
+				"title": "Volcán Arenal y aguas termales",
+				"description": "Un viaje a las tierras bajas del norte para caminatas en las faldas y relajación termal.",
+				"image": "/experiences/hot_springs.webp",
+				"imageAlt": "Volcán Arenal tras palmas tropicales con vapor de aguas termales naturales",
+				"cta": "Reservar ahora"
+			}
+		]
+	},
+	"wildlife": {
+		"title": "Vida silvestre y agua",
+		"lead": "Desde el plumaje vibrante de la guacamaya roja hasta los gigantes ancestrales del río Tárcoles, experimente la belleza primordial de la costa y los cursos de agua de Costa Rica.",
+		"items": [
+			{
+				"title": "Parque Nacional Carara y safari de cocodrilos",
+				"description": "Un cruce biológico donde bosques primarios y secundarios se encuentran con los enormes cocodrilos del río."
+			},
+			{
+				"title": "Isla Tortuga con Calypso Cruises",
+				"description": "Arenas blancas, aguas turquesas y un festín en catamarán dentro del Golfo de Nicoya."
+			}
+		],
+		"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDG-0lZPlNguJuGuDLn3aCicPMOf3QZJQTSAujIbI662eGTbR4ozwj0TlERZKq1XpNlf6_bpM0AJZ5V0i8WIKxVV4yn0y4swqHgFewzX-ADrBG5cWB9L5xgzILQJN3KyUHuNGm2SSV0PG5AqLBX4FMAMfxtcPOoXbLDJqsjHMy_buMoessqU2_0bh4RGHnhgLHYbiG1GfLVdc2uBOvxp9WmJ-JbozWLeEjm38E0D5nvw6tdEskKS1djYqBWcan-RrA7mx_Kh8b5Kw",
+		"imageAlt": "Guacamayas rojas posadas en una rama tropical en el Parque Nacional Carara",
+		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuDtA5evmF7S6XJTZ2hPasoGiUBy1fUw9PN_uS2biC2n5c-KJmUisyxt2IgzlGmjIhBhXB0tA-g1Lj64VmXVNMef0_0m2ZGwv_TnlHhl4ScEINFacn9WaHyjkz7JUIZZgLAyMY_vmHuLsMjhJFTbkQXAOKpyihxXtpuxBwIY6ZJhSW2pHuePpFZAqymF9dy08Orxhhgb4BVyZ3sgjQRVzhVJBfnhPzCwcJvnCHTe6GE8GO50Gu_sCdCBRaeVUAUPFzMjU-ntLKGEWA",
+		"insetImageAlt": "Catamarán navegando aguas turquesas hacia la Isla Tortuga"
+	},
+	"canopy": {
+		"title": "Dosel alto y aventura",
+		"kicker": "Busque el horizonte",
+		"items": [
+			{
+				"title": "Tour de canopy San Luis",
+				"description": "Tirolesa en bosque nuboso y la experiencia única del ascensor 'Elevator'.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuDzNB9ivx4hjPtWwMKDuzCgKHjXRGyj2K3897dpnTKCeI_o8QwnCSW9IZSmciCCI5UNLIs5YryMrnjy2jKfIdbi4DgCZnxu1WSZDhX_onShUun_Lx17_2OoEkSoDdiJz1nx7N28_KPV5gZQstl11mZAo74Z0uHQNm5HHoueY00QpbbFf0HF2vFdORzCQY3lB4_wqPw8exPz51u-4AEcpLZm5ig1r_NO4zRYHnRaqvkbqpEXFoQHTThTxGhZdr5SoTa4Vb8jMT-1Ow",
+				"imageAlt": "Vista desde una tirolesa sobre el dosel de un bosque nuboso costarricense",
+				"icon": "bolt"
+			},
+			{
+				"title": "Combo aventura (3 en 1)",
+				"description": "Cabalgata, tirolesas en canopy y rafting en el río Sarapiquí.",
+				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBjmzdPbZOTKM87yQA4CvCjeYBZerSu-icOrpJ9_LIvzPgda235RPkmeqJ8ySg7krouUdtk_ibQTb_7eWzy_ttYAEph1JK1ETlI4um3vmULi-bZNs7UcXZTFd0wvjDNnS5oMSqw8aq1CG-FmFD-BCg6T7YZrhoXrWYzxlbqfVE37fi0xKfml3nIUvFGRuu9F_sXcji8KiS_dId6FgzIdJnD7dw0rpaLx4mvlsgjpP3gcDA6I_mXSl-KUsjyIMFMaVVo4JqH4VhWWA",
+				"imageAlt": "Grupo de rafting en rápidos del río Sarapiquí",
+				"icon": "landscape"
+			}
+		]
+	},
+	"evening": {
+		"kicker": "Ritual nocturno",
+		"title": "Tour de chocolate y caminata nocturna en La Tirimbina",
+		"description": "Cuando el sol se oculta, la selva se transforma. Descubra los secretos ancestrales del cacao antes de adentrarse en la oscuridad para encontrar las criaturas que despiertan solo después del crepúsculo.",
+		"cta": "Reservar experiencia privada",
+		"image": "/experiences/caption.jpg",
+		"imageAlt": "Tazón de metal plateado lleno de granos de cacao tostados con fondo verde tropical"
+	}
+}
