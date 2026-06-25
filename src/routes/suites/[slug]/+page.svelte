@@ -32,6 +32,11 @@
 				{c.hero.badge}
 			</p>
 		{/if}
+		<div class="mt-8 flex items-baseline gap-3">
+			<span class="font-serif text-4xl text-secondary-fixed md:text-5xl">{c.price}</span>
+			<span class="font-label text-xs tracking-widest text-white/80 uppercase">{shared.perNight}</span
+			>
+		</div>
 	</div>
 </section>
 
@@ -76,7 +81,15 @@
 	<div
 		class="mt-16 rounded-2xl border border-outline-variant/30 bg-surface-container-low p-8 md:p-10"
 	>
-		<h2 class="font-serif mb-4 text-2xl text-primary md:text-3xl">{shared.ratesTitle}</h2>
+		<div class="mb-6 flex flex-wrap items-end justify-between gap-6">
+			<h2 class="font-serif text-2xl text-primary md:text-3xl">{shared.ratesTitle}</h2>
+			<div class="flex items-baseline gap-2">
+				<span class="font-serif text-3xl text-secondary">{c.price}</span>
+				<span class="font-label text-[10px] tracking-widest text-on-surface-variant uppercase"
+					>{shared.perNight}</span
+				>
+			</div>
+		</div>
 		<p class="max-w-3xl text-base leading-relaxed text-on-surface-variant md:text-lg">
 			{shared.ratesPolicy}
 		</p>

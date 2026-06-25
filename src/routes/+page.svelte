@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { afterNavigate } from "$app/navigation";
   import { onMount } from "svelte";
   import { healingRitualScroll } from "$lib/healingRitualScroll";
   import { parseHighlightedText } from "$lib/highlightText";
@@ -11,6 +12,36 @@
   const villaParallax = "/view-luxurious-villa-parallax.jpg";
 
   const t = $derived(locale.current === "es" ? homeEs : homeEn);
+
+  function replayHeroAnimations() {
+    if (
+      typeof window !== "undefined" &&
+      window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    ) {
+      return;
+    }
+
+    for (const className of ["hero-enter", "hero-scroll-enter"] as const) {
+      document.querySelectorAll<HTMLElement>(`.${className}`).forEach((el) => {
+        el.classList.remove(className);
+        void el.offsetWidth;
+        el.classList.add(className);
+      });
+    }
+  }
+
+  afterNavigate(({ to, from }) => {
+    if (!to || to.url.pathname !== "/") return;
+    if (to.url.hash !== "" && to.url.hash !== "#top") return;
+    if (!from) return;
+
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: "instant" });
+      if (from.url.pathname === "/") {
+        replayHeroAnimations();
+      }
+    });
+  });
 
   onMount(() => {
     const prefersReduced =
@@ -217,82 +248,27 @@
 
 <!-- 4 · Experiences & activities -->
 <section id="experiences" class="bg-transparent">
-  <!-- Rainforest Yoga -->
-  <div class="overflow-hidden bg-surface-container-low py-24">
-    <div class="relative mx-auto max-w-7xl px-6">
-      <div
-        class="pointer-events-none absolute top-0 right-10 translate-x-1/2 -translate-y-1/4 transform opacity-10"
-      >
-        <span
-          class="font-serif text-[10rem] leading-none text-primary uppercase select-none"
-          >{t.yoga.watermark}</span
-        >
-      </div>
-      <div class="relative z-10 flex flex-col items-center gap-16 md:flex-row">
-        <div class="order-2 w-full md:order-1 md:w-1/2">
-          <div class="relative">
-            <img
-              class="aspect-3/4 w-full rounded-xl object-cover shadow-2xl"
-              alt={t.yoga.mainImageAlt}
-              src={t.yoga.mainImage}
-            />
-            <div
-              class="absolute -top-12 -right-12 hidden h-64 w-64 overflow-hidden rounded-xl border-12 border-surface shadow-xl md:block"
-            >
-              <img
-                class="h-full w-full object-cover"
-                alt={t.yoga.insetImageAlt}
-                src={t.yoga.insetImage}
-              />
-            </div>
-          </div>
-        </div>
-        <div class="order-1 space-y-8 md:order-2 md:w-1/2">
-          <span
-            class="text-[10px] font-bold tracking-[0.2em] text-secondary uppercase"
-            >{t.yoga.kicker}</span
-          >
-          <h3
-            class="font-serif text-4xl leading-tight text-primary md:text-6xl"
-          >
-            {t.yoga.title}
-          </h3>
-          <p class="text-lg leading-relaxed font-light text-on-surface-variant">
-            {t.yoga.description}
-          </p>
-          <div
-            class="grid grid-cols-2 gap-8 border-t border-outline-variant/20 pt-8"
-          >
-            {#each t.yoga.schedule as row}
-              <div>
-                <p
-                  class="mb-2 text-sm font-bold tracking-widest text-primary uppercase"
-                >
-                  {row.label}
-                </p>
-                <p class="text-xs text-on-surface-variant">{row.detail}</p>
-              </div>
-            {/each}
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Healing rituals -->
-  <div class="mx-auto max-w-4xl space-y-24 px-6 pt-24 pb-24">
+  <!-- Ideal guest -->
+  <div class="mx-auto max-w-4xl space-y-24 px-6 py-24">
     <div class="text-center">
       <span
         class="mb-4 block text-xs font-bold tracking-[0.3em] text-secondary uppercase"
-        >{t.healing.kicker}</span
+        >{t.idealGuest.kicker}</span
       >
       <h3 class="font-serif text-3xl text-primary md:text-4xl">
-        {t.healing.title}
+        {t.idealGuest.title}
       </h3>
+      {#if t.idealGuest.lead}
+        <p
+          class="mx-auto mt-8 max-w-2xl text-lg leading-relaxed font-light text-on-surface-variant"
+        >
+          {t.idealGuest.lead}
+        </p>
+      {/if}
       <div class="mx-auto mt-8 h-px w-24 bg-secondary/30"></div>
     </div>
 
-    {#each t.healing.items as item, i}
+    {#each t.idealGuest.items as item, i}
       <article
         class="healing-ritual healing-ritual--scroll flex flex-col items-center gap-12 overflow-x-clip {i ===
         1
@@ -320,16 +296,23 @@
           <h4 class="font-serif mb-4 text-3xl text-primary">
             {item.title}
           </h4>
-          <p class="mb-6 leading-relaxed font-light text-on-surface-variant">
+          <p class="leading-relaxed font-light text-on-surface-variant">
             {item.description}
           </p>
-          <button
-            class="border-b border-transparent pb-1 text-xs font-bold tracking-widest text-secondary uppercase transition-all hover:border-secondary"
-            type="button">{t.healing.viewDetails}</button
-          >
         </div>
       </article>
     {/each}
+
+    {#if t.idealGuest.cta}
+      <div class="pt-4 text-center">
+        <a
+          class="inline-block rounded-full border border-outline-variant/40 px-10 py-4 text-xs font-bold tracking-widest text-primary uppercase transition-all duration-500 hover:border-secondary hover:bg-secondary hover:text-on-secondary"
+          href={t.idealGuest.ctaHref}
+        >
+          {t.idealGuest.cta}
+        </a>
+      </div>
+    {/if}
   </div>
 </section>
 

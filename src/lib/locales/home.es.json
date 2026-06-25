@@ -11,11 +11,11 @@
 		"kicker": "Nuestra historia",
 		"title": "Un lugar para [[reconectar con lo que realmente importa]]",
 		"paragraphs": [
-			"Mango Valley nació de una simple comprensión: muchas personas pasan la vida [[cuidando de todos los demás]] mientras [[se descuidan en silencio]].",
-			"Tras décadas trabajando en salud, servicios de emergencia, educación en bienestar y desarrollo personal, vimos de primera mano cómo [[el estrés, el agotamiento, el duelo y la responsabilidad constante]] afectan la [[calidad de vida]] de las personas.",
-			"Soñamos con un lugar donde la gente pudiera [[alejarse del ruido del día a día]] y [[reconectar con lo que realmente importa]].",
+			"Mango Valley nació de una simple comprensión: muchas personas pasan la vida [[cuidando de todos los demás]] mientras [[descuidan su bienestar]] en silencio.",
+			"Tras décadas trabajando en salud, servicios de emergencia, educación en bienestar y desarrollo personal, vimos de primera mano cómo [[el estrés, el agotamiento, el duelo y la responsabilidad constante]] erosionan la [[claridad]], el [[equilibrio]] y la [[resiliencia]].",
+			"Soñamos con un lugar donde la gente pudiera [[alejarse del ruido del día a día]], [[renovar]] su espíritu, [[restaurar]] su energía y [[reconectar con lo que realmente importa]].",
 			"Cuando descubrimos Mango Valley, vimos más que una propiedad hermosa. Vimos la oportunidad de crear un [[santuario]] donde [[la hospitalidad, la naturaleza, el bienestar y la conexión humana significativa]] pudieran reunirse.",
-			"Hoy, Mango Valley es un punto de encuentro para el [[descanso, la reflexión, la aventura, la sanación y el crecimiento personal]]."
+			"Hoy, Mango Valley es un punto de encuentro para [[reflexionar]], [[crecer]] y cultivar un [[bienestar]] duradero—a través del descanso, la aventura, la sanación y la transformación personal."
 		]
 	},
 	"suitesBanner": {
@@ -53,8 +53,7 @@
 			"title": "Cabaña Morpho",
 			"badge": "Con jacuzzi",
 			"description": "Nuestra cabaña más popular—con jacuzzi, TV SKY, WiFi y vistas al volcán y las plantaciones de café.",
-			"price": "$84 / noche",
-			"imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley",
+			"price": "$110 / noche",
 			"image": "/rooms/morpho_cama.jpg"
 		}
 	],
@@ -62,44 +61,32 @@
 		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",
 		"quote": "Entre tu habitación y el sendero, el bosque enseña su propio ritmo—escucha antes de planificar el día."
 	},
-	"yoga": {
-		"watermark": "Aliento",
-		"mainImageAlt": "Clase de yoga en pabellón de madera al aire libre con cala oceánica y colinas selváticas al fondo",
-		"mainImage": "/yoga-class-image.png",
-		"insetImageAlt": "Manos en mudra durante la meditación",
-		"insetImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuAjoBnWuTTtRwl14WqT3245I4ulq1Gg9sTlr5FnKm1nS3ZeoXxI7Ferw_XR8YHQhxWuwjqPUeCjsS3W73NBefFZhde76TC6BJRyhhABItAZzjiRmtP21smx4dGltSCgBNCmoXXceyoMpWFY3lDznfiCIZ-F1cI9rMBk1KNjjLOmJ8GBctpRxE7N0cpUKYLNvzj8kfpOQlPupfoYYx4foHyn8Jcpg8bVCbQu-xzDag5iEgVsUHplEiJ1FpWwj1KTBnTwhRn_PSyaxw",
-		"kicker": "Movimiento del alma",
-		"title": "Yoga en la selva",
-		"description": "Shala al aire libre al amanecer sobre las colinas de Guanacaste—Vinyasa y Hatha con la selva como banda sonora.",
-		"schedule": [
-			{ "label": "Flujo al amanecer", "detail": "Todos los días a las 6:30" },
-			{ "label": "Sesiones privadas", "detail": "Con cita previa" }
-		]
-	},
-	"healing": {
-		"kicker": "La colección",
-		"title": "Rituales de sanación",
-		"viewDetails": "Ver detalles",
+	"idealGuest": {
+		"kicker": "La vida en Mango Valley",
+		"title": "Cuando el ritmo por fin se detiene",
+		"lead": "Para quienes han pasado años sosteniendo todo—familia, pacientes, equipos o comunidades—Mango Valley es un lugar para exhalar sin culpa.",
 		"items": [
 			{
-				"title": "Limpieza de tierra volcánica",
-				"description": "Ceniza rica en minerales del Arenal, elaborada para aclarar la piel y arraigar el cuerpo tras el viaje.",
-				"imageAlt": "Cuenco de cerámica con piedras de río y pétalos de jazmín",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAsig1F1UaPk0rVxw3pNWKEFLHU4hIJgEyKCUW08x6vfJGg0H3H3rNxG8ejA8SR-2Fa90Yc_DlT3ORyyEf-GNWJ4ZagjOlaIKe1oYIS21TPCjbQYIeM-MU_OyFYhZ1QY0gexptVyCdnf1BYUX1bpckC9HYUJeWc87GnG-yDts6anD8xPg_Nbvx0iqoWOazWueXDr-FnROsCGXgbKx0sdBFO1Oj-N8SEhIRGwzxWMeQflyAXKOZUYmo5mOY-7FUxXncCw1WI7r1nAQ"
+				"title": "Mañanas sin prisa",
+				"description": "Despierta con cantos de aves, no con notificaciones. El desayuno es sin afán. El día se abre despacio, al ritmo de la montaña—por una vez, no al tuyo.",
+				"imageAlt": "Retiro tranquilo en las colinas sobre Grecia con jardines tropicales",
+				"image": "/Hero-photo.jpg"
 			},
 			{
-				"title": "Baño de sonidos ancestral",
-				"description": "Cuencos de cristal y percusión para calmar el sistema nervioso y entrar en descanso profundo.",
-				"imageAlt": "Incienso y bambú con luz suave de mañana",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkfJByEyCElpGCBf-9QWWpDxqWtbgIp-zEHyHoOI3AXLh62NA3dPhB408Ww79M8qyU6oeEj7SvFSVE2kr4czttJuQznZm0yo_9JwlEXbjWNCHt0UyoLRsIYr893wROis1rWVnImz1Uut-W0fl1YJAyprsXY2ZsWE1anF4aTJG_vQm9FgUUExOrTpoREKcm9HM5jpJJDeeudugm3mwJ-MZEoODk9F925Aou0MK6YHuEkNrQyUbwrcjII_o_XWHWRhgEGe77XnEyMg"
+				"title": "Espacio para recordar quién eres",
+				"description": "Entre senderos del jardín y cabañas silenciosas, algo se afloja. No es un programa que completar—es un paisaje lo bastante amable para descansar, reiniciar y reconectar con partes de ti que dejaste en pausa.",
+				"imageAlt": "Pabellón de yoga al aire libre rodeado de colinas tropicales",
+				"image": "/yoga-class-image.png"
 			},
 			{
-				"title": "Ceremonia del té del jardín interior",
-				"description": "Cata lenta y guiada de hierbas cultivadas a pasos de la cocina—equilibrio para cuerpo y aliento.",
-				"imageAlt": "Té de hierbas vertido en una taza rústica",
-				"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuBznJK74Cmgc5wLC6U8hUTkFPLMX52u__lt7svo1VWUvjka3yBDXzrPCMF_WbdZZ-jFdv12Dt6kojRxnnsmqdb7vqNrZxKU4d2DLYiXbWhFQoMN8KlyyYGIsMoJlUtlRmXz0ghq7y9HibRgvjqOg8ZGyVGzCsGVlDjZD7qRh0Uoo_O5DVH9WjZp-4klg31PDGGq9_7n3GBxT41Tw5WPH0q_RNCYTIJERNxsWmvBd76leQtmp1nsXFzvAbXOsthrG25kwJYLd7f7Uw"
+				"title": "Profundidad antes que apariencia",
+				"description": "Lo que se queda contigo no es mármol ni ceremonia. Es la calidez de una conversación real, el olor a lluvia sobre plantaciones de café, y la sensación de que este viaje fue, por fin, para ti.",
+				"imageAlt": "Cabaña privada en las colinas costarricenses sobre Grecia",
+				"image": "/view-luxurious-villa-parallax.jpg"
 			}
-		]
+		],
+		"cta": "Cuéntanos sobre tu visita",
+		"ctaHref": "/#stillness"
 	},
 	"stillness": {
 		"imageAlt": "Villa tropical de lujo con piscina entre el dosel de la selva",

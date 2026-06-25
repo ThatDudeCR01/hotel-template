@@ -1,0 +1,72 @@
+{
+	"hero": {
+		"kicker": "Plan Your Visit",
+		"titleLine1": "Frequently Asked",
+		"titleLine2": "Questions",
+		"lead": "Everything you need to know about finding us, getting here, and what to expect during your stay in the mountains above Grecia."
+	},
+	"location": {
+		"title": "Our Location",
+		"icon": "location_on",
+		"paragraphs": [
+			"Our location is 4.3 miles (7 km) and approximately 10 minutes drive from the center of Grecia. You can drive, or take a local bus or taxi. The bus ticket is approx. $1 and a taxi is around $10. These prices are as of January 2017."
+		]
+	},
+	"taxi": {
+		"title": "Directions for the Taxi",
+		"icon": "local_taxi",
+		"text": "Carbonal Arriba de Grecia, 300 metros antes de Pipasa, frente a la última parada de buses, a la derecha, porton rojo, 200 metros abajo."
+	},
+	"driving": {
+		"title": "Driving Directions",
+		"icon": "directions_car",
+		"intro": "If you are coming to Mango Valley by car or taxi, please print out the following driving directions. If you use a GPS, enter geographical coordinates 10º08'02.0''N 084º16'28.2'' W.",
+		"subtitle": "Getting to Mango Valley from Juan Santamaria (San Jose, Alajuela) International Airport",
+		"steps": [
+			"Leaving SJO airport, take Highway No. 1 (InterAmericana) North, direction San Ramon. The first large highway sign you'll see (from the airport going North) indicates Alajuela to the right and San Ramon straight ahead.",
+			"Don't take the Alajuela turnoff! Follow the signs to San Ramon at the beginning. After driving about 10 miles (17 km), move to the right lane and watch for the exit sign \"Sarchi/Grecia\". Take this exit.",
+			"After the exit, keep driving for another 10-15 minutes (you pass Panduit factory on your left, then car dealers on both sides) until you enter Grecia and see the famous red metal church (on your left).",
+			"Once you pass the church on your left, continue straight. Follow signs to Poas. After three blocks, you will have to turn left (still following signs to Poas). Continue on straight about 1.5 miles (2.5 km). Once out of Grecia you will be driving through sugarcane fields.",
+			"At the end of that alley you'll see a gas station on your right and sugar plant \"Coope Victoria\" on your left. Keep driving for another 150 yards (130 meters).",
+			"Right before the soccer field (on your left) turn left. The soccer field is on your right now. Keep driving for another half a mile (800 meters) until you arrive at a T-intersection. Turn right.",
+			"From this point you only need to go straight on (always going up) about 3.2 miles (5.5 kilometers).",
+			"Keep going straight until you see a sign saying \"Mango Valley\" on your right. Turn right and drive through the coffee plantation for 200 yards (150 meters).",
+			"If you miss our turn and you see hotel \"Villas Cipreses\" on your left, turn around and go back 200 yards (150 meters), then turn left."
+		],
+		"footer": "Total driving time from San Jose international airport is 45 minutes. If you get lost, call us at (+506) 2444 8833 or (+506) 8656 2467."
+	},
+	"attractions": {
+		"title": "Driving Times from the Hotel",
+		"icon": "map",
+		"note": "Use the driving times below as a guideline. The actual driving time will greatly depend on weather and road conditions. All the big roads (called \"la pista\") are typically in decent condition.",
+		"items": [
+			{ "name": "Sarchi", "time": "15 min" },
+			{ "name": "Doka Coffee Plantation", "time": "50 min" },
+			{ "name": "Los Chorros Waterfalls", "time": "30 min" },
+			{ "name": "Else Kientzler Botanical Gardens", "time": "20 min" },
+			{ "name": "La Paz Waterfall Gardens", "time": "50 min" },
+			{ "name": "Poas Volcano National Park", "time": "45 min" },
+			{ "name": "Carara National Park", "time": "1.5 hours" },
+			{ "name": "Jaco beach (Central Pacific)", "time": "2 hours" },
+			{ "name": "Arenal Volcano (La Fortuna)", "time": "2.5 – 3 hours" },
+			{ "name": "Manuel Antonio National Park", "time": "3 – 3.5 hours" },
+			{ "name": "Caribbean side", "time": "3.5 – 4.5 hours" },
+			{ "name": "Monteverde (Cloud forest reserve)", "time": "4 – 5 hours" },
+			{ "name": "Liberia and Guanacaste beaches", "time": "4 – 5 hours" }
+		]
+	},
+	"weather": {
+		"title": "Weather and Climate",
+		"icon": "partly_cloudy_day",
+		"paragraphs": [
+			"The mountains overlooking the town of Grecia provide the perfect climate (68–82ºF; 20–28ºC), so we don't need heating or air conditioning. Unlike other parts of Costa Rica, our area is green all year round.",
+			"Dry season (summer) starts in late November and ends in mid-May. The windy months are mid-December to mid-February. The \"green\" (or rainy) season (winter) starts end-May and lasts till November. During the \"green\" season it doesn't rain all the time. It's almost always sunny in the morning. In the afternoon it rains for an hour or two."
+		]
+	},
+	"contactCta": {
+		"title": "Need more help?",
+		"body": "Our team is happy to guide you the rest of the way.",
+		"phone1": "(+506) 2444 8833",
+		"phone2": "(+506) 8656 2467"
+	}
+}

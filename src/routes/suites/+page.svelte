@@ -6,7 +6,9 @@
 
   const t = $derived(locale.current === "es" ? suitesListEs : suitesListEn);
 
-  const ctaLabel = $derived(locale.current === "es" ? "Ver detalles" : "View details");
+  function goTo(slug: string) {
+    goto(`/suites/${slug}`);
+  }
 
   function newsletterSubmit(e: SubmitEvent) {
     e.preventDefault();
@@ -15,9 +17,10 @@
 </script>
 
 <div class="pt-12">
-  <section class="mb-20 px-6 md:mb-28 md:px-12">
-    <div class="mx-auto flex max-w-6xl flex-col items-end gap-12 lg:flex-row">
-      <div class="w-full lg:w-1/2">
+  <!-- Hero -->
+  <section class="mb-32 px-8 md:px-24">
+    <div class="mx-auto flex max-w-6xl flex-col items-end gap-12 md:flex-row">
+      <div class="w-full md:w-1/2">
         <span
           class="label-md mb-6 block font-medium uppercase tracking-[0.3em] text-secondary"
           >{t.hero.kicker}</span
@@ -33,10 +36,10 @@
         </p>
       </div>
       <div
-        class="relative h-[480px] w-full overflow-hidden rounded-2xl shadow-2xl md:h-[560px] lg:w-1/2"
+        class="group relative h-[600px] w-full overflow-hidden rounded-xl shadow-2xl md:w-1/2"
       >
         <img
-          class="h-full w-full object-cover"
+          class="h-full w-full object-cover transition-transform duration-1000 group-hover:scale-105"
           alt={t.hero.imageAlt}
           src="/Hero-photo.jpg"
         />
@@ -45,52 +48,263 @@
     </div>
   </section>
 
-  <section class="mb-24 px-6 md:mb-32 md:px-12">
-    <div class="mx-auto grid max-w-7xl gap-8 md:grid-cols-2">
-      {#each t.cottages as cottage}
-        <a
-          href="/suites/{cottage.slug}"
-          class="group flex flex-col overflow-hidden rounded-2xl bg-surface-container-lowest shadow-sm transition hover:shadow-[0_32px_64px_-12px_rgba(24,35,26,0.08)] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-secondary"
-        >
-          <article class="flex h-full flex-col">
-            <div class="relative aspect-[4/3] overflow-hidden">
-              <img
-                class="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-                alt={cottage.imageAlt}
-                src={cottage.image}
-              />
-              {#if cottage.badge}
-                <span
-                  class="absolute top-4 left-4 rounded-full bg-primary/90 px-3 py-1 text-[10px] font-bold tracking-widest text-secondary-fixed uppercase"
-                >
-                  {cottage.badge}
-                </span>
-              {/if}
-            </div>
-            <div class="flex flex-1 flex-col p-8">
-              <div class="mb-3 flex items-baseline justify-between gap-4">
-                <h2 class="font-serif text-2xl text-primary">{cottage.title}</h2>
-                <span class="shrink-0 text-sm font-semibold tracking-wide text-secondary"
-                  >{cottage.price}</span
-                >
-              </div>
-              <p
-                class="flex-1 text-sm leading-relaxed font-light text-on-surface-variant"
+  <!-- Mariposa — split image left -->
+  <section class="relative mb-48">
+    <div class="flex min-h-[800px] flex-col items-stretch lg:flex-row">
+      <div
+        class="relative min-h-[500px] w-full overflow-hidden lg:min-h-0 lg:w-7/12"
+      >
+        <img
+          class="h-full min-h-[500px] w-full object-cover lg:absolute lg:inset-0 lg:min-h-full"
+          alt={t.mariposa.imageAlt}
+          src={t.mariposa.image}
+        />
+      </div>
+      <div
+        class="flex w-full flex-col justify-center bg-surface-container-low p-12 md:p-24 lg:w-5/12"
+      >
+        <div class="max-w-md">
+          <div class="mb-4 flex items-baseline justify-between">
+            <h2 class="font-serif text-4xl font-light italic">
+              {t.mariposa.title}
+            </h2>
+            <span
+              class="font-sans text-sm font-semibold tracking-wider text-secondary"
+              >{t.mariposa.price}</span
+            >
+          </div>
+          <div
+            class="font-label mb-8 flex gap-4 text-xs uppercase tracking-widest text-on-surface-variant"
+          >
+            <span>{t.mariposa.specLeft}</span>
+            <span>•</span>
+            <span>{t.mariposa.specRight}</span>
+          </div>
+          <p class="mb-10 leading-loose font-light text-on-surface-variant">
+            {t.mariposa.description}
+          </p>
+          <ul class="mb-12 space-y-4">
+            {#each t.mariposa.features as f}
+              <li
+                class="flex items-center gap-3 text-sm font-medium tracking-tight uppercase"
               >
-                {cottage.description}
-              </p>
-              <p
-                class="mt-6 text-[10px] font-bold tracking-widest text-secondary uppercase"
-              >
-                {ctaLabel}
-              </p>
-            </div>
-          </article>
-        </a>
-      {/each}
+                <span class="material-symbols-outlined text-secondary"
+                  >{f.icon}</span
+                >
+                {f.text}
+              </li>
+            {/each}
+          </ul>
+          <button
+            class="font-label w-full rounded-full border border-outline-variant py-4 text-sm uppercase tracking-widest text-primary transition-all duration-500 hover:bg-primary hover:text-on-primary"
+            type="button"
+            onclick={() => goTo(t.mariposa.slug)}
+          >
+            {t.mariposa.cta}
+          </button>
+        </div>
+      </div>
     </div>
   </section>
 
+  <!-- Colibri — reversed with badge -->
+  <section class="mb-48 px-8 md:px-24">
+    <div
+      class="mx-auto flex max-w-7xl flex-col items-center gap-24 md:flex-row-reverse"
+    >
+      <div class="relative w-full md:w-1/2">
+        <div
+          class="aspect-[4/5] overflow-hidden rounded-xl bg-surface-container-high"
+        >
+          <img
+            class="h-full w-full object-cover"
+            alt={t.colibri.imageAlt}
+            src={t.colibri.image}
+          />
+        </div>
+        <div
+          class="absolute -bottom-12 -left-12 hidden w-64 rounded-xl bg-white p-8 shadow-xl lg:block dark:bg-stone-900"
+        >
+          <p class="font-serif mb-2 text-xl italic text-secondary">
+            {t.colibri.badgeTitle}
+          </p>
+          <p
+            class="text-xs font-medium uppercase tracking-widest text-on-surface-variant"
+          >
+            {t.colibri.badgeSubtitle}
+          </p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/2">
+        <h2 class="mb-6 font-serif text-5xl font-light">{t.colibri.title}</h2>
+        <div
+          class="font-label mb-8 flex gap-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary"
+        >
+          <span>{t.colibri.specLeft}</span>
+          <span>•</span>
+          <span>{t.colibri.specRight}</span>
+        </div>
+        <p
+          class="mb-10 text-lg leading-loose font-light text-on-surface-variant"
+        >
+          {t.colibri.description}
+        </p>
+        <div class="mb-12 grid grid-cols-2 gap-8">
+          {#each t.colibri.stats as stat}
+            <div class="rounded-xl bg-surface-container-lowest p-6">
+              <span class="mb-2 block text-3xl font-light text-secondary"
+                >{stat.value}</span
+              >
+              <span
+                class="text-[10px] font-bold uppercase tracking-widest text-on-surface-variant"
+                >{stat.label}</span
+              >
+            </div>
+          {/each}
+        </div>
+        <p class="mb-8 font-serif text-2xl italic text-on-surface">
+          {t.colibri.priceLine}
+        </p>
+        <button
+          class="font-label rounded-full bg-secondary px-12 py-4 text-sm uppercase tracking-widest text-on-secondary transition hover:opacity-90"
+          type="button"
+          onclick={() => goTo(t.colibri.slug)}
+        >
+          {t.colibri.cta}
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Poas — split image left -->
+  <section class="relative mb-48">
+    <div class="flex min-h-[800px] flex-col items-stretch lg:flex-row">
+      <div
+        class="relative min-h-[500px] w-full overflow-hidden lg:min-h-0 lg:w-7/12"
+      >
+        <img
+          class="h-full min-h-[500px] w-full object-cover lg:absolute lg:inset-0 lg:min-h-full"
+          alt={t.poas.imageAlt}
+          src={t.poas.image}
+        />
+      </div>
+      <div
+        class="flex w-full flex-col justify-center bg-surface-container-low p-12 md:p-24 lg:w-5/12"
+      >
+        <div class="max-w-md">
+          <div class="mb-4 flex items-baseline justify-between">
+            <h2 class="font-serif text-4xl font-light italic">{t.poas.title}</h2>
+            <span
+              class="font-sans text-sm font-semibold tracking-wider text-secondary"
+              >{t.poas.price}</span
+            >
+          </div>
+          <div
+            class="font-label mb-8 flex gap-4 text-xs uppercase tracking-widest text-on-surface-variant"
+          >
+            <span>{t.poas.specLeft}</span>
+            <span>•</span>
+            <span>{t.poas.specRight}</span>
+          </div>
+          <p class="mb-10 leading-loose font-light text-on-surface-variant">
+            {t.poas.description}
+          </p>
+          <ul class="mb-12 space-y-4">
+            {#each t.poas.features as f}
+              <li
+                class="flex items-center gap-3 text-sm font-medium tracking-tight uppercase"
+              >
+                <span class="material-symbols-outlined text-secondary"
+                  >{f.icon}</span
+                >
+                {f.text}
+              </li>
+            {/each}
+          </ul>
+          <button
+            class="font-label w-full rounded-full border border-outline-variant py-4 text-sm uppercase tracking-widest text-primary transition-all duration-500 hover:bg-primary hover:text-on-primary"
+            type="button"
+            onclick={() => goTo(t.poas.slug)}
+          >
+            {t.poas.cta}
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Morpho — featured dark card -->
+  <section class="mb-24 px-4 sm:px-6 md:px-8">
+    <div
+      class="mx-auto flex max-w-[1400px] flex-col overflow-hidden rounded-[2rem] bg-primary text-on-primary sm:rounded-[3rem] lg:min-h-[760px] lg:flex-row"
+    >
+      <div
+        class="flex w-full flex-col justify-center px-6 pt-12 pb-16 sm:px-10 sm:py-16 md:p-16 lg:w-[42%] lg:px-14 lg:py-20"
+      >
+        <span
+          class="mb-8 block text-xs font-bold tracking-[0.4em] text-secondary-fixed uppercase"
+          >{t.morpho.kicker}</span
+        >
+        <h2
+          class="mb-8 font-serif text-5xl leading-tight font-light md:text-6xl"
+        >
+          {t.morpho.titleLine1} <br />{t.morpho.titleLine2}
+        </h2>
+        <p
+          class="mb-12 max-w-lg text-lg leading-relaxed font-light text-white/80"
+        >
+          {t.morpho.description}
+        </p>
+        <div class="mb-16 space-y-8">
+          {#each t.morpho.highlights as h}
+            <div class="flex items-start gap-6 border-b border-white/10 pb-8">
+              <div
+                class="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-secondary-fixed/10"
+              >
+                <span class="material-symbols-outlined text-secondary-fixed"
+                  >{h.icon}</span
+                >
+              </div>
+              <div>
+                <h4 class="font-serif mb-1 text-xl">{h.title}</h4>
+                <p class="text-sm text-white/75">{h.description}</p>
+              </div>
+            </div>
+          {/each}
+        </div>
+        <div class="flex flex-col items-center gap-8 sm:flex-row">
+          <div class="text-center sm:text-left">
+            <span class="font-serif block text-2xl text-secondary-fixed"
+              >{t.morpho.price}</span
+            >
+            <span
+              class="text-[10px] uppercase tracking-widest text-secondary-fixed"
+              >{t.morpho.perNight}</span
+            >
+          </div>
+          <button
+            class="font-label rounded-full bg-white px-10 py-4 text-sm uppercase tracking-widest text-primary transition-colors duration-500 hover:bg-secondary hover:text-white"
+            type="button"
+            onclick={() => goTo(t.morpho.slug)}
+          >
+            {t.morpho.cta}
+          </button>
+        </div>
+      </div>
+      <div class="relative min-h-[520px] w-full lg:min-h-[760px] lg:w-[58%]">
+        <img
+          class="absolute inset-0 h-full w-full object-cover object-center"
+          alt={t.morpho.imageAlt}
+          src={t.morpho.image}
+        />
+        <div
+          class="pointer-events-none absolute inset-0 hidden bg-linear-to-r from-primary via-transparent to-transparent lg:block"
+        ></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Newsletter -->
   <section class="bg-surface-container-low px-8 py-32 text-center">
     <div class="mx-auto max-w-3xl">
       <span class="material-symbols-outlined mb-8 text-5xl text-secondary"

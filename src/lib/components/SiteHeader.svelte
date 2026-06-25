@@ -31,10 +31,13 @@
 	const hash = $derived(page.url.hash);
 
 	const active = $derived({
-		story: pathname === '/' && hash === '#story',
+		home:
+			pathname === '/' &&
+			(hash === '' || hash === '#top'),
 		suites: pathname === '/suites' || pathname.startsWith('/suites/'),
-		experiences: pathname === '/' && hash === '#experiences',
-		sanctuary: pathname === '/' && hash === '#stillness'
+		experiences: pathname === '/experiences' || pathname.startsWith('/experiences/'),
+		sanctuary: pathname === '/' && hash === '#stillness',
+		faq: pathname === '/faq' || pathname.startsWith('/faq/')
 	});
 
 	function closeMobileMenu() {
@@ -83,10 +86,11 @@
 			>{l.header.brand}</a
 		>
 		<nav class="hidden flex-1 items-center justify-center gap-10 md:flex">
-			<a class={navLinkClass(active.story)} href="/#story">{l.header.nav.story}</a>
+			<a class={navLinkClass(active.home)} href="/#top">{l.header.nav.home}</a>
 			<a class={navLinkClass(active.suites)} href="/suites">{l.header.nav.suites}</a>
-			<a class={navLinkClass(active.experiences)} href="/#experiences">{l.header.nav.experiences}</a>
+			<a class={navLinkClass(active.experiences)} href="/experiences">{l.header.nav.experiences}</a>
 			<a class={navLinkClass(active.sanctuary)} href="/#stillness">{l.header.nav.sanctuary}</a>
+			<a class={navLinkClass(active.faq)} href="/faq">{l.header.nav.faq}</a>
 		</nav>
 		<div class="flex shrink-0 items-center gap-3 md:gap-4">
 			<div class="relative md:hidden" bind:this={menuContainerEl}>
@@ -137,9 +141,9 @@
 						<ul class="flex flex-col">
 							<li>
 								<a
-									class={mobileNavLinkClass(active.story)}
-									href="/#story"
-									onclick={closeMobileMenu}>{l.header.nav.story}</a
+									class={mobileNavLinkClass(active.home)}
+									href="/#top"
+									onclick={closeMobileMenu}>{l.header.nav.home}</a
 								>
 							</li>
 							<li>
@@ -152,7 +156,7 @@
 							<li>
 								<a
 									class={mobileNavLinkClass(active.experiences)}
-									href="/#experiences"
+									href="/experiences"
 									onclick={closeMobileMenu}>{l.header.nav.experiences}</a
 								>
 							</li>
@@ -161,6 +165,13 @@
 									class={mobileNavLinkClass(active.sanctuary)}
 									href="/#stillness"
 									onclick={closeMobileMenu}>{l.header.nav.sanctuary}</a
+								>
+							</li>
+							<li>
+								<a
+									class={mobileNavLinkClass(active.faq)}
+									href="/faq"
+									onclick={closeMobileMenu}>{l.header.nav.faq}</a
 								>
 							</li>
 						</ul>

@@ -1,0 +1,49 @@
+{
+	"slug": "mariposa-cottage",
+	"hero": {
+		"image": "https://lh3.googleusercontent.com/aida-public/AB6AXuAtcgnBjVfht0PkfwL2CmubEB28f229fAzSOxWlhO4SSN5s2YtU9EGhnQZWnSaBXYtMFbA44p4v_XviU_HqZe6OMLNwQg0VvfUS5vNpARctnmpy9xjdGq8uwJWoj3UU3UgJ7dRCR_7xF3nfx7ROjCdVfgCxBGobBJeKGat6Fx5PPJbT5HDZ0pazeg7q5V3nCrlerV3U2lWJgLq-Ott5oR1WQ8XA_-YyuROpxP1FWSBQNjmBCcqlOSirvzf7lTSGynxML2CX7p2HEQ",
+		"imageAlt": "Bright cottage bedroom with twin beds, natural linens, and garden light through the windows",
+		"kicker": "Cottage No. 01",
+		"title": "Mariposa Cottage"
+	},
+	"intro": {
+		"kicker": "The cottage",
+		"heading": "Elegant space for two.",
+		"paragraphs": [
+			"Elegant and spacious, Mariposa Cottage offers a calm retreat with two twin beds and an en-suite bathroom with shower—ideal for friends, family, or anyone who prefers separate beds after a day in the hills."
+		],
+		"sideImage": {
+			"src": "https://lh3.googleusercontent.com/aida-public/AB6AXuD6CruL-P-0AOBEfmdgCfF66UILskTD3xnDPHvVQ-yAI5ZHdFAfXc6YHR3GnT47FYdAAeTxRv14mzLKLc-01e39yRuZNTTPsOgmXb67RRSo3B1_yIIqgc4wc148ukmrA8lZcQ7jUEyJT43l0fvT8KvMrko6NxXoQ7NnY00-yzsNO8e3HJ1kq08bUb-iLzHLvhkJJH5EQAv7b0h6wWryyE6PIZuhgTTXDOV2ZftFH_jUYQLLrQj7hQfNngOzJ_uHPh-QC57yaHx50Q",
+			"alt": "Twin beds with white bedding and soft morning light in a tropical cottage"
+		}
+	},
+	"highlights": [
+		{
+			"icon": "bed",
+			"title": "Two twin beds",
+			"description": "Spacious layout with comfortable twin beds and quality linens."
+		},
+		{
+			"icon": "shower",
+			"title": "En-suite shower",
+			"description": "Private bathroom with shower, steps from your room."
+		},
+		{
+			"icon": "spa",
+			"title": "Room to breathe",
+			"description": "Generous floor plan with an unhurried, restful feel."
+		}
+	],
+	"booking": {
+		"bgImage": "https://lh3.googleusercontent.com/aida-public/AB6AXuBJDGcMFIGGZ4RR3y2J2aNzc88C18nZDzSVnsCECa-3HoA7UkiI9DyEgrmYzwrXP0JezlcoxsFqQkAmZ7siBcx_TqaJ5ss_PH_QRbtn4MSS79ShaS6FJgsfBmjKvBVBLH39LaPGjrE_Baxl8Fr86aCu05LfsqMisgZl5qsKEigxfGE2oj_OfrGb-KJRS79lO6Qlr9IXtYbZaifbBoBW9IcTHDy_uRirj6B1oB78GVaP_sAybCRFiXcUqs05JopSiL9LI29MEioQiQ",
+		"kicker": "Reservation",
+		"title": "Reserve Mariposa Cottage",
+		"description": "Reconnect with the rhythm of nature. Our concierge is ready to tailor your journey from the moment of inquiry.",
+		"checkInLabel": "Check In",
+		"checkInPlaceholder": "Select Date",
+		"guestsLabel": "Guests",
+		"guestOptions": ["1 Guest", "2 Guests"],
+		"cta": "Check Availability",
+		"priceNote": "Contact us for rates"
+	}
+}

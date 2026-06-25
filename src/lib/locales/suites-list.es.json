@@ -6,41 +6,79 @@
 		"lead": "Cuatro cabañas privadas en las colinas sobre Grecia—cada una un lugar tranquilo para descansar, respirar y reconectar con la naturaleza.",
 		"imageAlt": "Piscina y jardines de Mango Valley con vista al valle cerca de Grecia, Costa Rica"
 	},
-	"cottages": [
-		{
-			"slug": "mariposa-cottage",
-			"title": "Cabaña Mariposa",
-			"description": "Elegante y espaciosa, con dos camas individuales y baño privado con ducha.",
-			"price": "$71 / noche",
-			"imageAlt": "Cabaña Mariposa con camas individuales en Mango Valley",
-			"image": "/rooms/colibri-camas.jpg"
-		},
-		{
-			"slug": "colibri-cottage",
-			"title": "Cabaña Colibrí",
-			"description": "Cama queen artesanal con colchón ortopédico, amplio closet y baño privado con ducha.",
-			"price": "$71 / noche",
-			"imageAlt": "Cabaña Colibrí con cama queen en Mango Valley",
-			"image": "/rooms/colibri-cama.jpg"
-		},
-		{
-			"slug": "poas-cottage",
-			"title": "Cabaña Poás",
-			"description": "Dos habitaciones y terraza con vegetación y colibríes, cama queen, mesa de comedor y vistas al Poás.",
-			"price": "$84 / noche",
-			"imageAlt": "Habitación de la Cabaña Poás en Mango Valley",
-			"image": "/rooms/poas-habitacion.jpg"
-		},
-		{
-			"slug": "morpho-cottage",
-			"title": "Cabaña Morpho",
-			"badge": "Con jacuzzi",
-			"description": "Nuestra cabaña más popular: cama queen, TV SKY, WiFi, jacuzzi privado y vistas al volcán y las plantaciones de café.",
-			"price": "$84 / noche",
-			"imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley",
-			"image": "/rooms/morpho_cama.jpg"
-		}
-	],
+	"mariposa": {
+		"slug": "mariposa-cottage",
+		"image": "/rooms/colibri-camas.jpg",
+		"imageAlt": "Cabaña Mariposa con camas individuales en Mango Valley",
+		"title": "Cabaña Mariposa",
+		"price": "$71 / noche",
+		"specLeft": "Camas individuales",
+		"specRight": "Ducha privada",
+		"description": "Elegante y espaciosa, con dos camas individuales y baño privado con ducha.",
+		"features": [
+			{ "icon": "bed", "text": "Dos camas individuales" },
+			{ "icon": "shower", "text": "Baño privado con ducha" },
+			{ "icon": "kitchen", "text": "Kitchenette con nevera" }
+		],
+		"cta": "Ver detalles"
+	},
+	"colibri": {
+		"slug": "colibri-cottage",
+		"image": "/rooms/colibri-cama.jpg",
+		"imageAlt": "Cabaña Colibrí con cama queen en Mango Valley",
+		"badgeTitle": "La elección Mango Valley",
+		"badgeSubtitle": "Confort artesanal en las colinas",
+		"title": "Cabaña Colibrí",
+		"specLeft": "Cama queen",
+		"specRight": "Colchón ortopédico",
+		"description": "Cama queen artesanal con colchón ortopédico, amplio closet y baño privado con ducha.",
+		"stats": [
+			{ "value": "178", "label": "Canales SKY" },
+			{ "value": "WiFi", "label": "Internet de alta velocidad" }
+		],
+		"priceLine": "Desde $71 por noche",
+		"cta": "Ver detalles"
+	},
+	"poas": {
+		"slug": "poas-cottage",
+		"image": "/rooms/poas-habitacion.jpg",
+		"imageAlt": "Habitación de la Cabaña Poás en Mango Valley",
+		"title": "Cabaña Poás",
+		"price": "$84 / noche",
+		"specLeft": "Dos habitaciones",
+		"specRight": "Vistas a la terraza",
+		"description": "Dos habitaciones y una terraza con vegetación y colibríes. Cama queen con colchón ortopédico, mesa de comedor, ducha privada y mecedoras con amplias vistas al Poás.",
+		"features": [
+			{ "icon": "deck", "text": "Terraza con mecedoras" },
+			{ "icon": "bed", "text": "Cama queen con colchón ortopédico" },
+			{ "icon": "landscape", "text": "Amplias vistas al Poás" }
+		],
+		"cta": "Ver detalles"
+	},
+	"morpho": {
+		"slug": "morpho-cottage",
+		"kicker": "La más popular",
+		"titleLine1": "Cabaña",
+		"titleLine2": "Morpho",
+		"description": "Nuestra cabaña más popular: cama queen con colchón ortopédico, TV SKY, WiFi en la habitación, jacuzzi y ducha privados, y terraza con vistas al volcán y las plantaciones de café.",
+		"highlights": [
+			{
+				"icon": "hot_tub",
+				"title": "Jacuzzi privado",
+				"description": "Jacuzzi y ducha privados para un baño reparador tras un día en las colinas."
+			},
+			{
+				"icon": "landscape",
+				"title": "Vistas al volcán",
+				"description": "Terraza con vista al Poás y las plantaciones de café."
+			}
+		],
+		"price": "$110",
+		"perNight": "Por noche",
+		"cta": "Ver disponibilidad",
+		"image": "/rooms/morpho_cama.jpg",
+		"imageAlt": "Cama y suite con jacuzzi de la Cabaña Morpho en Mango Valley"
+	},
 	"newsletter": {
 		"title": "La carta del bosque",
 		"description": "Recibe novedades de temporada, sabiduría botánica y ofertas exclusivas de retiro en tu bandeja de entrada.",

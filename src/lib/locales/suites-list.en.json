@@ -6,41 +6,79 @@
 		"lead": "Four private cottages nestled in the hills above Grecia—each one a quiet place to rest, breathe, and reconnect with nature.",
 		"imageAlt": "Mango Valley pool and gardens overlooking the valley near Grecia, Costa Rica"
 	},
-	"cottages": [
-		{
-			"slug": "mariposa-cottage",
-			"title": "Mariposa Cottage",
-			"description": "Elegant and spacious, this cottage has two twin beds and en-suite bathroom with shower.",
-			"price": "$71 / night",
-			"imageAlt": "Mariposa Cottage twin beds at Mango Valley",
-			"image": "/rooms/colibri-camas.jpg"
-		},
-		{
-			"slug": "colibri-cottage",
-			"title": "Colibri Cottage",
-			"description": "Hand-made queen bed with orthopedic mattress, roomy closet, and en-suite bathroom with shower.",
-			"price": "$71 / night",
-			"imageAlt": "Colibri Cottage queen bed at Mango Valley",
-			"image": "/rooms/colibri-cama.jpg"
-		},
-		{
-			"slug": "poas-cottage",
-			"title": "Poas Cottage",
-			"description": "Two rooms and a terrace overlooking hummingbird-filled greenery, with queen bed, dining table, and sweeping Poás views.",
-			"price": "$84 / night",
-			"imageAlt": "Poas Cottage bedroom at Mango Valley",
-			"image": "/rooms/poas-habitacion.jpg"
-		},
-		{
-			"slug": "morpho-cottage",
-			"title": "Morpho Cottage",
-			"badge": "With jacuzzi",
-			"description": "Our most popular cottage—queen bed, SKY TV, WiFi, en-suite jacuzzi, and terrace views of the volcano and coffee plantations.",
-			"price": "$84 / night",
-			"imageAlt": "Morpho Cottage bed and jacuzzi suite at Mango Valley",
-			"image": "/rooms/morpho_cama.jpg"
-		}
-	],
+	"mariposa": {
+		"slug": "mariposa-cottage",
+		"image": "/rooms/colibri-camas.jpg",
+		"imageAlt": "Mariposa Cottage twin beds at Mango Valley",
+		"title": "Mariposa Cottage",
+		"price": "$71 / night",
+		"specLeft": "Twin beds",
+		"specRight": "En-suite shower",
+		"description": "Elegant and spacious, this cottage has two twin beds and en-suite bathroom with shower.",
+		"features": [
+			{ "icon": "bed", "text": "Two twin beds" },
+			{ "icon": "shower", "text": "En-suite bathroom with shower" },
+			{ "icon": "kitchen", "text": "Kitchenette with fridge" }
+		],
+		"cta": "View Details"
+	},
+	"colibri": {
+		"slug": "colibri-cottage",
+		"image": "/rooms/colibri-cama.jpg",
+		"imageAlt": "Colibri Cottage queen bed at Mango Valley",
+		"badgeTitle": "Mango Valley Choice",
+		"badgeSubtitle": "Hand-crafted comfort in the hills",
+		"title": "Colibri Cottage",
+		"specLeft": "Queen bed",
+		"specRight": "Orthopedic mattress",
+		"description": "This cottage has a hand-made queen size bed with an orthopedic mattress, a roomy closet and en-suite bathroom with shower.",
+		"stats": [
+			{ "value": "178", "label": "SKY channels" },
+			{ "value": "WiFi", "label": "High-speed internet" }
+		],
+		"priceLine": "From $71 per night",
+		"cta": "View Details"
+	},
+	"poas": {
+		"slug": "poas-cottage",
+		"image": "/rooms/poas-habitacion.jpg",
+		"imageAlt": "Poas Cottage bedroom at Mango Valley",
+		"title": "Poas Cottage",
+		"price": "$84 / night",
+		"specLeft": "Two rooms",
+		"specRight": "Terrace views",
+		"description": "Two rooms and a terrace overlooking hummingbird-filled greenery. Queen bed with orthopedic mattress, dining table, en-suite shower, and rocking chairs with sweeping Poás views.",
+		"features": [
+			{ "icon": "deck", "text": "Terrace with rocking chairs" },
+			{ "icon": "bed", "text": "Queen bed with orthopedic mattress" },
+			{ "icon": "landscape", "text": "Sweeping Poás views" }
+		],
+		"cta": "View Details"
+	},
+	"morpho": {
+		"slug": "morpho-cottage",
+		"kicker": "Most popular",
+		"titleLine1": "Morpho",
+		"titleLine2": "Cottage",
+		"description": "Our most popular cottage—queen bed with orthopedic mattress, SKY TV, in-room WiFi, en-suite jacuzzi and shower, and a terrace with volcano and coffee plantation views.",
+		"highlights": [
+			{
+				"icon": "hot_tub",
+				"title": "En-suite jacuzzi",
+				"description": "Private jacuzzi and shower for a restorative soak after a day in the hills."
+			},
+			{
+				"icon": "landscape",
+				"title": "Volcano views",
+				"description": "Terrace overlooking Poás and the surrounding coffee plantations."
+			}
+		],
+		"price": "$110",
+		"perNight": "Per night",
+		"cta": "Check Availability",
+		"image": "/rooms/morpho_cama.jpg",
+		"imageAlt": "Morpho Cottage bed and jacuzzi suite at Mango Valley"
+	},
 	"newsletter": {
 		"title": "The Forest Letter",
 		"description": "Receive seasonal updates, botanical wisdom, and exclusive retreat offerings directly in your inbox.",

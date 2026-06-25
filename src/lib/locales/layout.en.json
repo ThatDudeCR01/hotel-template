@@ -3,10 +3,11 @@
 	"header": {
 		"brand": "Mango Valley",
 		"nav": {
-			"story": "Our Story",
+			"home": "Home",
 			"suites": "Suites",
 			"experiences": "Experiences",
-			"sanctuary": "Stillness"
+			"sanctuary": "Stillness",
+			"faq": "FAQ"
 		},
 		"languageAria": "Language",
 		"menuAria": "Menu",
@@ -19,7 +20,7 @@
 		"contactTitle": "Contact",
 		"address": "Santa Rosa, Guanacaste, Costa Rica",
 		"phone": "+506 8656 2467",
-		"email": "hello@mangovalley.cr",
+		"email": "info@mangovalley.com",
 		"discoverTitle": "Discover",
 		"links": {
 			"sustainability": "Sustainability",

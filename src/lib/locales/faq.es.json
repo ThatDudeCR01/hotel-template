@@ -1,0 +1,72 @@
+{
+	"hero": {
+		"kicker": "Planifique su visita",
+		"titleLine1": "Preguntas",
+		"titleLine2": "frecuentes",
+		"lead": "Todo lo que necesita saber para encontrarnos, llegar hasta aquí y qué esperar durante su estadía en las montañas sobre Grecia."
+	},
+	"location": {
+		"title": "Nuestra ubicación",
+		"icon": "location_on",
+		"paragraphs": [
+			"Estamos a 4.3 millas (7 km) y aproximadamente 10 minutos en carro del centro de Grecia. Puede venir en carro, autobús local o taxi. El pasaje de bus cuesta aprox. $1 y un taxi ronda los $10. Estos precios corresponden a enero de 2017."
+		]
+	},
+	"taxi": {
+		"title": "Indicaciones para el taxi",
+		"icon": "local_taxi",
+		"text": "Carbonal Arriba de Grecia, 300 metros antes de Pipasa, frente a la última parada de buses, a la derecha, portón rojo, 200 metros abajo."
+	},
+	"driving": {
+		"title": "Indicaciones en carro",
+		"icon": "directions_car",
+		"intro": "Si viene a Mango Valley en carro o taxi, le recomendamos imprimir las siguientes indicaciones. Si usa GPS, ingrese las coordenadas geográficas 10º08'02.0''N 084º16'28.2'' W.",
+		"subtitle": "Cómo llegar a Mango Valley desde el Aeropuerto Internacional Juan Santamaría (San José, Alajuela)",
+		"steps": [
+			"Al salir del aeropuerto SJO, tome la Carretera No. 1 (Interamericana) hacia el norte, dirección San Ramón. La primera señal grande de carretera que verá (desde el aeropuerto hacia el norte) indica Alajuela a la derecha y San Ramón de frente.",
+			"¡No tome el desvío a Alajuela! Siga las señales a San Ramón al inicio. Después de conducir unos 10 millas (17 km), pase al carril derecho y busque la salida \"Sarchí/Grecia\". Tome esa salida.",
+			"Después de la salida, siga conduciendo otros 10-15 minutos (pasa la fábrica Panduit a su izquierda, luego concesionarios de carros a ambos lados) hasta entrar a Grecia y ver la famosa iglesia metálica roja (a su izquierda).",
+			"Una vez que pase la iglesia a su izquierda, siga de frente. Siga las señales hacia Poás. Después de tres cuadras, deberá girar a la izquierda (aún siguiendo señales a Poás). Continúe recto unas 1.5 millas (2.5 km). Al salir de Grecia conducirá entre cañales de azúcar.",
+			"Al final de ese camino verá una gasolinera a su derecha y la planta azucarera \"Coope Victoria\" a su izquierda. Siga otros 150 yardas (130 metros).",
+			"Justo antes del campo de fútbol (a su izquierda) gire a la izquierda. El campo de fútbol quedará a su derecha. Siga otros medio kilómetro (800 metros) hasta llegar a una intersección en T. Gire a la derecha.",
+			"Desde este punto solo debe seguir de frente (siempre subiendo) unos 3.2 millas (5.5 kilómetros).",
+			"Siga de frente hasta ver un letrero que dice \"Mango Valley\" a su derecha. Gire a la derecha y conduzca por la plantación de café unos 200 yardas (150 metros).",
+			"Si se pasa nuestro acceso y ve el hotel \"Villas Cipreses\" a su izquierda, dé la vuelta y retroceda 200 yardas (150 metros), luego gire a la izquierda."
+		],
+		"footer": "El tiempo total de manejo desde el aeropuerto internacional de San José es de 45 minutos. Si se pierde, llámenos al (+506) 2444 8833 o (+506) 8656 2467."
+	},
+	"attractions": {
+		"title": "Tiempos de manejo desde el hotel",
+		"icon": "map",
+		"note": "Use los tiempos de abajo como referencia. El tiempo real dependerá mucho del clima y las condiciones de la carretera. Las carreteras principales (\"la pista\") suelen estar en buen estado.",
+		"items": [
+			{ "name": "Sarchí", "time": "15 min" },
+			{ "name": "Plantación de café Doka", "time": "50 min" },
+			{ "name": "Cataratas Los Chorros", "time": "30 min" },
+			{ "name": "Jardines Botánicos Else Kientzler", "time": "20 min" },
+			{ "name": "La Paz Waterfall Gardens", "time": "50 min" },
+			{ "name": "Parque Nacional Volcán Poás", "time": "45 min" },
+			{ "name": "Parque Nacional Carara", "time": "1.5 horas" },
+			{ "name": "Playa Jacó (Pacífico Central)", "time": "2 horas" },
+			{ "name": "Volcán Arenal (La Fortuna)", "time": "2.5 – 3 horas" },
+			{ "name": "Parque Nacional Manuel Antonio", "time": "3 – 3.5 horas" },
+			{ "name": "Costa del Caribe", "time": "3.5 – 4.5 horas" },
+			{ "name": "Monteverde (reserva de bosque nuboso)", "time": "4 – 5 horas" },
+			{ "name": "Liberia y playas de Guanacaste", "time": "4 – 5 horas" }
+		]
+	},
+	"weather": {
+		"title": "Clima",
+		"icon": "partly_cloudy_day",
+		"paragraphs": [
+			"Las montañas sobre Grecia ofrecen un clima ideal (68–82ºF; 20–28ºC), por lo que no necesitamos calefacción ni aire acondicionado. A diferencia de otras zonas de Costa Rica, nuestra área permanece verde todo el año.",
+			"La estación seca (verano) comienza a finales de noviembre y termina a mediados de mayo. Los meses más ventosos son de mediados de diciembre a mediados de febrero. La estación \"verde\" (o lluviosa) comienza a finales de mayo y dura hasta noviembre. Durante la estación verde no llueve todo el tiempo. Casi siempre hay sol por la mañana. Por la tarde llueve una o dos horas."
+		]
+	},
+	"contactCta": {
+		"title": "¿Necesita más ayuda?",
+		"body": "Nuestro equipo con gusto lo orientará el resto del camino.",
+		"phone1": "(+506) 2444 8833",
+		"phone2": "(+506) 8656 2467"
+	}
+}
